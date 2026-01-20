@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[617],{617(e,s,i){i.d(s,{createPieServices:()=>a.f});var a=i(9150);i(7960)}}]);

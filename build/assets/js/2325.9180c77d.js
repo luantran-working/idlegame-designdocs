@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[2325],{2325(e,s,a){a.d(s,{createPacketServices:()=>c.$});var c=a(8620);a(7960)}}]);
