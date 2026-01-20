@@ -160,22 +160,22 @@ Sơ đồ logic cho lập trình viên.
 
 ```mermaid
 flowchart TD
-    Start["BAT DAU TRAN"] --> Init["Khoi tao Skill CD = 0"]
+    Start["BẮT ĐẦU TRẬN"] --> Init["Khởi tạo Skill CD = 0"]
 
     Init --> Loop["COMBAT LOOP"]
 
-    Loop --> Check{"Skill nao san sang?"}
+    Loop --> Check{"Skill nào sẵn sàng?"}
 
-    Check -->|"Skill 1 - Uu tien cao"| Cast1["Thi trien Skill 1"]
-    Check -->|"Skill 2"| Cast2["Thi trien Skill 2"]
-    Check -->|"Skill 3"| Cast3["Thi trien Skill 3"]
-    Check -->|"Khong co"| Auto["Danh thuong"]
+    Check -->|"Skill 1 - Ưu tiên cao"| Cast1["Thi triển Skill 1"]
+    Check -->|"Skill 2"| Cast2["Thi triển Skill 2"]
+    Check -->|"Skill 3"| Cast3["Thi triển Skill 3"]
+    Check -->|"Không có"| Auto["Đánh thường"]
 
-    Cast1 --> Reset1["Dat lai CD Skill 1"]
-    Cast2 --> Reset2["Dat lai CD Skill 2"]
-    Cast3 --> Reset3["Dat lai CD Skill 3"]
+    Cast1 --> Reset1["Đặt lại CD Skill 1"]
+    Cast2 --> Reset2["Đặt lại CD Skill 2"]
+    Cast3 --> Reset3["Đặt lại CD Skill 3"]
 
-    Reset1 --> Wait["Cho Global CD"]
+    Reset1 --> Wait["Chờ Global CD"]
     Reset2 --> Wait
     Reset3 --> Wait
     Auto --> Wait

@@ -87,21 +87,21 @@ Dù là game casual, vẫn cần chia class để người chơi xếp đội h�
 
 ```mermaid
 flowchart LR
-    subgraph Resources["NGUYEN LIEU"]
-        Gold["Vang"]
-        Bread["Banh mi"]
-        Shard["Manh nhan vat"]
+    subgraph Resources["NGUYÊN LIỆU"]
+        Gold["Vàng"]
+        Bread["Bánh mì"]
+        Shard["Mảnh nhân vật"]
     end
 
-    subgraph Hero["DONG DOI"]
-        LvUp["TANG LEVEL<br/>Vang + Banh mi"]
-        StarUp["TANG SAO<br/>Manh trung"]
+    subgraph Hero["ĐỒNG ĐỘI"]
+        LvUp["TĂNG LEVEL<br/>Vàng + Bánh mì"]
+        StarUp["TĂNG SAO<br/>Mảnh trùng"]
     end
 
-    subgraph Result["KET QUA"]
-        Stats["Tang chi so<br/>ATK, HP, DEF"]
-        SkillUp["Cuong hoa Skill"]
-        Passive["Mo khoa Noi tai"]
+    subgraph Result["KẾT QUẢ"]
+        Stats["Tăng chỉ số<br/>ATK, HP, DEF"]
+        SkillUp["Cường hóa Skill"]
+        Passive["Mở khóa Nội tại"]
     end
 
     Gold --> LvUp

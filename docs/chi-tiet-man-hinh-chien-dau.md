@@ -22,18 +22,18 @@ Màn hình chiến đấu chiếm 50-60% diện tích thiết bị phía trên. 
 
 ```mermaid
 flowchart TB
-    subgraph BattleScreen["MAN HINH CHIEN DAU - 50-60% TREN"]
-        subgraph TopBar["THANH TRANG THAI TREN CUNG"]
-            TL["Goc trai<br/>Avatar + Level + CP"]
-            TC["Giua<br/>Thanh tien do / Mau Boss"]
-            TR["Goc phai<br/>Settings + Speed + Auto"]
+    subgraph BattleScreen["MÀN HÌNH CHIẾN ĐẤU - 50-60% TRÊN"]
+        subgraph TopBar["THANH TRẠNG THÁI TRÊN CÙNG"]
+            TL["Góc trái<br/>Avatar + Level + CP"]
+            TC["Giữa<br/>Thanh tiến độ / Máu Boss"]
+            TR["Góc phải<br/>Settings + Speed + Auto"]
         end
 
-        subgraph BattleArea["VUNG CHIEN DAU CHINH"]
+        subgraph BattleArea["VÙNG CHIẾN ĐẤU CHÍNH"]
             BG["Layer 0: BACKGROUND"]
-            Units["Layer 10: NHAN VAT + QUAI"]
-            VFX["Layer 20: HIEU UNG"]
-            DmgText["Layer 30: SO SAT THUONG"]
+            Units["Layer 10: NHÂN VẬT + QUÁI"]
+            VFX["Layer 20: HIỆU ỨNG"]
+            DmgText["Layer 30: SỐ SÁT THƯƠNG"]
         end
     end
 
@@ -93,19 +93,19 @@ Dù là game 2D màn hình dọc, cần tạo cảm giác phối cảnh giả 3D
 
 ```mermaid
 flowchart LR
-    subgraph LeftSide["PHE TA - TRAI/DUOI"]
-        Hero["NHAN VAT CHINH<br/>Trung tam"]
-        A1["Dong doi 1<br/>Tank - Truoc"]
-        A2["Dong doi 2<br/>Melee"]
-        A3["Dong doi 3<br/>Range"]
-        A4["Dong doi 4<br/>Heal"]
+    subgraph LeftSide["PHE TA - TRÁI/DƯỚI"]
+        Hero["NHÂN VẬT CHÍNH<br/>Trung tâm"]
+        A1["Đồng đội 1<br/>Tank - Trước"]
+        A2["Đồng đội 2<br/>Melee"]
+        A3["Đồng đội 3<br/>Range"]
+        A4["Đồng đội 4<br/>Heal"]
     end
 
-    subgraph RightSide["PHE DICH - PHAI/TREN"]
-        E1["Quai 1"]
-        E2["Quai 2"]
-        E3["Quai 3"]
-        Boss["BOSS<br/>Kich thuoc lon"]
+    subgraph RightSide["PHE ĐỊCH - PHẢI/TRÊN"]
+        E1["Quái 1"]
+        E2["Quái 2"]
+        E3["Quái 3"]
+        Boss["BOSS<br/>Kích thước lớn"]
     end
 
     Hero --> E1

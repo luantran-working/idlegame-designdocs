@@ -19,10 +19,10 @@ Tài liệu này vạch ra lộ trình thực thi dự án game "Bảo vệ khu 
 
 ```mermaid
 flowchart LR
-    A["BLOCK A<br/>Nen mong - 2 tuan"] --> B["BLOCK B<br/>Suc manh - 3 tuan"]
-    B --> C["BLOCK C<br/>Meta Game - 2 tuan"]
-    C --> D["BLOCK D<br/>Kinh te - 2 tuan"]
-    D --> E["BLOCK E<br/>Polish - 2 tuan"]
+    A["BLOCK A<br/>Nền móng - 2 tuần"] --> B["BLOCK B<br/>Sức mạnh - 3 tuần"]
+    B --> C["BLOCK C<br/>Meta Game - 2 tuần"]
+    C --> D["BLOCK D<br/>Kinh tế - 2 tuần"]
+    D --> E["BLOCK E<br/>Polish - 2 tuần"]
 
     style A fill:#e8f5e9,stroke:#2e7d32
     style B fill:#e3f2fd,stroke:#1565c0
@@ -101,7 +101,7 @@ flowchart LR
 ```mermaid
 gantt
     dateFormat YYYY-MM-DD
-    title Lo trinh phat trien
+    title Lộ trình phát triển
 
     section Block A
     Setup           :a1, 2026-01-15, 2d

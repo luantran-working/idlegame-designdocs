@@ -104,14 +104,14 @@ Phẩm chất được phân định bằng màu sắc theo chuẩn game RPG. M�
 
 ```mermaid
 flowchart LR
-    subgraph Rarity["HE THONG PHAM CHAT"]
+    subgraph Rarity["HỆ THỐNG PHẨM CHẤT"]
         direction TB
-        White["TRANG - Common<br/>0 dong phu<br/>Max Lv 20"]
-        Green["XANH LA - Uncommon<br/>1 dong phu<br/>Max Lv 40"]
-        Blue["XANH DUONG - Rare<br/>2 dong phu<br/>Max Lv 60"]
-        Purple["TIM - Epic<br/>3 dong phu<br/>Max Lv 80"]
-        Orange["CAM - Legendary<br/>4 dong phu<br/>Max Lv 100"]
-        Red["DO - Mythic<br/>4 dong + Skill<br/>Max Lv 120"]
+        White["TRẮNG - Common<br/>0 dòng phụ<br/>Max Lv 20"]
+        Green["XANH LÁ - Uncommon<br/>1 dòng phụ<br/>Max Lv 40"]
+        Blue["XANH DƯƠNG - Rare<br/>2 dòng phụ<br/>Max Lv 60"]
+        Purple["TÍM - Epic<br/>3 dòng phụ<br/>Max Lv 80"]
+        Orange["CAM - Legendary<br/>4 dòng phụ<br/>Max Lv 100"]
+        Red["ĐỎ - Mythic<br/>4 dòng + Skill<br/>Max Lv 120"]
     end
 
     White --> Green --> Blue --> Purple --> Orange --> Red
@@ -220,16 +220,16 @@ Cơ chế cốt lõi để "dọn rác" trong kho đồ và tiến lên phẩm c
 
 ```mermaid
 flowchart LR
-    subgraph Input["NGUYEN LIEU - 3 MON CUNG LOAI VA PHAM CHAT"]
-        I1["Kiem Trang #1<br/>Lv 10"]
-        I2["Kiem Trang #2<br/>Lv 5"]
-        I3["Kiem Trang #3<br/>Lv 8"]
+    subgraph Input["NGUYÊN LIỆU - 3 MÓN CÙNG LOẠI VÀ PHẨM CHẤT"]
+        I1["Kiếm Trắng #1<br/>Lv 10"]
+        I2["Kiếm Trắng #2<br/>Lv 5"]
+        I3["Kiếm Trắng #3<br/>Lv 8"]
     end
 
-    Process["QUA TRINH GHEP<br/>Giu lai Level cao nhat"]
+    Process["QUÁ TRÌNH GHÉP<br/>Giữ lại Level cao nhất"]
 
-    subgraph Output["KET QUA - 1 MON PHAM CHAT CAO HON"]
-        O1["Kiem Xanh La<br/>Lv 10"]
+    subgraph Output["KẾT QUẢ - 1 MÓN PHẨM CHẤT CAO HƠN"]
+        O1["Kiếm Xanh Lá<br/>Lv 10"]
     end
 
     Input --> Process --> Output
@@ -293,33 +293,33 @@ Tính năng dành cho người chơi muốn tối ưu trang bị cao cấp.
 
 ```mermaid
 flowchart TB
-    subgraph Popup["POPUP CHI TIET TRANG BI"]
+    subgraph Popup["POPUP CHI TIẾT TRANG BỊ"]
         direction TB
 
-        subgraph Header["PHAN HEADER"]
-            Icon["ICON TRANG BI<br/>128x128 px"]
-            Info["Ten: Dieu cay than thanh<br/>Pham chat: Cam - Legendary<br/>Cap do: +50 / 100"]
+        subgraph Header["PHẦN HEADER"]
+            Icon["ICON TRANG BỊ<br/>128x128 px"]
+            Info["Tên: Điếu cày thần thánh<br/>Phẩm chất: Cam - Legendary<br/>Cấp độ: +50 / 100"]
         end
 
-        subgraph MainStat["CHI SO CHINH"]
-            Stat1["Tan cong: +5,000"]
+        subgraph MainStat["CHỈ SỐ CHÍNH"]
+            Stat1["Tấn công: +5,000"]
         end
 
-        subgraph SubStats["CHI SO PHU - 4 DONG"]
-            Sub1["Dong 1: +5% Toc danh"]
-            Sub2["Dong 2: +10% Chi mang"]
-            Sub3["Dong 3: +200 Mau"]
-            Sub4["Dong 4: +3% Hut mau"]
+        subgraph SubStats["CHỈ SỐ PHỤ - 4 DÒNG"]
+            Sub1["Dòng 1: +5% Tốc đánh"]
+            Sub2["Dòng 2: +10% Chí mạng"]
+            Sub3["Dòng 3: +200 Máu"]
+            Sub4["Dòng 4: +3% Hút máu"]
         end
 
-        subgraph SetInfo["THONG TIN BO"]
-            Set["Bo Du con: 2/4 mon<br/>Hieu ung: +5% Tan cong"]
+        subgraph SetInfo["THÔNG TIN BỘ"]
+            Set["Bộ Du côn: 2/4 món<br/>Hiệu ứng: +5% Tấn công"]
         end
 
-        subgraph Actions["CAC NUT HANH DONG"]
-            Btn1["NUT: CUONG HOA"]
-            Btn2["NUT: THAO"]
-            Btn3["NUT: KHOA"]
+        subgraph Actions["CÁC NÚT HÀNH ĐỘNG"]
+            Btn1["NÚT: CƯỜNG HÓA"]
+            Btn2["NÚT: THÁO"]
+            Btn3["NÚT: KHÓA"]
         end
     end
 

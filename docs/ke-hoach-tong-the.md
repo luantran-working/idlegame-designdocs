@@ -82,19 +82,19 @@ Mỗi chương có một boss đại diện:
 
 ```mermaid
 flowchart LR
-    subgraph CoreLoop["Vong lap cot loi"]
+    subgraph CoreLoop["Vòng lặp cốt lõi"]
         direction TB
-        A["Chien dau tu dong"] --> B["Nhan tai nguyen"]
-        B --> C["Nang cap suc manh"]
-        C --> D["Vuot ai moi"]
+        A["Chiến đấu tự động"] --> B["Nhận tài nguyên"]
+        B --> C["Nâng cấp sức mạnh"]
+        C --> D["Vượt ải mới"]
         D --> A
     end
 
-    subgraph AFKLoop["Vong lap AFK"]
+    subgraph AFKLoop["Vòng lặp AFK"]
         direction TB
-        E["Thoat game"] --> F["Tinh toan tai nguyen"]
-        F --> G["Vao lai game"]
-        G --> H["Nhan qua AFK"]
+        E["Thoát game"] --> F["Tính toán tài nguyên"]
+        F --> G["Vào lại game"]
+        G --> H["Nhận quà AFK"]
         H --> C
     end
 
@@ -115,12 +115,12 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    subgraph Team["Doi hinh ra tran - Toi da 5 nguoi"]
-        Player["Nhan vat chinh<br/>Co the tuy bien trang bi va ky nang"]
-        Slot1["Dong doi 1"]
-        Slot2["Dong doi 2"]
-        Slot3["Dong doi 3"]
-        Slot4["Dong doi 4"]
+    subgraph Team["Đội hình ra trận - Tối đa 5 người"]
+        Player["Nhân vật chính<br/>Có thể tùy biến trang bị và kỹ năng"]
+        Slot1["Đồng đội 1"]
+        Slot2["Đồng đội 2"]
+        Slot3["Đồng đội 3"]
+        Slot4["Đồng đội 4"]
     end
 
     Player --- Slot1
@@ -166,10 +166,10 @@ Game chia màn hình thành 2 khu vực chính với tỉ lệ 50:50 hoặc 60:4
 
 ```mermaid
 flowchart TB
-    subgraph Screen["Man hinh dien thoai - Ti le 9:16"]
+    subgraph Screen["Màn hình điện thoại - Tỉ lệ 9:16"]
         direction TB
-        Top["KHU VUC CHIEN DAU<br/>50-60% man hinh phia tren<br/>Hien thi nhan vat, ke dich, hieu ung"]
-        Bottom["KHU VUC DIEU KHIEN<br/>40-50% man hinh phia duoi<br/>5 Tab chuc nang chinh"]
+        Top["KHU VỰC CHIẾN ĐẤU<br/>50-60% màn hình phía trên<br/>Hiển thị nhân vật, kẻ địch, hiệu ứng"]
+        Bottom["KHU VỰC ĐIỀU KHIỂN<br/>40-50% màn hình phía dưới<br/>5 Tab chức năng chính"]
     end
 
     Top --- Bottom
@@ -224,29 +224,29 @@ Mỗi hệ thống sau đây có tài liệu riêng với mô tả đầy đủ:
 
 ```mermaid
 flowchart LR
-    subgraph Phase1["Giai doan 1<br/>Nen mong"]
-        A1["Thiet lap du an"]
+    subgraph Phase1["Giai đoạn 1<br/>Nền móng"]
+        A1["Thiết lập dự án"]
         A2["Core combat"]
         A3["Save/Load"]
     end
 
-    subgraph Phase2["Giai doan 2<br/>Gameplay"]
-        B1["He thong chi so"]
-        B2["He thong trang bi"]
-        B3["He thong ky nang"]
-        B4["He thong dong doi"]
+    subgraph Phase2["Giai đoạn 2<br/>Gameplay"]
+        B1["Hệ thống chỉ số"]
+        B2["Hệ thống trang bị"]
+        B3["Hệ thống kỹ năng"]
+        B4["Hệ thống đồng đội"]
         B5["AFK system"]
     end
 
-    subgraph Phase3["Giai doan 3<br/>Kinh te"]
-        C1["Shop va tien te"]
+    subgraph Phase3["Giai đoạn 3<br/>Kinh tế"]
+        C1["Shop và tiền tệ"]
         C2["Gacha system"]
         C3["Balancing"]
     end
 
-    subgraph Phase4["Giai doan 4<br/>Hoan thien"]
+    subgraph Phase4["Giai đoạn 4<br/>Hoàn thiện"]
         D1["UI/UX polish"]
-        D2["VFX va audio"]
+        D2["VFX và audio"]
         D3["Testing"]
         D4["Release"]
     end

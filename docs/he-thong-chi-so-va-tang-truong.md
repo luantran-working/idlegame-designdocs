@@ -158,9 +158,9 @@ CP_Total = (ATK * 1.0)
 
 ```mermaid
 xychart-beta
-    title "Ti le giam thuong theo DEF"
+    title "Tỉ lệ giảm thương theo DEF"
     x-axis [0, 100, 250, 500, 750, 1000, 1500, 2000]
-    y-axis "Giam thuong %" 0 --> 100
+    y-axis "Giảm thương %" 0 --> 100
     line [0, 17, 33, 50, 60, 67, 75, 80]
 ```
 

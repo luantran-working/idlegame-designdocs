@@ -12,21 +12,21 @@ Vòng lặp chính của game xoay quanh việc chiến đấu tự động đ�
 
 ```mermaid
 flowchart TD
-    A["BAT DAU GAME"] --> B["Chien dau tu dong"]
+    A["BẮT ĐẦU GAME"] --> B["Chiến đấu tự động"]
 
-    B --> C{"Ket qua?"}
+    B --> C{"Kết quả?"}
 
-    C -->|Thang quai thuong| D["Nhan Vang va Exp"]
-    C -->|Thang Boss| E["Nhan Kim cuong<br/>Mo khoa Ai moi"]
-    C -->|Thua / Ket ai| F["Tich luy AFK"]
+    C -->|Thắng quái thường| D["Nhận Vàng và Exp"]
+    C -->|Thắng Boss| E["Nhận Kim cương<br/>Mở khóa Ải mới"]
+    C -->|Thua / Kẹt ải| F["Tích lũy AFK"]
 
-    D --> G["Nang cap nhan vat"]
+    D --> G["Nâng cấp nhân vật"]
     E --> G
     F --> G
 
-    G --> H{"Du suc manh?"}
-    H -->|Chua| B
-    H -->|Roi| I["Khieu chien Boss"]
+    G --> H{"Đủ sức mạnh?"}
+    H -->|Chưa| B
+    H -->|Rồi| I["Khiêu chiến Boss"]
     I --> C
 
     style A fill:#ffab91,stroke:#d84315
@@ -93,29 +93,29 @@ Hành trình của người chơi được chia thành các chương (chapter), 
 
 ```mermaid
 sequenceDiagram
-    participant P as Nguoi choi
-    participant S as He thong
-    participant E as Ke dich
+    participant P as Người chơi
+    participant S as Hệ thống
+    participant E as Kẻ địch
 
-    P->>S: Vao ai X
+    P->>S: Vào ải X
 
-    loop Danh quai thuong
-        S->>E: Spawn Wave quai
+    loop Đánh quái thường
+        S->>E: Spawn Wave quái
         P->>E: Auto Attack
-        E-->>P: Bi tieu diet
-        S-->>P: Drop Vang + Tang tien do
+        E-->>P: Bị tiêu diệt
+        S-->>P: Drop Vàng + Tăng tiến độ
     end
 
-    Note over P,E: Khi thanh tien do day 100%
+    Note over P,E: Khi thanh tiến độ đầy 100%
 
-    S->>P: Hien nut Khieu chien Boss
-    P->>S: Vao tran Boss
+    S->>P: Hiện nút Khiêu chiến Boss
+    P->>S: Vào trận Boss
     S->>E: Spawn Boss
 
-    alt Thang Boss
-        S->>P: Qua man, Mo ai X+1
+    alt Thắng Boss
+        S->>P: Qua màn, Mở ải X+1
     else Thua Boss
-        S->>P: Quay lai farm ai X
+        S->>P: Quay lại farm ải X
     end
 ```
 

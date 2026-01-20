@@ -18,18 +18,18 @@ Tài liệu này mô tả chi tiết cơ chế quay thưởng ngẫu nhiên (gac
 
 ```mermaid
 flowchart TB
-    subgraph GachaSystem["HE THONG GACHA"]
-        Input["NGUOI CHOI<br/>Kim cuong hoac Ve quay"]
+    subgraph GachaSystem["HỆ THỐNG GACHA"]
+        Input["NGƯỜI CHƠI<br/>Kim cương hoặc Vé quay"]
 
-        subgraph Banners["3 LOAI BANNER"]
-            B1["Banner Trang bi"]
-            B2["Banner Ky nang"]
-            B3["Banner Dong doi"]
+        subgraph Banners["3 LOẠI BANNER"]
+            B1["Banner Trang bị"]
+            B2["Banner Kỹ năng"]
+            B3["Banner Đồng đội"]
         end
 
-        Process["THUAT TOAN RANDOM<br/>Co trong so va Pity"]
+        Process["THUẬT TOÁN RANDOM<br/>Có trọng số và Pity"]
 
-        Output["PHAN THUONG<br/>Trang bi / Ky nang / Nhan vat"]
+        Output["PHẦN THƯỞNG<br/>Trang bị / Kỹ năng / Nhân vật"]
     end
 
     Input --> Banners --> Process --> Output
@@ -135,22 +135,22 @@ function rollGacha(bannerType, count):
 
 ```mermaid
 flowchart TD
-    Start["Nguoi choi bam QUAY"] --> Deduct["Tru tai nguyen"]
-    Deduct --> Anim["Bat dau animation"]
+    Start["Người chơi bấm QUAY"] --> Deduct["Trừ tài nguyên"]
+    Deduct --> Anim["Bắt đầu animation"]
 
-    Anim --> Box["Thung carton rung lac"]
+    Anim --> Box["Thùng carton rung lắc"]
 
-    Box --> Check{"Pham chat?"}
-    Check -->|Cam/Do| Gold["Hieu ung no vang choi"]
-    Check -->|Tim| Purple["Hieu ung no tim"]
-    Check -->|Xanh tro xuong| Normal["Hieu ung thuong"]
+    Box --> Check{"Phẩm chất?"}
+    Check -->|Cam/Đỏ| Gold["Hiệu ứng nổ vàng chói"]
+    Check -->|Tím| Purple["Hiệu ứng nổ tím"]
+    Check -->|Xanh trở xuống| Normal["Hiệu ứng thường"]
 
-    Gold --> Reveal["Hien vat pham"]
+    Gold --> Reveal["Hiện vật phẩm"]
     Purple --> Reveal
     Normal --> Reveal
 
-    Reveal --> Result["Bang tong ket"]
-    Result --> End["Nut: Thu lai / Dong"]
+    Reveal --> Result["Bảng tổng kết"]
+    Result --> End["Nút: Thử lại / Đóng"]
 
     style Gold fill:#fff3e0,stroke:#ff9800,stroke-width:2px
     style Purple fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px

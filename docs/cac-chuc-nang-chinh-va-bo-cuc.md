@@ -19,21 +19,21 @@ Game chia màn hình thành 2 phần chính để người chơi có thể vừa
 
 ```mermaid
 flowchart TB
-    subgraph Phone["MAN HINH DIEN THOAI - TI LE 9:16"]
+    subgraph Phone["Màn hình điện thoại - Tỉ lệ 9:16"]
         direction TB
 
-        subgraph TopArea["KHU VUC 1: CHIEN DAU - 50-60% TREN"]
+        subgraph TopArea["KHU VỰC 1: CHIẾN ĐẤU - 50-60% TRÊN"]
             direction LR
-            TopLeft["Goc tren trai<br/>Avatar + Level + Luc chien"]
-            TopCenter["Giua tren<br/>Thanh tien do ai<br/>Thanh mau Boss"]
-            TopRight["Goc tren phai<br/>Cai dat | Toc do | Auto"]
-            BattleArea["VUNG CHIEN DAU CHINH<br/>Nhan vat + Dong doi vs Ke dich<br/>Hieu ung + So sat thuong"]
+            TopLeft["Góc trên trái<br/>Avatar + Level + Lực chiến"]
+            TopCenter["Giữa trên<br/>Thanh tiến độ ải<br/>Thanh máu Boss"]
+            TopRight["Góc trên phải<br/>Cài đặt | Tốc độ | Auto"]
+            BattleArea["Vùng chiến đấu chính<br/>Nhân vật + Đồng đội vs Kẻ địch<br/>Hiệu ứng + Số sát thương"]
         end
 
-        subgraph BottomArea["KHU VUC 2: DIEU KHIEN - 40-50% DUOI"]
+        subgraph BottomArea["KHU VỰC 2: ĐIỀU KHIỂN - 40-50% DƯỚI"]
             direction TB
-            TabContent["NOI DUNG TAB<br/>Thay doi tuy theo Tab duoc chon"]
-            TabBar["THANH DIEU HUONG 5 TAB<br/>Chi so | Trang bi | Ky nang | Dong doi | Gacha"]
+            TabContent["NỘI DUNG TAB<br/>Thay đổi tùy theo Tab được chọn"]
+            TabBar["THANH ĐIỀU HƯỚNG 5 TAB<br/>Chỉ số | Trang bị | Kỹ năng | Đồng đội | Gacha"]
         end
     end
 
@@ -124,19 +124,19 @@ Giao diện mặc định khi vào game. Đây là nơi người chơi tiêu và
 
 ```mermaid
 flowchart TB
-    subgraph StatsTab["TAB CHI SO - BAN THAN"]
+    subgraph StatsTab["Tab chỉ số - Bản thân"]
         direction TB
-        Header["TONG LUC CHIEN: 125,500"]
+        Header["TỔNG LỰC CHIẾN: 125,500"]
 
-        subgraph StatsList["DANH SACH CHI SO"]
+        subgraph StatsList["DANH SÁCH CHỈ SỐ"]
             direction TB
-            ATK["Icon Kiem | Tan cong: 1,500 | Nut +100 Vang"]
-            HP["Icon Tim | Mau: 5,000 | Nut +100 Vang"]
-            ASPD["Icon Giay | Toc danh: 1.5/s | Nut +150 Vang"]
-            CRIT["Icon Sao | Chi mang: 15% | Nut +200 Vang"]
+            ATK["Icon Kiếm | Tấn công: 1,500 | Nút +100 Vàng"]
+            HP["Icon Tim | Máu: 5,000 | Nút +100 Vàng"]
+            ASPD["Icon Giày | Tốc đánh: 1.5/s | Nút +150 Vàng"]
+            CRIT["Icon Sao | Chí mạng: 15% | Nút +200 Vàng"]
         end
 
-        Footer["Nut: Mua x1 | x10 | x100 | Max"]
+        Footer["Nút: Mua x1 | x10 | x100 | Max"]
     end
 
     style Header fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
@@ -159,21 +159,21 @@ Quản lý túi đồ và sức mạnh từ vật phẩm trang bị.
 
 ```mermaid
 flowchart TB
-    subgraph EquipTab["TAB TRANG BI - DO DAC"]
+    subgraph EquipTab["TAB TRANG BỊ - ĐỒ ĐẠC"]
         direction TB
 
-        subgraph CharArea["KHU VUC NHAN VAT"]
+        subgraph CharArea["KHU VỰC NHÂN VẬT"]
             direction LR
-            Weapon["Slot VU KHI<br/>Tang ATK"]
-            Char["HINH NHAN VAT<br/>Silhouette hoac 2D"]
-            Necklace["Slot DAY CHUYEN<br/>Tang CRIT"]
-            Armor["Slot AO<br/>Tang HP/DEF"]
-            Boots["Slot GIAY<br/>Tang ASPD"]
+            Weapon["Slot VŨ KHÍ<br/>Tăng ATK"]
+            Char["HÌNH NHÂN VẬT<br/>Silhouette hoặc 2D"]
+            Necklace["Slot DÂY CHUYỀN<br/>Tăng CRIT"]
+            Armor["Slot ÁO<br/>Tăng HP/DEF"]
+            Boots["Slot GIÀY<br/>Tăng ASPD"]
         end
 
-        AutoBtn["Nut: TRANG BI NHANH"]
+        AutoBtn["Nút: TRANG BỊ NHANH"]
 
-        subgraph Inventory["KHO DO - CUON DOC"]
+        subgraph Inventory["KHO ĐỒ - CUỘN DỌC"]
             direction LR
             Item1["Item 1"]
             Item2["Item 2"]
@@ -262,26 +262,26 @@ Nơi tiêu kim cương để nhận vật phẩm cao cấp (monetization hub).
 
 ```mermaid
 flowchart TB
-    subgraph GachaTab["TAB GACHA - VONG QUAY"]
+    subgraph GachaTab["TAB GACHA - VÒNG QUAY"]
         direction TB
 
-        Banner["BANNER QUANG CAO<br/>Slide trai phai giua cac banner"]
+        Banner["BANNER QUẢNG CÁO<br/>Slide trái phải giữa các banner"]
 
-        subgraph BannerTypes["CAC LOAI QUAY"]
+        subgraph BannerTypes["CÁC LOẠI QUAY"]
             direction LR
-            Equip["QUAY TRANG BI<br/>Kim cuong"]
-            Skill["QUAY KY NANG<br/>Kim cuong"]
-            Hero["QUAY DONG DOI<br/>Kim cuong hoac Ve"]
+            Equip["QUAY TRANG BỊ<br/>Kim cương"]
+            Skill["QUAY KỸ NĂNG<br/>Kim cương"]
+            Hero["QUAY ĐỒNG ĐỘI<br/>Kim cương hoặc Vé"]
         end
 
-        subgraph Actions["HANH DONG"]
+        subgraph Actions["HÀNH ĐỘNG"]
             direction LR
             X1["Quay x1<br/>300 KC"]
-            X10["Quay x10<br/>2700 KC<br/>Dam bao Tim+"]
+            X10["Quay x10<br/>2,700 KC<br/>Đảm bảo Tím+"]
         end
 
-        Rate["Nut: XEM TI LE"]
-        Pity["Thanh bao hiem: Con 20 luot nua ra do Cam"]
+        Rate["Nút: XEM TỈ LỆ"]
+        Pity["Thanh bảo hiểm: Còn 20 lượt nữa ra đồ Cam"]
     end
 
     style Banner fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
@@ -304,13 +304,13 @@ Mô tả cách người chơi di chuyển giữa các màn hình và popup.
 
 ```mermaid
 flowchart TD
-    subgraph MainFlow["LUONG DIEU HUONG CHINH"]
-        Main["MAN HINH CHINH<br/>Battle View + Control Panel"]
+    subgraph MainFlow["LUỒNG ĐIỀU HƯỚNG CHÍNH"]
+        Main["MÀN HÌNH CHÍNH<br/>Battle View + Control Panel"]
 
-        Tab1["Tab 1: Chi so"]
-        Tab2["Tab 2: Trang bi"]
-        Tab3["Tab 3: Ky nang"]
-        Tab4["Tab 4: Dong doi"]
+        Tab1["Tab 1: Chỉ số"]
+        Tab2["Tab 2: Trang bị"]
+        Tab3["Tab 3: Kỹ năng"]
+        Tab4["Tab 4: Đồng đội"]
         Tab5["Tab 5: Gacha"]
 
         Main --> Tab1
@@ -320,12 +320,12 @@ flowchart TD
         Main --> Tab5
     end
 
-    subgraph Popups["CAC POPUP"]
-        PopEquip["Popup chi tiet<br/>va nang cap trang bi"]
-        PopSkill["Popup chi tiet<br/>va nang cap ky nang"]
-        PopHero["Popup thong tin<br/>va nang cap dong doi"]
+    subgraph Popups["CÁC POPUP"]
+        PopEquip["Popup chi tiết<br/>và nâng cấp trang bị"]
+        PopSkill["Popup chi tiết<br/>và nâng cấp kỹ năng"]
+        PopHero["Popup thông tin<br/>và nâng cấp đồng đội"]
         PopGacha["Animation quay"]
-        PopResult["Popup ket qua"]
+        PopResult["Popup kết quả"]
     end
 
     Tab2 --> PopEquip
@@ -360,11 +360,11 @@ flowchart TD
 
 ```mermaid
 flowchart TB
-    subgraph SafeArea["XU LY SAFE AREA"]
+    subgraph SafeArea["XỬ LÝ SAFE AREA"]
         direction TB
-        Notch["VUNG NOTCH<br/>Khong dat UI quan trong"]
-        Content["VUNG NOI DUNG CHINH<br/>Tat ca UI quan trong"]
-        HomeBar["VUNG HOME BAR<br/>Khong dat nut bam"]
+        Notch["VÙNG NOTCH<br/>Không đặt UI quan trọng"]
+        Content["VÙNG NỘI DUNG CHÍNH<br/>Tất cả UI quan trọng"]
+        HomeBar["VÙNG HOME BAR<br/>Không đặt nút bấm"]
     end
 
     style Notch fill:#ffcdd2,stroke:#c62828,stroke-width:1px

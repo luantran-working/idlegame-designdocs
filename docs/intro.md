@@ -55,11 +55,11 @@
 ### Tài liệu thiết kế Assets (Art Specifications)
 
 | Tài liệu                                                                    | Nội dung chính                                     |
-| :-------------------------------------------------------------------------- | :------------------------------------------------- | --- |
+| :-------------------------------------------------------------------------- | :------------------------------------------------- |
 | [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)               | Character concepts, animations, size specs         |
 | [Thiết kế trang bị](./assets-design-spec/trang-bi.md)               | Weapon/Armor visuals, rarity borders, icons        |
 | [Thiết kế vật phẩm & UI](./assets-design-spec/vat-pham-ui.md)       | Currency icons, UI elements, button styles         |
-| [Thiết kế môi trường & VFX](./assets-design-spec/moi-truong-vfx.md) | Backgrounds per chapter, skill effects, UI effects |     |
+| [Thiết kế môi trường & VFX](./assets-design-spec/moi-truong-vfx.md) | Backgrounds per chapter, skill effects, UI effects |
 
 ---
 

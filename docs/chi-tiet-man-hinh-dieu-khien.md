@@ -44,17 +44,17 @@ Giao diện tập trung vào việc tiêu vàng nhanh (clicker style).
 
 ```mermaid
 flowchart TB
-    subgraph StatsTab["TAB CHI SO"]
-        Header["HEADER: Tong luc chien - 125,500 CP"]
+    subgraph StatsTab["TAB CHỈ SỐ"]
+        Header["HEADER: Tổng lực chiến - 125,500 CP"]
 
-        subgraph List["DANH SACH CHI SO - CUON DOC"]
-            S1["Tan cong - Lv.50 - 1,500 ATK - Nut +100G"]
-            S2["Mau - Lv.45 - 5,000 HP - Nut +120G"]
-            S3["Toc danh - Lv.30 - 1.5/s - Nut +150G"]
-            S4["Chi mang - Lv.25 - 15% - Nut +200G"]
+        subgraph List["DANH SÁCH CHỈ SỐ - CUỘN DỌC"]
+            S1["Tấn công - Lv.50 - 1,500 ATK - Nút +100G"]
+            S2["Máu - Lv.45 - 5,000 HP - Nút +120G"]
+            S3["Tốc đánh - Lv.30 - 1.5/s - Nút +150G"]
+            S4["Chí mạng - Lv.25 - 15% - Nút +200G"]
         end
 
-        Footer["Che do mua: x1 | x10 | x100 | MAX"]
+        Footer["Chế độ mua: x1 | x10 | x100 | MAX"]
     end
 
     style Header fill:#e8f5e9,stroke:#2e7d32
@@ -89,20 +89,20 @@ Giao diện quản lý inventory và trang bị.
 
 ```mermaid
 flowchart TB
-    subgraph EquipTab["TAB TRANG BI"]
-        subgraph CharSlots["KHU VUC NHAN VAT - 40% TREN"]
-            Weapon["VU KHI"]
-            Char["NHAN VAT"]
-            Accessory["PHU KIEN"]
-            Armor["AO"]
-            Boots["GIAY"]
+    subgraph EquipTab["TAB TRANG BỊ"]
+        subgraph CharSlots["KHU VỰC NHÂN VẬT - 40% TRÊN"]
+            Weapon["VŨ KHÍ"]
+            Char["NHÂN VẬT"]
+            Accessory["PHỤ KIỆN"]
+            Armor["ÁO"]
+            Boots["GIÀY"]
         end
 
-        AutoBtn["Nut: TRANG BI NHANH"]
+        AutoBtn["Nút: TRANG BỊ NHANH"]
 
-        subgraph Inventory["KHO DO - 60% DUOI - GRID CUON"]
-            Filter["Bo loc: Tat ca | Vu khi | Ao | Giay | Phu kien"]
-            Grid["LUOI ITEM - 5 COT x N HANG"]
+        subgraph Inventory["KHO ĐỒ - 60% DƯỚI - GRID CUỘN"]
+            Filter["Bộ lọc: Tất cả | Vũ khí | Áo | Giày | Phụ kiện"]
+            Grid["LƯỚI ITEM - 5 CỘT x N HÀNG"]
         end
     end
 
@@ -184,17 +184,17 @@ Quản lý biệt đội hỗ trợ.
 
 ```mermaid
 flowchart TB
-    subgraph TeammateTab["TAB DONG DOI"]
-        subgraph Formation["DOI HINH RA TRAN - 40%"]
-            Slot1["SLOT 1 - Hang truoc"]
-            Slot2["SLOT 2 - Hang truoc"]
-            Slot3["SLOT 3 - Hang sau"]
-            Slot4["SLOT 4 - Hang sau"]
+    subgraph TeammateTab["TAB ĐỒNG ĐỘI"]
+        subgraph Formation["ĐỘI HÌNH RA TRẬN - 40%"]
+            Slot1["SLOT 1 - Hàng trước"]
+            Slot2["SLOT 2 - Hàng trước"]
+            Slot3["SLOT 3 - Hàng sau"]
+            Slot4["SLOT 4 - Hàng sau"]
         end
 
-        subgraph Roster["DANH SACH DONG DOI - 60%"]
-            Filter["Bo loc: Tat ca | Tanker | DPS | Support"]
-            List["DANH SACH - CUON NGANG HOAC DOC"]
+        subgraph Roster["DANH SÁCH ĐỒNG ĐỘI - 60%"]
+            Filter["Bộ lọc: Tất cả | Tanker | DPS | Support"]
+            List["DANH SÁCH - CUỘN NGANG HOẶC DỌC"]
         end
     end
 

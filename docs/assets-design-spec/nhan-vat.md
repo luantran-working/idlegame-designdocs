@@ -56,47 +56,57 @@ Tài liệu này cung cấp yêu cầu chi tiết cho việc thiết kế nhân 
 
 Các nhân vật hỗ trợ, mỗi người có đặc điểm nhận dạng riêng (Silhouette distinct).
 
+### Bảng tóm tắt Character Concept
+
+| Nhân vật | Vai trò | Key Visual (Ngoại hình) | Vũ khí / Phụ kiện |
+| :--- | :--- | :--- | :--- |
+| **Chú Ba xe ôm** | Tanker | Trung niên, bụng bia, mũ cối, áo sơ mi sờn | Xe máy Dream cũ, cái bơm xe |
+| **Cô Tư bán nước** | Support | Phốp pháp, đồ bộ hoa, nón lá | Ghế nhựa, quạt nan, ca nước đá |
+| **Anh Bảy thợ điện** | Mage | Gầy gò, cao lêu nghêu, áo cam bảo hộ, đai đồ nghề | Cuộn dây điện, kìm, sào gỡ điện |
+| **Chị Mười bán cá** | Warrior | Khỏe mạnh, bắp tay to, tạp dề cao su, ủng | Cá ngừ đông lạnh nguyên con |
+| **Ninja Lead** | Tanker | Kín mít, áo chống nắng hoa văn, kính râm | Xe tay ga, đèn xi nhan |
+
 ### 3.1. Chú Ba xe ôm (Tanker)
 
-| Chi tiết               | Mô tả                                                                                                                               |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| **Ngoại hình**         | - Đàn ông trung niên, bụng hơi bia<br />- Da ngăm đen vì nắng gió<br />- Đội mũ cối xanh<br />- Mặc áo sơ mi xanh công nhân/xe ôm sờn vai |
-| **Phương tiện**        | Luôn ngồi trên hoặc đứng cạnh chiếc xe máy "Dream tàu" cũ kỹ                                                                        |
-| **Vũ khí**             | Cái bơm xe đạp hoặc cái mũ bảo hiểm cầm tay                                                                                         |
-| **Animation đặc biệt** | **Skill:** Rồ ga bốc đầu xe lao tới trước                                                                                           |
+| Chi tiết | Mô tả |
+| :--- | :--- |
+| **Ngoại hình** | - Đàn ông trung niên, bụng hơi bia<br />- Da ngăm đen vì nắng gió<br />- Đội mũ cối xanh<br />- Mặc áo sơ mi xanh công nhân/xe ôm sờn vai |
+| **Phương tiện** | Luôn ngồi trên hoặc đứng cạnh chiếc xe máy "Dream tàu" cũ kỹ |
+| **Vũ khí** | Cái bơm xe đạp hoặc cái mũ bảo hiểm cầm tay |
+| **Animation Key** | **Skill:** Rồ ga bốc đầu xe lao tới trước |
 
 ### 3.2. Cô Tư bán nước (Support)
 
-| Chi tiết               | Mô tả                                                                                                 |
-| :--------------------- | :---------------------------------------------------------------------------------------------------- |
-| **Ngoại hình**         | - Phụ nữ trung niên, phốp pháp<br />- Mặc bộ đồ bộ (pijama) họa tiết hoa lá cành rực rỡ<br />- Đội nón lá |
-| **Phụ kiện**           | Ghế nhựa xanh/đỏ (có thể ngồi lên khi idle), cái quạt nan                                             |
-| **Vũ khí**             | Cái quạt nan hoặc ca nước đá                                                                          |
-| **Animation đặc biệt** | **Idle:** Ngồi phe phẩy quạt<br />**Skill:** Hất ca nước trà đá ra phía trước                           |
+| Chi tiết | Mô tả |
+| :--- | :--- |
+| **Ngoại hình** | - Phụ nữ trung niên, phốp pháp<br />- Mặc bộ đồ bộ (pijama) họa tiết hoa lá cành rực rỡ<br />- Đội nón lá |
+| **Phụ kiện** | Ghế nhựa xanh/đỏ (có thể ngồi lên khi idle), cái quạt nan |
+| **Vũ khí** | Cái quạt nan hoặc ca nước đá |
+| **Animation Key** | **Idle:** Ngồi phe phẩy quạt<br />**Skill:** Hất ca nước trà đá ra phía trước |
 
 ### 3.3. Anh Bảy thợ điện (Mage/DPS)
 
-| Chi tiết               | Mô tả                                                                                                             |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Ngoại hình**         | - Dáng người gầy gò, cao lêu nghêu<br />- Mặc áo cam bảo hộ lao động<br />- Đeo đai lưng lỉnh kỉnh kìm, búa, dây điện |
-| **Vũ khí**             | Một cuộn dây điện lớn hoặc cây sào gỡ điện                                                                        |
-| **Animation đặc biệt** | **Attack:** Quăng dây điện ra xa (như roi)<br />**Skill:** Giơ sào lên trời, điện xẹt xẹt                           |
+| Chi tiết | Mô tả |
+| :--- | :--- |
+| **Ngoại hình** | - Dáng người gầy gò, cao lêu nghêu<br />- Mặc áo cam bảo hộ lao động<br />- Đeo đai lưng lỉnh kỉnh kìm, búa, dây điện |
+| **Vũ khí** | Một cuộn dây điện lớn hoặc cây sào gỡ điện |
+| **Animation Key** | **Attack:** Quăng dây điện ra xa (như roi)<br />**Skill:** Giơ sào lên trời, điện xẹt xẹt |
 
 ### 3.4. Chị Mười bán cá (Warrior)
 
-| Chi tiết               | Mô tả                                                                                                    |
-| :--------------------- | :------------------------------------------------------------------------------------------------------- |
-| **Ngoại hình**         | - Phụ nữ khỏe mạnh, bắp tay to<br />- Đeo tạp dề cao su chống nước (màu xanh hoặc vàng)<br />- Đi ủng cao su |
-| **Vũ khí**             | Một con cá ngừ (hoặc cá tra) đông lạnh siêu to cứng như đá                                               |
-| **Animation đặc biệt** | **Attack:** Cầm đuôi cá quất mạnh (như cầm chày)<br />**Skill:** Xoay vòng tròn với con cá (spin attack)   |
+| Chi tiết | Mô tả |
+| :--- | :--- |
+| **Ngoại hình** | - Phụ nữ khỏe mạnh, bắp tay to<br />- Đeo tạp dề cao su chống nước (màu xanh hoặc vàng)<br />- Đi ủng cao su |
+| **Vũ khí** | Một con cá ngừ (hoặc cá tra) đông lạnh siêu to cứng như đá |
+| **Animation Key** | **Attack:** Cầm đuôi cá quất mạnh (như cầm chày)<br />**Skill:** Xoay vòng tròn với con cá (spin attack) |
 
 ### 3.5. Ninja Lead (Special Tanker)
 
-| Chi tiết               | Mô tả                                                                                                                                   |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ngoại hình**         | - Kín mít từ đầu đến chân<br />- Áo chống nắng hoa văn sặc sỡ, khẩu trang vải to, kính râm<br />- Ngồi trên xe tay ga dáng giống Honda Lead |
-| **Vũ khí**             | Đèn xi nhan hoặc gương chiếu hậu                                                                                                        |
-| **Animation đặc biệt** | **Move:** Lạng lách đánh võng<br />**Skill:** Bật đèn pha sáng lòa (Blind)                                                                |
+| Chi tiết | Mô tả |
+| :--- | :--- |
+| **Ngoại hình** | - Kín mít từ đầu đến chân<br />- Áo chống nắng hoa văn sặc sỡ, khẩu trang vải to, kính râm<br />- Ngồi trên xe tay ga dáng giống Honda Lead |
+| **Vũ khí** | Đèn xi nhan hoặc gương chiếu hậu |
+| **Animation Key** | **Move:** Lạng lách đánh võng<br />**Skill:** Bật đèn pha sáng lòa (Blind) |
 
 ---
 
@@ -106,31 +116,37 @@ Thiết kế đơn giản hơn nhân vật chính, ít chi tiết hơn (low deta
 
 ### 4.1. Quái thường (Mobs)
 
-| Tên                 | Mô tả ngắn                                       |
-| :------------------ | :----------------------------------------------- |
-| **Chó cỏ**          | Chó vàng/đen gầy gò, sủa "gâu gâu" text bay lên  |
-| **Gián khổng lồ**   | Con gián to bằng con chó, ghê rợn nhưng hài hước |
-| **Chuột cống**      | Chuột đứng 2 chân, cầm tăm xỉa răng              |
-| **Túi rác biết đi** | Túi nilon đen có chân tay, bốc mùi xanh lục      |
+| Tên | Mô tả ngắn |
+| :--- | :--- |
+| **Chó cỏ** | Chó vàng/đen gầy gò, sủa "gâu gâu" text bay lên |
+| **Gián khổng lồ** | Con gián to bằng con chó, ghê rợn nhưng hài hước |
+| **Chuột cống** | Chuột đứng 2 chân, cầm tăm xỉa răng |
+| **Túi rác biết đi** | Túi nilon đen có chân tay, bốc mùi xanh lục |
 
 ### 4.2. Boss
 
 Kích thước lớn gấp 2-3 lần nhân vật thường.
 
-| Tên                    | Mô tả ngắn                                                          |
-| :--------------------- | :------------------------------------------------------------------ |
-| **Đại ca khu phố**     | Cởi trần, xăm trổ đầy mình, đeo dây chuyền vàng to, bụng phệ        |
+| Tên | Mô tả ngắn |
+| :--- | :--- |
+| **Đại ca khu phố** | Cởi trần, xăm trổ đầy mình, đeo dây chuyền vàng to, bụng phệ |
 | **Tổ trưởng khó tính** | Ông già đeo kính lão trễ xuống mũi, tay cầm sổ ghi chép, mặt cau có |
-| **Loa phường ma quái** | Cụm loa phường mọc tay chân, bắn ra sóng âm (nốt nhạc)              |
+| **Loa phường ma quái** | Cụm loa phường mọc tay chân, bắn ra sóng âm (nốt nhạc) |
 
 ---
 
-## 5. Bảng tổng hợp số lượng Asset
+## 5. Tổng hợp yêu cầu Asset (Asset Checklist)
 
-| Loại           | Số lượng ước tính (Giai đoạn 1) | Ghi chú                        |
-| :------------- | :------------------------------ | :----------------------------- |
-| Nhân vật chính | 1 bộ (Full animation)           | Có thể thay đổi vũ khí/áo      |
-| Đồng đội       | 5 nhân vật                      | Mỗi người 1 bộ animation riêng |
-| Quái thường    | 8 loại                          | Có thể tái sử dụng (đổi màu)   |
-| Boss           | 4 con                           | Mỗi chapter 1 con              |
-| **Tổng cộng**  | **~18 bộ sprites**              |                                |
+Bảng chi tiết số lượng frame và kích thước cho Artist.
+
+| Loại Asset | State / Hành động | Kích thước (Px) | Số Frames | Ghi chú |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nhân vật (Chính & Đồng đội)** | Idle (Đứng yên) | 128x128 | 4-6 | Loop mượt |
+| | Walk (Di chuyển) | 128x128 | 6-8 | - |
+| | Attack (Đánh thường) | 128x128 | 4-6 | Dứt khoát, có smear frame |
+| | Skill (Kỹ năng) | 128x128 | 8-12 | Hiệu ứng đặc biệt kèm theo |
+| | Die (Chết) | 128x128 | 8-10 | - |
+| **Quái thường (Mobs)** | Walk & Attack | 64x64 / 96x96 | 4-6 | Ít frame hơn nhân vật |
+| **Boss** | Idle, Walk, Attack, Skill | 256x256 | 8-12 | Chi tiết cao |
+| **Minh họa (Illustration)** | Portrait (Chân dung) | 256x256 | 1 | Dùng cho UI / Hội thoại |
+| | Full Body (Toàn thân) | 512x512 | 1 | Dùng cho màn hình Gacha / Info |

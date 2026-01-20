@@ -72,26 +72,26 @@ Game sử dụng mô hình "Dual Currency" (hai loại tiền tệ): vàng (soft
 
 ```mermaid
 flowchart LR
-    subgraph Sources["NGUON THU"]
-        S1["Farm quai / AFK"]
-        S2["Nhiem vu"]
-        S3["Nap the / Ads"]
-        S4["Pho ban / Event"]
+    subgraph Sources["NGUỒN THU"]
+        S1["Farm quái / AFK"]
+        S2["Nhiệm vụ"]
+        S3["Nạp thẻ / Ads"]
+        S4["Phó bản / Event"]
     end
 
-    subgraph Wallet["VI TIEN"]
-        Gold["VANG"]
-        Gem["KIM CUONG"]
+    subgraph Wallet["VÍ TIỀN"]
+        Gold["VÀNG"]
+        Gem["KIM CƯƠNG"]
     end
 
-    subgraph Sinks["NGUON CHI"]
-        U1["Nang cap chi so"]
-        U2["Cuong hoa trang bi"]
+    subgraph Sinks["NGUỒN CHI"]
+        U1["Nâng cấp chỉ số"]
+        U2["Cường hóa trang bị"]
         Gacha["Quay Gacha"]
         Shop["Shop"]
     end
 
-    Result["GIA TANG SUC MANH"]
+    Result["GIA TĂNG SỨC MẠNH"]
 
     S1 --> Gold
     S2 --> Gold
