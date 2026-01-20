@@ -68,45 +68,45 @@ Các nhân vật hỗ trợ, mỗi người có đặc điểm nhận dạng ri�
 
 ### 3.1. Chú Ba xe ôm (Tanker)
 
-| Chi tiết | Mô tả |
-| :--- | :--- |
-| **Ngoại hình** | - Đàn ông trung niên, bụng hơi bia<br />- Da ngăm đen vì nắng gió<br />- Đội mũ cối xanh<br />- Mặc áo sơ mi xanh công nhân/xe ôm sờn vai |
-| **Phương tiện** | Luôn ngồi trên hoặc đứng cạnh chiếc xe máy "Dream tàu" cũ kỹ |
-| **Vũ khí** | Cái bơm xe đạp hoặc cái mũ bảo hiểm cầm tay |
-| **Animation Key** | **Skill:** Rồ ga bốc đầu xe lao tới trước |
+| Chi tiết | Mô tả | Minh họa (Concept) |
+| :--- | :--- | :--- |
+| **Ngoại hình** | - Đàn ông trung niên, bụng hơi bia<br />- Da ngăm đen vì nắng gió<br />- Đội mũ cối xanh<br />- Mặc áo sơ mi xanh công nhân/xe ôm sờn vai | ![Chú Ba Xe Ôm](./images/chu_ba_xe_om.png) |
+| **Phương tiện** | Luôn ngồi trên hoặc đứng cạnh chiếc xe máy "Dream tàu" cũ kỹ | |
+| **Vũ khí** | Cái bơm xe đạp hoặc cái mũ bảo hiểm cầm tay | |
+| **Animation Key** | **Skill:** Rồ ga bốc đầu xe lao tới trước | |
 
 ### 3.2. Cô Tư bán nước (Support)
 
-| Chi tiết | Mô tả |
-| :--- | :--- |
-| **Ngoại hình** | - Phụ nữ trung niên, phốp pháp<br />- Mặc bộ đồ bộ (pijama) họa tiết hoa lá cành rực rỡ<br />- Đội nón lá |
-| **Phụ kiện** | Ghế nhựa xanh/đỏ (có thể ngồi lên khi idle), cái quạt nan |
-| **Vũ khí** | Cái quạt nan hoặc ca nước đá |
-| **Animation Key** | **Idle:** Ngồi phe phẩy quạt<br />**Skill:** Hất ca nước trà đá ra phía trước |
+| Chi tiết | Mô tả | Minh họa (Concept) |
+| :--- | :--- | :--- |
+| **Ngoại hình** | - Phụ nữ trung niên, phốp pháp<br />- Mặc bộ đồ bộ (pijama) họa tiết hoa lá cành rực rỡ<br />- Đội nón lá | ![Cô Tư Bán Nước](./images/co_tu_ban_nuoc.png) |
+| **Phụ kiện** | Ghế nhựa xanh/đỏ (có thể ngồi lên khi idle), cái quạt nan | |
+| **Vũ khí** | Cái quạt nan hoặc ca nước đá | |
+| **Animation Key** | **Idle:** Ngồi phe phẩy quạt<br />**Skill:** Hất ca nước trà đá ra phía trước | |
 
 ### 3.3. Anh Bảy thợ điện (Mage/DPS)
 
-| Chi tiết | Mô tả |
-| :--- | :--- |
-| **Ngoại hình** | - Dáng người gầy gò, cao lêu nghêu<br />- Mặc áo cam bảo hộ lao động<br />- Đeo đai lưng lỉnh kỉnh kìm, búa, dây điện |
-| **Vũ khí** | Một cuộn dây điện lớn hoặc cây sào gỡ điện |
-| **Animation Key** | **Attack:** Quăng dây điện ra xa (như roi)<br />**Skill:** Giơ sào lên trời, điện xẹt xẹt |
+| Chi tiết | Mô tả | Minh họa (Concept) |
+| :--- | :--- | :--- |
+| **Ngoại hình** | - Dáng người gầy gò, cao lêu nghêu<br />- Mặc áo cam bảo hộ lao động<br />- Đeo đai lưng lỉnh kỉnh kìm, búa, dây điện | ![Anh Bảy Thợ Điện](./images/anh_bay_tho_dien.png) |
+| **Vũ khí** | Một cuộn dây điện lớn hoặc cây sào gỡ điện | |
+| **Animation Key** | **Attack:** Quăng dây điện ra xa (như roi)<br />**Skill:** Giơ sào lên trời, điện xẹt xẹt | |
 
 ### 3.4. Chị Mười bán cá (Warrior)
 
-| Chi tiết | Mô tả |
-| :--- | :--- |
-| **Ngoại hình** | - Phụ nữ khỏe mạnh, bắp tay to<br />- Đeo tạp dề cao su chống nước (màu xanh hoặc vàng)<br />- Đi ủng cao su |
-| **Vũ khí** | Một con cá ngừ (hoặc cá tra) đông lạnh siêu to cứng như đá |
-| **Animation Key** | **Attack:** Cầm đuôi cá quất mạnh (như cầm chày)<br />**Skill:** Xoay vòng tròn với con cá (spin attack) |
+| Chi tiết | Mô tả | Minh họa (Concept) |
+| :--- | :--- | :--- |
+| **Ngoại hình** | - Phụ nữ khỏe mạnh, bắp tay to<br />- Đeo tạp dề cao su chống nước (màu xanh hoặc vàng)<br />- Đi ủng cao su | ![Chị Mười Bán Cá](./images/chi_muoi_ban_ca.png) |
+| **Vũ khí** | Một con cá ngừ (hoặc cá tra) đông lạnh siêu to cứng như đá | |
+| **Animation Key** | **Attack:** Cầm đuôi cá quất mạnh (như cầm chày)<br />**Skill:** Xoay vòng tròn với con cá (spin attack) | |
 
 ### 3.5. Ninja Lead (Special Tanker)
 
-| Chi tiết | Mô tả |
-| :--- | :--- |
-| **Ngoại hình** | - Kín mít từ đầu đến chân<br />- Áo chống nắng hoa văn sặc sỡ, khẩu trang vải to, kính râm<br />- Ngồi trên xe tay ga dáng giống Honda Lead |
-| **Vũ khí** | Đèn xi nhan hoặc gương chiếu hậu |
-| **Animation Key** | **Move:** Lạng lách đánh võng<br />**Skill:** Bật đèn pha sáng lòa (Blind) |
+| Chi tiết | Mô tả | Minh họa (Concept) |
+| :--- | :--- | :--- |
+| **Ngoại hình** | - Kín mít từ đầu đến chân<br />- Áo chống nắng hoa văn sặc sỡ, khẩu trang vải to, kính râm<br />- Ngồi trên xe tay ga dáng giống Honda Lead | ![Ninja Lead](./images/ninja_lead.png) |
+| **Vũ khí** | Đèn xi nhan hoặc gương chiếu hậu | |
+| **Animation Key** | **Move:** Lạng lách đánh võng<br />**Skill:** Bật đèn pha sáng lòa (Blind) | |
 
 ---
 
