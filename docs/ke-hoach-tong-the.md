@@ -1,4 +1,4 @@
-# Kế hoạch tổng thể
+# Kế hoạch tổng thể dự án
 
 Tài liệu này là bản mô tả tổng quan (Game Design Document Overview) cho dự án game mobile thể loại Idle/AFK. Đây là tài liệu nền tảng, định hướng cho toàn bộ quá trình phát triển.
 

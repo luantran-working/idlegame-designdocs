@@ -9,160 +9,160 @@ Tài liệu này mô tả chi tiết kế hoạch sản xuất game "Bảo vệ 
 | **Ngày bắt đầu** | 01/02/2026 |
 | **Ngày kết thúc** | 30/06/2026 |
 | **Tổng thời gian** | 21 tuần (150 ngày) |
-| **Milestone chính** | 5 phases |
-| **Team size (dự kiến)** | 8-10 người |
+| **Mốc chính** | 5 giai đoạn (Phases) |
+| **Quy mô team (dự kiến)** | 8-10 người |
 
-### 1.1. Team Structure
+### 1.1. Cấu trúc Team
 
-| Role | Số lượng | Trách nhiệm chính |
+| Vai trò | Số lượng | Trách nhiệm chính |
 | :--- | :--- | :--- |
-| **Game Designer** | 1 | Game design, balancing, documentation |
-| **Developer** | 2-3 | Core gameplay, systems, UI implementation |
-| **2D Artist** | 2 | Character, environment, UI art |
-| **VFX Artist** | 1 | Particle effects, combat effects, UI animations |
-| **Sound Designer** | 1 | SFX, BGM, audio implementation |
-| **QA Tester** | 1 | Testing, bug reporting |
-| **Project Manager** | 1 (part-time) | Coordination, timeline tracking |
+| **Game Designer** | 1 | Thiết kế game, cân bằng số liệu, tài liệu hóa |
+| **Developer** | 2-3 | Gameplay cốt lõi, hệ thống, triển khai UI |
+| **2D Artist** | 2 | Vẽ nhân vật, môi trường, UI |
+| **VFX Artist** | 1 | Hiệu ứng hạt, hiệu ứng chiến đấu, chuyển động UI |
+| **Sound Designer** | 1 | Âm thanh hiệu ứng (SFX), nhạc nền (BGM), triển khai âm thanh |
+| **QA Tester** | 1 | Kiểm thử, báo lỗi |
+| **Project Manager** | 1 (part-time) | Điều phối, theo dõi tiến độ |
 
 ---
 
-## 2. Phase Breakdown (5 Phases)
+## 2. Chi tiết Giai đoạn (5 Phases)
 
-### Phase 1: Foundation (Tháng 2 - Tuần 1-4)
-**Timeline:** 01/02 - 28/02 (4 tuần)
+### Giai đoạn 1: Nền tảng - Foundation (Tháng 2 - Tuần 1-4)
+**Thời gian:** 01/02 - 28/02 (4 tuần)
 
-**Mục tiêu:** Setup dự án, core combat, data structure
+**Mục tiêu:** Thiết lập dự án, chiến đấu cốt lõi, cấu trúc dữ liệu
 
-**Deliverables:**
-- Project setup hoàn chỉnh (Unity/Godot)
-- Core combat system working
-- Data management system
-- First playable build
+**Kết quả bàn giao (Deliverables):**
+- Thiết lập dự án hoàn chỉnh (Unity/Godot)
+- Hệ thống chiến đấu cốt lõi hoạt động được
+- Hệ thống quản lý dữ liệu
+- Bản chơi thử đầu tiên (First playable)
 
-### Phase 2: Core Systems (Tháng 3 - Tuần 5-8)
-**Timeline:** 01/03 - 31/03 (4.5 tuần)
+### Giai đoạn 2: Hệ thống lõi - Core Systems (Tháng 3 - Tuần 5-8)
+**Thời gian:** 01/03 - 31/03 (4.5 tuần)
 
-**Mục tiêu:** UI framework, stats, equipment, AFK
+**Mục tiêu:** Khung UI, chỉ số, trang bị, AFK
 
-**Deliverables:**
-- UI framework hoàn chỉnh
-- Stats và progression system
-- Equipment system với merge
-- AFK calculation working
+**Kết quả bàn giao (Deliverables):**
+- Khung UI (UI Framework) hoàn chỉnh
+- Hệ thống chỉ số và tăng trưởng
+- Hệ thống trang bị và cơ chế gộp (merge)
+- Tính toán AFK hoạt động chuẩn
 
-### Phase 3: Content & Depth (Tháng 4 - Tuần 9-13)
-**Timeline:** 01/04 - 30/04 (4 tuần)
+### Giai đoạn 3: Nội dung & Chiều sâu - Content & Depth (Tháng 4 - Tuần 9-13)
+**Thời gian:** 01/04 - 30/04 (4 tuần)
 
-**Mục tiêu:** Skills, teammates, complete art assets
+**Mục tiêu:** Kỹ năng, đồng đội, hoàn thiện asset đồ họa
 
-**Deliverables:**
-- Skill system với 20+ skills
-- Teammate system với 5 characters
-- Art assets cho Chapter 1-2
-- VFX cho combat
+**Kết quả bàn giao (Deliverables):**
+- Hệ thống kỹ năng với 20+ skills
+- Hệ thống đồng đội với 5 nhân vật
+- Assets đồ họa cho Chương 1-2
+- VFX cho chiến đấu
 
-### Phase 4: Economy & Monetization (Tháng 5 - Tuần 14-17)
-**Timeline:** 01/05 - 31/05 (4 tuần)
+### Giai đoạn 4: Kinh tế & Kiếm tiền - Economy & Monetization (Tháng 5 - Tuần 14-17)
+**Thời gian:** 01/05 - 31/05 (4 tuần)
 
-**Mục tiêu:** Gacha, shop, economy balancing
+**Mục tiêu:** Gacha, cửa hàng, cân bằng kinh tế
 
-**Deliverables:**
-- Gacha system hoàn chỉnh
-- Shop implementation
-- IAP integration
-- Economy balanced
+**Kết quả bàn giao (Deliverables):**
+- Hệ thống Gacha hoàn chỉnh
+- Triển khai Cửa hàng (Shop)
+- Tích hợp thanh toán (IAP)
+- Cân bằng nền kinh tế trong game
 
-### Phase 5: Polish & Launch Prep (Tháng 6 - Tuần 18-21)
-**Timeline:** 01/06 - 30/06 (4 tuần)
+### Giai đoạn 5: Hoàn thiện & Chuẩn bị ra mắt - Polish & Launch Prep (Tháng 6 - Tuần 18-21)
+**Thời gian:** 01/06 - 30/06 (4 tuần)
 
-**Mục tiêu:** Audio, VFX polish, testing, optimization
+**Mục tiêu:** Âm thanh, trau chuốt VFX, kiểm thử, tối ưu hóa
 
-**Deliverables:**
-- Full audio (BGM + SFX)
-- All VFX polished
-- Performance optimized
-- Beta build ready
+**Kết quả bàn giao (Deliverables):**
+- Âm thanh đầy đủ (BGM + SFX)
+- Toàn bộ VFX được trau chuốt
+- Hiệu năng được tối ưu
+- Bản Beta sẵn sàng
 
 ---
 
-## 3. Gantt Chart Timeline
+## 3. Biểu đồ Gantt Timeline
 
 ```mermaid
 gantt
-    title Production Timeline (01/02/2026 - 30/06/2026)
+    title Mốc thời gian sản xuất (01/02/2026 - 30/06/2026)
     dateFormat YYYY-MM-DD
 
-    section Phase 1: Foundation
-    Project Setup           :p1a, 2026-02-01, 2d
-    Data System             :p1b, after p1a, 3d
-    Core Combat             :p1c, after p1b, 4d
-    Enemy Spawning          :p1d, after p1c, 3d
+    section Giai đoạn 1: Nền tảng
+    Thiết lập dự án         :p1a, 2026-02-01, 2d
+    Hệ thống dữ liệu        :p1b, after p1a, 3d
+    Chiến đấu cốt lõi       :p1c, after p1b, 4d
+    Spawning Quái           :p1d, after p1c, 3d
     Save/Load               :p1e, after p1b, 3d
-    Main Character Art      :p1f, 2026-02-01, 8d
-    Enemy Art               :p1g, after p1f, 9d
+    Art Nhân vật chính      :p1f, 2026-02-01, 8d
+    Art Quái                :p1g, after p1f, 9d
 
-    section Phase 2: Core Systems
-    UI Framework            :p2a, 2026-03-01, 3d
-    Stats System            :p2b, after p2a, 4d
-    Equipment System        :p2c, after p2b, 7d
-    AFK System              :p2d, after p2c, 3d
-    Equipment Art           :p2e, 2026-03-01, 10d
-    UI Design               :p2f, after p2e, 6d
+    section Giai đoạn 2: Hệ thống lõi
+    Khung UI                :p2a, 2026-03-01, 3d
+    Hệ thống chỉ số         :p2b, after p2a, 4d
+    Hệ thống trang bị       :p2c, after p2b, 7d
+    Hệ thống AFK            :p2d, after p2c, 3d
+    Art Trang bị            :p2e, 2026-03-01, 10d
+    Thiết kế UI             :p2f, after p2e, 6d
 
-    section Phase 3: Content
-    Skill System            :p3a, 2026-04-01, 10d
-    Teammate System         :p3b, after p3a, 8d
-    Boss Mechanics          :p3c, after p3b, 3d
-    Teammate Art            :p3d, 2026-04-01, 17d
-    Boss Art                :p3e, after p3d, 8d
-    Skill VFX               :p3f, 2026-04-01, 16d
+    section Giai đoạn 3: Nội dung
+    Hệ thống Kỹ năng        :p3a, 2026-04-01, 10d
+    Hệ thống Đồng đội       :p3b, after p3a, 8d
+    Cơ chế Boss             :p3c, after p3b, 3d
+    Art Đồng đội            :p3d, 2026-04-01, 17d
+    Art Boss                :p3e, after p3d, 8d
+    VFX Kỹ năng             :p3f, 2026-04-01, 16d
 
-    section Phase 4: Economy
-    Currency System         :p4a, 2026-05-01, 2d
-    Gacha System            :p4b, after p4a, 8d
-    Shop System             :p4c, after p4b, 3d
-    IAP Integration         :p4d, after p4c, 4d
-    Gacha Art & VFX         :p4e, 2026-05-01, 9d
-    Skill SFX               :p4f, 2026-05-01, 10d
+    section Giai đoạn 4: Kinh tế
+    Hệ thống Tiền tệ        :p4a, 2026-05-01, 2d
+    Hệ thống Gacha          :p4b, after p4a, 8d
+    Hệ thống Shop           :p4c, after p4b, 3d
+    Tích hợp IAP            :p4d, after p4c, 4d
+    Art & VFX Gacha         :p4e, 2026-05-01, 9d
+    SFX Kỹ năng             :p4f, 2026-05-01, 10d
 
-    section Phase 5: Polish
-    Audio Integration       :p5a, 2026-06-01, 3d
-    Performance Opt         :p5b, after p5a, 5d
-    Bug Fixing Sprint 1     :p5c, after p5b, 4d
-    Bug Fixing Sprint 2     :p5d, after p5c, 4d
-    BGM Production          :p5e, 2026-06-01, 10d
-    Final Polish            :p5f, after p5e, 5d
+    section Giai đoạn 5: Hoàn thiện
+    Tích hợp Âm thanh       :p5a, 2026-06-01, 3d
+    Tối ưu hiệu năng        :p5b, after p5a, 5d
+    Sửa lỗi Sprint 1        :p5c, after p5b, 4d
+    Sửa lỗi Sprint 2        :p5d, after p5c, 4d
+    Sản xuất BGM            :p5e, 2026-06-01, 10d
+    Trau chuốt cuối         :p5f, after p5e, 5d
     QA Final                :p5g, after p5f, 4d
 ```
 
 ---
 
-## 4. Dependencies Map
+## 4. Bản đồ phụ thuộc (Dependencies Map)
 
-### Critical Path
+### Tiến trình quan trọng (Critical Path)
 
 ```mermaid
 flowchart LR
-    A[Project Setup] --> B[Data System]
-    B --> C[Core Combat]
-    C --> D[UI Framework]
-    D --> E[Stats System]
-    E --> F[Equipment System]
-    F --> G[Skill System]
-    G --> H[Gacha System]
-    H --> I[Final Polish]
-    I --> J[Launch Ready]
+    A[Thiết lập dự án] --> B[Hệ thống dữ liệu]
+    B --> C[Chiến đấu cốt lõi]
+    C --> D[Khung UI]
+    D --> E[Hệ thống chỉ số]
+    E --> F[Hệ thống trang bị]
+    F --> G[Hệ thống kỹ năng]
+    G --> H[Hệ thống Gacha]
+    H --> I[Trau chuốt cuối]
+    I --> J[Sẵn sàng ra mắt]
 
     style A fill:#ffcdd2,stroke:#c62828
     style J fill:#c8e6c9,stroke:#2e7d32
 ```
 
-### Cross-Team Dependencies
+### Phụ thuộc chéo giữa các team
 
-| Dev Task | Depends On (Art) | Depends On (VFX) | Depends On (Sound) |
+| Task Dev | Phụ thuộc Art | Phụ thuộc VFX | Phụ thuộc Sound |
 | :--- | :--- | :--- | :--- |
-| Core Combat | Main character sprite | Hit effects | Combat SFX |
-| Equipment System | Equipment icons | Upgrade effects | Upgrade SFX |
-| Skill System | Skill icons | Skill VFX | Skill SFX |
-| Gacha System | Gacha box art | Reveal effects | Gacha SFX |
-| Final Build | All art assets | All VFX | All audio |
+| **Chiến đấu cốt lõi** | Sprite nhân vật chính | Hiệu ứng đánh trúng | SFX chiến đấu |
+| **Hệ thống trang bị** | Icon trang bị | Hiệu ứng nâng cấp | SFX nâng cấp |
+| **Hệ thống kỹ năng** | Icon kỹ năng | VFX kỹ năng | SFX kỹ năng |
+| **Hệ thống Gacha** | Ảnh thùng/hộp gacha | Hiệu ứng mở quà | SFX quay gacha |
+| **Build cuối cùng** | Tất cả assets | Tất cả VFX | Tất cả audio |

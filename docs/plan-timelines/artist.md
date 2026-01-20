@@ -1,76 +1,76 @@
 # Công việc 2D Artist
 
-Chi tiết breakdown công việc cho đội ngũ 2D Artist (2 người).
+Chi tiết phân chia công việc (breakdown) cho đội ngũ 2D Artist (2 người).
 
-## Phase 1: Foundation (Tháng 2)
+## Giai đoạn 1: Nền tảng (Tháng 2)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| ART-001 | Style guide và reference board | 1 document | 2 days | Critical |
-| ART-002 | Main character concept (3 iterations) | 3 designs | 3 days | Critical |
-| ART-003 | Main character sprite sheet (Idle, Walk, Attack) | 1 sprite sheet | 5 days | Critical |
-| ART-004 | Enemy concept (4 mob types) | 4 designs | 3 days | Critical |
-| ART-005 | Enemy sprite sheets (simple animation) | 4 sprite sheets | 6 days | High |
-| ART-006 | UI mockup (main screen layout) | 1 mockup | 2 days | High |
-| ART-007 | Placeholder UI elements | Basic set | 2 days | Medium |
+| ART-001 | Style guide và bảng tham khảo (Reference board) | 1 tài liệu | 2 ngày | Tối quan trọng |
+| ART-002 | Concept nhân vật chính (3 phương án) | 3 thiết kế | 3 ngày | Tối quan trọng |
+| ART-003 | Sprite sheet nhân vật chính (Idle, Walk, Attack) | 1 sprite sheet | 5 ngày | Tối quan trọng |
+| ART-004 | Concept quái (4 loại mob) | 4 thiết kế | 3 ngày | Tối quan trọng |
+| ART-005 | Sprite sheet quái (animation đơn giản) | 4 sprite sheets | 6 ngày | Cao |
+| ART-006 | UI mockup (bố cục màn hình chính) | 1 mockup | 2 ngày | Cao |
+| ART-007 | UI elements tạm thời (Placeholder) | Bộ cơ bản | 2 ngày | Trung bình |
 
-**Total:** ~23 days
+**Tổng cộng:** ~23 ngày
 
-## Phase 2: Core Systems (Tháng 3)
+## Giai đoạn 2: Hệ thống lõi (Tháng 3)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| ART-008 | Equipment icons (40 items, Tier 1-10) | 40 icons | 8 days | Critical |
-| ART-009 | Equipment rarity borders (6 types) | 6 frames | 2 days | Critical |
-| ART-010 | Stats tab UI design | 1 screen | 2 days | High |
-| ART-011 | Equipment tab UI design | 1 screen | 2 days | High |
-| ART-012 | Currency icons (Gold, Diamond, etc.) | 10 icons | 2 days | Critical |
-| ART-013 | Button assets (5 states) | Button set | 2 days | High |
-| ART-014 | Popup frame templates | 3 templates | 3 days | High |
-| ART-015 | Background Chapter 1 (3 layers) | 1 BG set | 4 days | High |
+| ART-008 | Icon trang bị (40 món, Tier 1-10) | 40 icons | 8 ngày | Tối quan trọng |
+| ART-009 | Khung viền phẩm chất trang bị (6 loại) | 6 khung | 2 ngày | Tối quan trọng |
+| ART-010 | Thiết kế UI tab Chỉ số | 1 màn hình | 2 ngày | Cao |
+| ART-011 | Thiết kế UI tab Trang bị | 1 màn hình | 2 ngày | Cao |
+| ART-012 | Icon tiền tệ (Vàng, Kim cương, v.v.) | 10 icons | 2 ngày | Tối quan trọng |
+| ART-013 | Tài nguyên nút bấm (Button assets - 5 trạng thái) | Bộ nút | 2 ngày | Cao |
+| ART-014 | Mẫu khung Popup (Frame templates) | 3 mẫu | 3 ngày | Cao |
+| ART-015 | Background Chương 1 (3 lớp layer) | 1 bộ BG | 4 ngày | Cao |
 
-**Total:** ~25 days
+**Tổng cộng:** ~25 ngày
 
-## Phase 3: Content & Depth (Tháng 4)
+## Giai đoạn 3: Nội dung & Chiều sâu (Tháng 4)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| ART-016 | Teammate concepts (5 characters) | 5 designs | 5 days | Critical |
-| ART-017 | Teammate sprite sheets (each: Idle, Walk, Attack, Skill) | 5 sprite sheets | 12 days | Critical |
-| ART-018 | Teammate portraits (256x256) | 5 portraits | 2 days | High |
-| ART-019 | Boss concepts (4 bosses) | 4 designs | 4 days | Critical |
-| ART-020 | Boss sprite sheets | 4 sprite sheets | 8 days | Critical |
-| ART-021 | Skill icons (20+ skills) | 25 icons | 4 days | High |
-| ART-022 | Background Chapter 2 | 1 BG set | 3 days | Medium |
+| ART-016 | Concept đồng đội (5 nhân vật) | 5 thiết kế | 5 ngày | Tối quan trọng |
+| ART-017 | Sprite sheet đồng đội (Mỗi người: Idle, Walk, Attack, Skill) | 5 sprite sheets | 12 ngày | Tối quan trọng |
+| ART-018 | Chân dung đồng đội (Portraits 256x256) | 5 hình | 2 ngày | Cao |
+| ART-019 | Concept Boss (4 boss) | 4 thiết kế | 4 ngày | Tối quan trọng |
+| ART-020 | Sprite sheet Boss | 4 sprite sheets | 8 ngày | Tối quan trọng |
+| ART-021 | Icon kỹ năng (20+ kỹ năng) | 25 icons | 4 ngày | Cao |
+| ART-022 | Background Chương 2 | 1 bộ BG | 3 ngày | Trung bình |
 
-**Total:** ~38 days (có thể cần 2 artists song song)
+**Tổng cộng:** ~38 ngày (cần 2 artists làm song song)
 
-## Phase 4: Economy & Monetization (Tháng 5)
+## Giai đoạn 4: Kinh tế & Kiếm tiền (Tháng 5)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| ART-023 | Gacha box assets (3 states) | 1 box set | 3 days | Critical |
-| ART-024 | Gacha banner images | 3 banners | 3 days | High |
-| ART-025 | Shop UI design | 1 screen | 2 days | High |
-| ART-026 | IAP bundle icons | 4 icons | 2 days | High |
-| ART-027 | Quest/Achievement UI | 1 screen | 2 days | Medium |
-| ART-028 | Promotional art (marketing) | 2 pieces | 4 days | Medium |
-| ART-029 | App icon design | 1 icon + variants | 2 days | Critical |
-| ART-030 | Background Chapter 3-4 | 2 BG sets | 6 days | Medium |
+| ART-023 | Tài nguyên thùng Gacha (3 trạng thái) | 1 bộ thùng | 3 ngày | Tối quan trọng |
+| ART-024 | Hình ảnh Banner Gacha | 3 banners | 3 ngày | Cao |
+| ART-025 | Thiết kế UI Cửa hàng (Shop) | 1 màn hình | 2 ngày | Cao |
+| ART-026 | Icon gói IAP | 4 icons | 2 ngày | Cao |
+| ART-027 | UI Nhiệm vụ/Thành tựu | 1 màn hình | 2 ngày | Trung bình |
+| ART-028 | Ảnh quảng bá (Promotional art - Marketing) | 2 tác phẩm | 4 ngày | Trung bình |
+| ART-029 | Thiết kế Icon ứng dụng (App icon) | 1 icon + variants | 2 ngày | Tối quan trọng |
+| ART-030 | Background Chương 3-4 | 2 bộ BG | 6 ngày | Trung bình |
 
-**Total:** ~24 days
+**Tổng cộng:** ~24 ngày
 
-## Phase 5: Polish & Launch Prep (Tháng 6)
+## Giai đoạn 5: Hoàn thiện & Chuẩn bị ra mắt (Tháng 6)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| ART-031 | Polish pass - UI refinement | Improvements | 4 days | High |
-| ART-032 | Polish pass - Character touch-up | Improvements | 4 days | High |
-| ART-033 | Loading screen design | 1 screen | 2 days | Medium |
-| ART-034 | Tutorial UI elements | Icon set | 2 days | Medium |
-| ART-035 | Marketing assets (screenshots) | 5 screenshots | 2 days | High |
-| ART-036 | Store listing graphics | Store assets | 3 days | Critical |
-| ART-037 | Final asset export optimization | - | 2 days | High |
-| ART-038 | Art documentation update | 1 doc | 1 day | Low |
+| ART-031 | Tinh chỉnh UI (Polish pass) | Cải tiến | 4 ngày | Cao |
+| ART-032 | Tinh chỉnh Nhân vật (Touch-up) | Cải tiến | 4 ngày | Cao |
+| ART-033 | Thiết kế màn hình Loading | 1 màn hình | 2 ngày | Trung bình |
+| ART-034 | UI elements cho hướng dẫn (Tutorial) | Bộ icon | 2 ngày | Trung bình |
+| ART-035 | Tài nguyên Marketing (Screenshots store) | 5 hình | 2 ngày | Cao |
+| ART-036 | Đồ họa trang Store (Store listing graphics) | Bộ assets | 3 ngày | Tối quan trọng |
+| ART-037 | Tối ưu hóa xuất file cuối cùng | - | 2 ngày | Cao |
+| ART-038 | Cập nhật tài liệu Art | 1 tài liệu | 1 ngày | Thấp |
 
-**Total:** ~20 days
+**Tổng cộng:** ~20 ngày

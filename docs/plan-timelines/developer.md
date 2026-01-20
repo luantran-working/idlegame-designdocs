@@ -1,77 +1,77 @@
 # Công việc Developer (Lập trình)
 
-Chi tiết breakdown công việc cho đội ngũ Developer (2-3 người).
+Chi tiết phân chia công việc (breakdown) cho đội ngũ Developer (2-3 người).
 
-## Phase 1: Foundation (Tháng 2)
+## Giai đoạn 1: Nền tảng (Tháng 2)
 
-| Task ID | Task Name | Duration | Dependencies | Priority |
+| Mã Task | Tên công việc (Task Name) | Thời gian | Phụ thuộc | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| DEV-001 | Setup Unity/Godot project, version control | 2 days | - | Critical |
-| DEV-002 | Implement data management system (ScriptableObject/Resource) | 3 days | DEV-001 | Critical |
-| DEV-003 | Core combat loop (attack, HP, death) | 4 days | DEV-002 | Critical |
-| DEV-004 | Enemy spawning và wave system | 3 days | DEV-003 | Critical |
-| DEV-005 | Save/Load system (PlayerPrefs/JSON) | 3 days | DEV-002 | High |
-| DEV-006 | Scene management và game flow | 2 days | DEV-003 | High |
-| DEV-007 | Build automation script | 1 day | DEV-001 | Medium |
+| DEV-001 | Thiết lập dự án Unity/Godot, quản lý version (Git) | 2 ngày | - | Tối quan trọng |
+| DEV-002 | Xây dựng hệ thống quản lý dữ liệu (ScriptableObject/Resource) | 3 ngày | DEV-001 | Tối quan trọng |
+| DEV-003 | Vòng lặp chiến đấu cốt lõi (tấn công, máu, chết) | 4 ngày | DEV-002 | Tối quan trọng |
+| DEV-004 | Hệ thống sinh quái (Spawning) và quản lý Wave | 3 ngày | DEV-003 | Tối quan trọng |
+| DEV-005 | Hệ thống Lưu/Tải game (Save/Load - PlayerPrefs/JSON) | 3 ngày | DEV-002 | Cao |
+| DEV-006 | Quản lý Scene và luồng game (Game Flow) | 2 ngày | DEV-003 | Cao |
+| DEV-007 | Script tự động hóa build (Build automation) | 1 ngày | DEV-001 | Trung bình |
 
-**Total:** ~18 days (4 tuần với buffer)
+**Tổng cộng:** ~18 ngày (4 tuần bao gồm thời gian đệm)
 
-## Phase 2: Core Systems (Tháng 3)
+## Giai đoạn 2: Hệ thống lõi (Tháng 3)
 
-| Task ID | Task Name | Duration | Dependencies | Priority |
+| Mã Task | Tên công việc (Task Name) | Thời gian | Phụ thuộc | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| DEV-008 | UI framework setup (Canvas, managers) | 3 days | DEV-001 | Critical |
-| DEV-009 | Stats system (ATK, HP, CRIT, ASPD) | 4 days | DEV-002 | Critical |
-| DEV-010 | Stats upgrade UI với animation | 3 days | DEV-008, DEV-009 | High |
-| DEV-011 | Equipment system (slots, equip/unequip) | 4 days | DEV-002 | Critical |
-| DEV-012 | Equipment merge system | 3 days | DEV-011 | High |
-| DEV-013 | Inventory management | 2 days | DEV-011 | High |
-| DEV-014 | AFK calculation system | 3 days | DEV-003 | Critical |
-| DEV-015 | Popup system (generic reusable) | 2 days | DEV-008 | Medium |
+| DEV-008 | Thiết lập khung UI (Canvas, View Managers) | 3 ngày | DEV-001 | Tối quan trọng |
+| DEV-009 | Hệ thống chỉ số (ATK, HP, CRIT, ASPD) | 4 ngày | DEV-002 | Tối quan trọng |
+| DEV-010 | UI nâng cấp chỉ số kèm animation | 3 ngày | DEV-008, DEV-009 | Cao |
+| DEV-011 | Hệ thống trang bị (slot, mặc/tháo) | 4 ngày | DEV-002 | Tối quan trọng |
+| DEV-012 | Hệ thống gộp trang bị (item merge) | 3 ngày | DEV-011 | Cao |
+| DEV-013 | Quản lý túi đồ (Inventory) | 2 ngày | DEV-011 | Cao |
+| DEV-014 | Hệ thống tính toán AFK | 3 ngày | DEV-003 | Tối quan trọng |
+| DEV-015 | Hệ thống Popup (tái sử dụng chung) | 2 ngày | DEV-008 | Trung bình |
 
-**Total:** ~24 days
+**Tổng cộng:** ~24 ngày
 
-## Phase 3: Content & Depth (Tháng 4)
+## Giai đoạn 3: Nội dung & Chiều sâu (Tháng 4)
 
-| Task ID | Task Name | Duration | Dependencies | Priority |
+| Mã Task | Tên công việc (Task Name) | Thời gian | Phụ thuộc | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| DEV-016 | Skill system framework | 4 days | DEV-003 | Critical |
-| DEV-017 | Implement 20+ skills | 6 days | DEV-016 | Critical |
-| DEV-018 | Skill deck building UI | 3 days | DEV-016, DEV-008 | High |
-| DEV-019 | Teammate system (AI, positioning) | 5 days | DEV-003 | Critical |
-| DEV-020 | Teammate management UI | 3 days | DEV-019, DEV-008 | High |
-| DEV-021 | Bond/Resonance system | 2 days | DEV-019 | Medium |
-| DEV-022 | Stage progression system | 2 days | DEV-003 | High |
-| DEV-023 | Boss fight mechanics | 3 days | DEV-003 | High |
+| DEV-016 | Khung hệ thống kỹ năng (Skill framework) | 4 ngày | DEV-003 | Tối quan trọng |
+| DEV-017 | Triển khai 20+ kỹ năng cụ thể | 6 ngày | DEV-016 | Tối quan trọng |
+| DEV-018 | UI xây dựng bộ kỹ năng (Deck building) | 3 ngày | DEV-016, DEV-008 | Cao |
+| DEV-019 | Hệ thống đồng đội (AI, vị trí đứng) | 5 ngày | DEV-003 | Tối quan trọng |
+| DEV-020 | UI quản lý đồng đội | 3 ngày | DEV-019, DEV-008 | Cao |
+| DEV-021 | Hệ thống Duyên phận/Cộng hưởng (Bond/Resonance) | 2 ngày | DEV-019 | Trung bình |
+| DEV-022 | Hệ thống tiến độ ải (Stage progression) | 2 ngày | DEV-003 | Cao |
+| DEV-023 | Cơ chế đánh Boss | 3 ngày | DEV-003 | Cao |
 
-**Total:** ~28 days
+**Tổng cộng:** ~28 ngày
 
-## Phase 4: Economy & Monetization (Tháng 5)
+## Giai đoạn 4: Kinh tế & Kiếm tiền (Tháng 5)
 
-| Task ID | Task Name | Duration | Dependencies | Priority |
+| Mã Task | Tên công việc (Task Name) | Thời gian | Phụ thuộc | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| DEV-024 | Currency system (Gold, Diamond) | 2 days | DEV-002 | Critical |
-| DEV-025 | Gacha system (weighted random, pity) | 5 days | DEV-002 | Critical |
-| DEV-026 | Gacha UI và animation | 3 days | DEV-025, DEV-008 | High |
-| DEV-027 | Shop system implementation | 3 days | DEV-024 | Critical |
-| DEV-028 | IAP integration (Google Play/App Store) | 4 days | DEV-024 | Critical |
-| DEV-029 | Ads integration (rewarded video) | 3 days | DEV-024 | High |
-| DEV-030 | Quest/Achievement system | 4 days | DEV-002 | Medium |
-| DEV-031 | Analytics integration (Firebase) | 2 days | DEV-001 | Medium |
+| DEV-024 | Hệ thống tiền tệ (Vàng, Kim cương) | 2 ngày | DEV-002 | Tối quan trọng |
+| DEV-025 | Hệ thống Gacha (random có trọng số, cơ chế bảo hiểm Pity) | 5 ngày | DEV-002 | Tối quan trọng |
+| DEV-026 | UI Gacha và animation | 3 ngày | DEV-025, DEV-008 | Cao |
+| DEV-027 | Triển khai hệ thống Cửa hàng (Shop) | 3 ngày | DEV-024 | Tối quan trọng |
+| DEV-028 | Tích hợp IAP (Google Play/App Store) | 4 ngày | DEV-024 | Tối quan trọng |
+| DEV-029 | Tích hợp Quảng cáo (Ads - Rewarded video) | 3 ngày | DEV-024 | Cao |
+| DEV-030 | Hệ thống Nhiệm vụ/Thành tựu | 4 ngày | DEV-002 | Trung bình |
+| DEV-031 | Tích hợp Analytics (Firebase) | 2 ngày | DEV-001 | Trung bình |
 
-**Total:** ~26 days
+**Tổng cộng:** ~26 ngày
 
-## Phase 5: Polish & Launch Prep (Tháng 6)
+## Giai đoạn 5: Hoàn thiện & Chuẩn bị ra mắt (Tháng 6)
 
-| Task ID | Task Name | Duration | Dependencies | Priority |
+| Mã Task | Tên công việc (Task Name) | Thời gian | Phụ thuộc | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| DEV-032 | Audio integration và sound manager | 3 days | DEV-001 | High |
-| DEV-033 | Performance optimization | 5 days | All previous | Critical |
-| DEV-034 | Memory optimization | 3 days | DEV-033 | Critical |
-| DEV-035 | Bug fixing (sprint 1) | 4 days | All previous | Critical |
-| DEV-036 | Bug fixing (sprint 2) | 4 days | DEV-035 | Critical |
-| DEV-037 | Build for TestFlight/Internal Testing | 2 days | DEV-035 | Critical |
-| DEV-038 | Crash analytics setup | 1 day | DEV-031 | Medium |
-| DEV-039 | Final QA fixes | 4 days | DEV-036 | Critical |
+| DEV-032 | Tích hợp Âm thanh và Sound Manager | 3 ngày | DEV-001 | Cao |
+| DEV-033 | Tối ưu hóa hiệu năng (Performance optimization) | 5 ngày | Tất cả trước đó | Tối quan trọng |
+| DEV-034 | Tối ưu hóa bộ nhớ (Memory optimization) | 3 ngày | DEV-033 | Tối quan trọng |
+| DEV-035 | Sửa lỗi (Bug fixing) - Sprint 1 | 4 ngày | Tất cả trước đó | Tối quan trọng |
+| DEV-036 | Sửa lỗi (Bug fixing) - Sprint 2 | 4 ngày | DEV-035 | Tối quan trọng |
+| DEV-037 | Build bản TestFlight/Internal Testing | 2 ngày | DEV-035 | Tối quan trọng |
+| DEV-038 | Thiết lập Crash Analytics | 1 ngày | DEV-031 | Trung bình |
+| DEV-039 | Sửa lỗi QA cuối cùng (Final fixes) | 4 ngày | DEV-036 | Tối quan trọng |
 
-**Total:** ~26 days
+**Tổng cộng:** ~26 ngày

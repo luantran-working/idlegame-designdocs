@@ -1,39 +1,39 @@
 # Công việc Sound Designer
 
-Chi tiết breakdown công việc cho đội ngũ Sound Designer (1 người).
+Chi tiết phân chia công việc (breakdown) cho đội ngũ Sound Designer (1 người).
 
-## Phase 1-3: Foundation to Content (Tháng 2-4)
+## Giai đoạn 1-3: Nền tảng đến Nội dung (Tháng 2-4)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| SND-001 | Audio style guide | 1 document | 2 days | Critical |
-| SND-002 | Combat SFX (hit, crit, death) | 10 sounds | 3 days | Critical |
-| SND-003 | UI SFX (button, popup, upgrade) | 15 sounds | 4 days | High |
-| SND-004 | Placeholder BGM (1 loop) | 1 track | 3 days | Medium |
-| SND-005 | Environment ambient (Chapter 1-2) | 2 loops | 3 days | Medium |
+| SND-001 | Tài liệu định hướng âm thanh (Audio style guide) | 1 tài liệu | 2 ngày | Tối quan trọng |
+| SND-002 | Âm thanh chiến đấu (đánh, chí mạng, chết) | 10 sounds | 3 ngày | Tối quan trọng |
+| SND-003 | Âm thanh UI (nút bấm, popup, nâng cấp) | 15 sounds | 4 ngày | Cao |
+| SND-004 | Nhạc nền tạm thời (Placeholder BGM - 1 loop) | 1 bài | 3 ngày | Trung bình |
+| SND-005 | Âm thanh môi trường (Ambient - Chương 1-2) | 2 loops | 3 ngày | Trung bình |
 
-**Total Phase 1-3:** ~15 days (có thể làm parallel với dev)
+**Tổng Giai đoạn 1-3:** ~15 ngày (có thể làm song song với dev)
 
-## Phase 4: Economy & Monetization (Tháng 5)
+## Giai đoạn 4: Kinh tế & Kiếm tiền (Tháng 5)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| SND-006 | Gacha SFX (spin, reveal, fanfare) | 8 sounds | 4 days | Critical |
-| SND-007 | Skill SFX set 1 (10 skills) | 10 sounds | 5 days | Critical |
-| SND-008 | Skill SFX set 2 (10 skills) | 10 sounds | 5 days | Critical |
-| SND-009 | Teammate voice cues (optional, 5 char) | 25 clips | 4 days | Medium |
-| SND-010 | Boss SFX | 5 sounds | 2 days | High |
+| SND-006 | Âm thanh Gacha (quay, mở, trúng thưởng) | 8 sounds | 4 ngày | Tối quan trọng |
+| SND-007 | Âm thanh Kỹ năng bộ 1 (10 skills) | 10 sounds | 5 ngày | Tối quan trọng |
+| SND-008 | Âm thanh Kỹ năng bộ 2 (10 skills) | 10 sounds | 5 ngày | Tối quan trọng |
+| SND-009 | Giọng lồng tiếng đồng đội (Voice cues - Tùy chọn) | 25 clips | 4 ngày | Trung bình |
+| SND-010 | Âm thanh Boss (Boss SFX) | 5 sounds | 2 ngày | Cao |
 
-**Total Phase 4:** ~20 days
+**Tổng Giai đoạn 4:** ~20 ngày
 
-## Phase 5: Polish & Launch Prep (Tháng 6)
+## Giai đoạn 5: Hoàn thiện & Chuẩn bị ra mắt (Tháng 6)
 
-| Task ID | Task Name | Deliverables | Duration | Priority |
+| Mã Task | Tên công việc (Task Name) | Sản phẩm bàn giao | Thời gian | Độ ưu tiên |
 | :--- | :--- | :--- | :--- | :--- |
-| SND-011 | BGM production (3-4 tracks) | 4 tracks | 10 days | Critical |
-| SND-012 | Audio mixing và mastering | - | 4 days | Critical |
-| SND-013 | Audio implementation support | - | 3 days | High |
-| SND-014 | Audio optimization (file size) | - | 2 days | High |
-| SND-015 | Final audio bug fixes | - | 2 days | High |
+| SND-011 | Sản xuất nhạc nền BGM (3-4 bài) | 4 bài | 10 ngày | Tối quan trọng |
+| SND-012 | Mixing và Mastering âm thanh | - | 4 ngày | Tối quan trọng |
+| SND-013 | Hỗ trợ lập trình viên tích hợp (Implementation support) | - | 3 ngày | Cao |
+| SND-014 | Tối ưu hóa âm thanh (dung lượng file) | - | 2 ngày | Cao |
+| SND-015 | Sửa lỗi âm thanh cuối cùng | - | 2 ngày | Cao |
 
-**Total Phase 5:** ~21 days
+**Tổng Giai đoạn 5:** ~21 ngày

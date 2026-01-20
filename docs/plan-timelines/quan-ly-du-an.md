@@ -1,207 +1,201 @@
 # Quản lý & Vận hành dự án
 
-Thông tin về quy trình quản lý, milestones và vận hành dự án.
+Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và vận hành dự án.
 
-## 1. Milestones & Quality Gates
+## 1. Mốc quan trọng & Kiểm soát chất lượng (Milestones & Quality Gates)
 
-### Milestone 1: First Playable (28/02/2026)
-**Criteria:**
-- [ ] Combat loop working
-- [ ] Can kill enemies and progress
-- [ ] Save/Load functional
-- [ ] Main character visible
+### Mốc 1: Bản chơi thử đầu tiên - First Playable (28/02/2026)
+**Tiêu chí:**
+- [ ] Vòng lặp chiến đấu hoạt động
+- [ ] Có thể tiêu diệt quái và tiến bộ
+- [ ] Tính năng Save/Load hoạt động
+- [ ] Nhân vật chính hiển thị rõ ràng
 
-**QA Checklist:**
-- Combat feels responsive
-- No critical bugs
-- Build runs on target devices
+**Checklist QA:**
+- Chiến đấu phản hồi tốt (responsive)
+- Không có lỗi nghiêm trọng (critical bugs)
+- Build chạy được trên thiết bị mục tiêu
 
-### Milestone 2: Vertical Slice (31/03/2026)
-**Criteria:**
-- [ ] Full UI implemented
-- [ ] Stats upgrade working
-- [ ] Equipment can be equipped
-- [ ] AFK rewards functional
+### Mốc 2: Bản cắt dọc - Vertical Slice (31/03/2026)
+**Tiêu chí:**
+- [ ] UI đầy đủ được triển khai
+- [ ] Nâng cấp chỉ số hoạt động
+- [ ] Trang bị có thể mặc vào/tháo ra
+- [ ] Phần thưởng AFK hoạt động
 
-**QA Checklist:**
-- Core loop is fun
-- Progression feels rewarding
-- No game-breaking bugs
+**Checklist QA:**
+- Vòng lặp cốt lõi (Core loop) thấy vui
+- Cảm giác tiến bộ (progression) rõ ràng
+- Không có lỗi phá game (game-breaking bugs)
 
-### Milestone 3: Content Complete (30/04/2026)
-**Criteria:**
-- [ ] 20+ skills implemented
-- [ ] 5 teammates playable
-- [ ] 4 bosses functional
-- [ ] Chapter 1-2 art done
+### Mốc 3: Hoàn thiện nội dung - Content Complete (30/04/2026)
+**Tiêu chí:**
+- [ ] 20+ kỹ năng được triển khai
+- [ ] 5 đồng đội chơi được
+- [ ] 4 Boss hoạt động tốt
+- [ ] Đồ họa Chương 1-2 hoàn tất
 
-**QA Checklist:**
-- All systems integrated
-- Content variety sufficient
-- Performance acceptable
+**Checklist QA:**
+- Tất cả hệ thống đã được tích hợp
+- Nội dung đủ đa dạng
+- Hiệu năng chấp nhận được
 
-### Milestone 4: Feature Complete (31/05/2026)
-**Criteria:**
-- [ ] Gacha working
-- [ ] Shop functional
-- [ ] IAP integrated
-- [ ] Economy balanced
+### Mốc 4: Hoàn thiện tính năng - Feature Complete (31/05/2026)
+**Tiêu chí:**
+- [ ] Gacha hoạt động
+- [ ] Shop hoạt động
+- [ ] Tích hợp IAP xong
+- [ ] Kinh tế cân bằng
 
-**QA Checklist:**
-- Monetization tested
-- No IAP bugs
-- Economy feels fair
+**Checklist QA:**
+- Đã test kiếm tiền (Monetization)
+- Không có lỗi IAP
+- Kinh tế cảm thấy công bằng
 
-### Milestone 5: Launch Ready (30/06/2026)
-**Criteria:**
-- [ ] All audio implemented
-- [ ] All VFX polished
-- [ ] Performance optimized
-- [ ] Zero critical bugs
+### Mốc 5: Sẵn sàng ra mắt - Launch Ready (30/06/2026)
+**Tiêu chí:**
+- [ ] Toàn bộ âm thanh đã tích hợp
+- [ ] Toàn bộ VFX đã trau chuốt
+- [ ] Hiệu năng đã tối ưu hóa
+- [ ] Không còn lỗi nghiêm trọng (Zero critical bugs)
 
-**QA Checklist:**
-- Stable build
-- Passed certification
-- Ready for soft launch
+**Checklist QA:**
+- Build ổn định (Stable)
+- Đã qua kiểm duyệt (Certification)
+- Sẵn sàng cho Soft Launch
 
 ---
 
-## 2. Risk Management
+## 2. Quản lý rủi ro (Risk Management)
 
-### High Risk Items
+### Các hạng mục rủi ro cao
 
-| Risk | Impact | Probability | Mitigation Strategy |
+| Rủi ro (Risk) | Tác động (Impact) | Xác suất | Chiến lược giảm thiểu (Mitigation Strategy) |
 | :--- | :--- | :--- | :--- |
-| Scope creep | High | High | Strict feature freeze sau Phase 3 |
-| Art pipeline bottleneck | High | Medium | Có 2 artists, prioritize critical assets |
-| Performance issues mobile | High | Medium | Weekly performance testing từ Phase 2 |
-| IAP integration complexity | Medium | Medium | Allocate buffer time, test early |
-| Team member unavailability | High | Low | Cross-training, documentation |
+| Phình to phạm vi (Scope creep) | Cao | Cao | "Đóng băng" tính năng nghiêm ngặt sau Giai đoạn 3 |
+| Tắc nghẽn quy trình Art | Cao | Trung bình | Có 2 artists, ưu tiên các asset quan trọng |
+| Vấn đề hiệu năng Mobile | Cao | Trung bình | Test hiệu năng hàng tuần từ Giai đoạn 2 |
+| Phức tạp khi tích hợp IAP | Trung bình | Trung bình | Dành thời gian đệm (buffer), test sớm |
+| Thành viên team vắng mặt | Cao | Thấp | Đào tạo chéo (Cross-training), tài liệu hóa đầy đủ |
 
-### Mitigation Actions
+### Hành động giảm thiểu
 
-1. **Weekly Sprint Reviews:** Mỗi thứ 6, review progress và adjust timeline
-2. **Buffer Time:** Mỗi phase có ~10% buffer cho unexpected issues
-3. **Parallel Workflows:** Art và Dev làm song song khi có thể
-4. **Early Testing:** QA join từ Phase 2
-5. **Prototype First:** Test risky features sớm (Gacha, IAP)
-
----
-
-## 3. Communication & Meetings
-
-### Daily
-- **Daily Standup:** 15 phút, 9:00 AM
-  - What did you do yesterday?
-  - What will you do today?
-  - Any blockers?
-
-### Weekly
-- **Sprint Review:** Thứ 6, 10:00 AM, 1 tiếng
-  - Demo deliverables
-  - Review milestone progress
-
-- **Sprint Planning:** Thứ 2, 10:00 AM, 1 tiếng
-  - Plan tasks for the week
-  - Assign responsibilities
-
-### Bi-Weekly
-- **Playtest Session:** Thứ 4, 2:00 PM, 2 tiếng
-  - Team plays build
-  - Collect feedback
-  - Prioritize improvements
-
-### Monthly
-- **Milestone Review:** Cuối mỗi tháng, 3 tiếng
-  - Evaluate phase completion
-  - Adjust roadmap if needed
-  - Celebrate wins
+1. **Review Sprint hàng tuần:** Mỗi thứ 6, review tiến độ và điều chỉnh timeline
+2. **Thời gian đệm (Buffer Time):** Mỗi giai đoạn có ~10% buffer cho các vấn đề phát sinh
+3. **Quy trình song song:** Art và Dev làm song song khi có thể
+4. **Test sớm:** QA tham gia ngay từ Giai đoạn 2
+5. **Prototype trước:** Test các tính năng rủi ro cao sớm (Gacha, IAP)
 
 ---
 
-## 4. Tools & Infrastructure
+## 3. Giao tiếp & Họp hành (Communication & Meetings)
 
-### Development Tools
+### Hàng ngày
+- **Daily Standup:** 15 phút, 9:00 Sáng
+  - Hôm qua đã làm gì?
+  - Hôm nay sẽ làm gì?
+  - Có gặp khó khăn gì không (blockers)?
+
+### Hàng tuần
+- **Review Sprint:** Thứ 6, 10:00 Sáng, 1 tiếng
+  - Demo sản phẩm làm được
+  - Review tiến độ mốc quan trọng (milestone)
+
+- **Lập kế hoạch Sprint (Planning):** Thứ 2, 10:00 Sáng, 1 tiếng
+  - Lên kế hoạch task cho tuần
+  - Phân chia trách nhiệm
+
+### Hai tuần một lần
+- **Buổi chơi thử (Playtest Session):** Thứ 4, 2:00 Chiều, 2 tiếng
+  - Team cùng chơi bản build
+  - Thu thập phản hồi
+  - Ưu tiên các cải tiến
+
+### Hàng tháng
+- **Review Milestone:** Cuối mỗi tháng, 3 tiếng
+  - Đánh giá hoàn thành giai đoạn
+  - Điều chỉnh roadmap nếu cần
+  - Ăn mừng thành quả
+
+---
+
+## 4. Công cụ & Hạ tầng (Tools & Infrastructure)
+
+### Công cụ phát triển
 - **Engine:** Unity 2022 LTS hoặc Godot 4.2
-- **Version Control:** Git + GitHub/GitLab
-- **Project Management:** Jira, Trello, hoặc Notion
-- **Communication:** Slack/Discord
-- **Design Docs:** Google Docs, Figma
+- **Quản lý mã nguồn:** Git + GitHub/GitLab
+- **Quản lý dự án:** Jira, Trello, hoặc Notion
+- **Giao tiếp:** Slack/Discord
+- **Tài liệu thiết kế:** Google Docs, Figma
 
-### Art Tools
+### Công cụ Art
 - **2D Art:** Adobe Photoshop, Clip Studio Paint
 - **Animation:** Spine hoặc Unity Animator
-- **UI Design:** Figma
+- **Thiết kế UI:** Figma
 
-### Audio Tools
+### Công cụ Audio
 - **DAW:** FL Studio, Ableton Live
 - **SFX:** Audacity, Adobe Audition
-- **Middleware:** FMOD hoặc Wwise (optional)
+- **Middleware:** FMOD hoặc Wwise (tùy chọn)
 
-### QA Tools
-- **Bug Tracking:** Jira
-- **Test Devices:** Min 5 devices (iOS + Android)
+### Công cụ QA
+- **Theo dõi lỗi (Bug Tracking):** Jira
+- **Thiết bị Test:** Tối thiểu 5 thiết bị (iOS + Android)
 - **Analytics:** Firebase, Unity Analytics
 
 ---
 
-## 5. Success Metrics
+## 5. Chỉ số thành công (Success Metrics)
 
-### Development KPIs
+### KPIs Phát triển
 
-| Metric | Target | How to Measure |
+| Chỉ số | Mục tiêu | Cách đo lường |
 | :--- | :--- | :--- |
-| **Sprint Velocity** | 80% tasks completed | Weekly sprint review |
-| **Bug Count** | < 20 critical bugs by M4 | Bug tracker |
-| **Build Stability** | 0 crashes per 100 sessions | Analytics |
-| **Performance** | 60 FPS on mid-range devices | Profiler |
-| **Asset Delivery** | 90% on schedule | Project tracker |
+| **Tốc độ Sprint** | 80% task hoàn thành | Review sprint hàng tuần |
+| **Số lượng Bug** | < 20 lỗi nghiêm trọng ở M4 | Trình theo dõi bug |
+| **Độ ổn định Build** | 0 crash trên 100 sessions | Analytics |
+| **Hiệu năng** | 60 FPS trên thiết bị tầm trung | Profiler |
+| **Bàn giao Asset** | 90% đúng hạn | Project tracker |
 
-### Quality KPIs
+### KPIs Chất lượng
 
-| Metric | Target | How to Measure |
+| Chỉ số | Mục tiêu | Cách đo lường |
 | :--- | :--- | :--- |
-| **Code Coverage** | > 60% | Unit tests |
-| **Art Consistency** | 100% follows style guide | Art review |
-| **Audio Quality** | No clipping, balanced mix | Audio review |
-| **UX Flow** | Tutorial completion > 80% | Playtest |
+| **Độ phủ Code (Code Coverage)** | > 60% | Unit tests |
+| **Độ nhất quán Art** | 100% tuân thủ style guide | Art review |
+| **Chất lượng Audio** | Không bị vỡ (clipping), mix cân bằng | Audio review |
+| **Trải nghiệm UX** | Tỉ lệ hoàn thành Tutorial > 80% | Playtest |
 
 ---
 
-## 6. Post-Launch Plan (Preview)
+## 6. Kế hoạch sau ra mắt (Preview)
 
 Sau 30/06/2026, team sẽ chuyển sang:
 
 1. **Soft Launch** (Tháng 7): Test ở 1-2 thị trường nhỏ
-2. **Live Ops** (Tháng 8+): Events, updates, balancing
-3. **Content Updates:** New chapters, characters, skills
+2. **Vận hành - Live Ops** (Tháng 8+): Sự kiện, cập nhật, cân bằng
+3. **Cập nhật nội dung:** Chương mới, nhân vật mới, kỹ năng mới
 
-**Cadence:**
-- Weekly: Bug fixes, balancing
-- Bi-weekly: Small content drops
-- Monthly: Major content updates
+**Nhịp độ:**
+- Hàng tuần: Sửa lỗi, cân bằng
+- Hai tuần/lần: Cập nhật nội dung nhỏ
+- Hàng tháng: Cập nhật nội dung lớn
 
 ---
 
-## 7. Appendix: Task Assignment Template
+## 7. Phụ lục: Mẫu phân công Task
 
-### Weekly Task Assignment (Example)
+### Phân công Task Hàng tuần (Ví dụ)
 
-**Week của:** [Date] - [Date]
-**Sprint Theme:** [e.g., "Combat Polish"]
+**Tuần của:** [Ngày] - [Ngày]
+**Chủ đề Sprint:** [Vd: "Trau chuốt chiến đấu"]
 
-| Team Member | Tasks This Week | Estimated Hours | Status |
+| Thành viên | Task tuần này | Ước lượng giờ | Trạng thái |
 | :--- | :--- | :--- | :--- |
-| Developer A | DEV-003, DEV-004 | 32h | In Progress |
-| Developer B | DEV-005, DEV-006 | 28h | Not Started |
-| Artist A | ART-003, ART-004 | 30h | In Progress |
-| Artist B | ART-005, ART-006 | 35h | Not Started |
-| VFX Artist | VFX-002, VFX-003 | 20h | In Progress |
-| Sound Designer | SND-001, SND-002 | 24h | Not Started |
-| Game Designer | GD-001, GD-006 | 16h + playtesting | In Progress |
-
----
-
-**Document Version:** 1.0
-**Last Updated:** 20/01/2026
-**Next Review:** 01/02/2026 (Kickoff meeting)
+| Developer A | DEV-003, DEV-004 | 32h | Đang làm |
+| Developer B | DEV-005, DEV-006 | 28h | Chưa bắt đầu |
+| Artist A | ART-003, ART-004 | 30h | Đang làm |
+| Artist B | ART-005, ART-006 | 35h | Chưa bắt đầu |
+| VFX Artist | VFX-002, VFX-003 | 20h | Đang làm |
+| Sound Designer | SND-001, SND-002 | 24h | Chưa bắt đầu |
+| Game Designer | GD-001, GD-006 | 16h + playtesting | Đang làm |

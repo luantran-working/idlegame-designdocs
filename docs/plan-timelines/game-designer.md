@@ -1,40 +1,40 @@
 # Công việc Game Designer
 
-Chi tiết breakdown công việc cho đội ngũ Game Designer (1 người).
+Chi tiết phân chia công việc (breakdown) cho đội ngũ Game Designer (1 người).
 
-## Continuous Throughout All Phases
+## Công việc liên tục xuyên suốt các giai đoạn
 
-| Task ID | Task Name | Frequency | Priority |
+| Mã Task | Tên công việc (Task Name) | Tần suất | Độ ưu tiên |
 | :--- | :--- | :--- | :--- |
-| GD-001 | Documentation updates | Weekly | High |
-| GD-002 | Playtesting sessions | 2x/week | Critical |
-| GD-003 | Balancing adjustments | As needed | Critical |
-| GD-004 | Feature specification writing | Per feature | High |
-| GD-005 | Team communication meetings | Daily standup | Medium |
+| GD-001 | Cập nhật tài liệu (Documentation) | Hàng tuần | Cao |
+| GD-002 | Các buổi chơi thử (Playtesting sessions) | 2 lần/tuần | Tối quan trọng |
+| GD-003 | Điều chỉnh cân bằng game (Balancing) | Khi cần thiết | Tối quan trọng |
+| GD-004 | Viết đặc tả tính năng (Feature Spec) | Theo tính năng | Cao |
+| GD-005 | Họp giao tiếp với team | Hàng ngày (Standup) | Trung bình |
 
-## Phase-Specific Tasks
+## Công việc cụ thể theo Giai đoạn
 
-### Phase 1 (Tháng 2)
-- GD-006: Combat formula finalization (3 days)
-- GD-007: Stats progression curve design (3 days)
+### Giai đoạn 1 (Tháng 2)
+- GD-006: Chốt công thức chiến đấu (3 ngày)
+- GD-007: Thiết kế đường cong tăng trưởng chỉ số (3 ngày)
 
-### Phase 2 (Tháng 3)
-- GD-008: Equipment balancing spreadsheet (4 days)
-- GD-009: AFK reward formula tuning (2 days)
+### Giai đoạn 2 (Tháng 3)
+- GD-008: Bảng cân bằng trang bị (Spreadsheet) (4 ngày)
+- GD-009: Tinh chỉnh công thức thưởng AFK (2 ngày)
 
-### Phase 3 (Tháng 4)
-- GD-010: Skill design document (20+ skills) (6 days)
-- GD-011: Teammate stats balancing (4 days)
-- GD-012: Stage difficulty curve (3 days)
+### Giai đoạn 3 (Tháng 4)
+- GD-010: Tài liệu thiết kế Kỹ năng (20+ skills) (6 ngày)
+- GD-011: Cân bằng chỉ số Đồng đội (4 ngày)
+- GD-012: Đường cong độ khó ải (Stage difficulty curve) (3 ngày)
 
-### Phase 4 (Tháng 5)
-- GD-013: Economy model simulation (5 days)
-- GD-014: Gacha rates balancing (3 days)
-- GD-015: IAP pricing strategy (2 days)
-- GD-016: Retention metrics planning (2 days)
+### Giai đoạn 4 (Tháng 5)
+- GD-013: Mô phỏng mô hình kinh tế (Economy simulation) (5 ngày)
+- GD-014: Cân bằng tỉ lệ rớt đồ Gacha (Drop rates) (3 ngày)
+- GD-015: Chiến lược giá cho IAP (2 ngày)
+- GD-016: Lên kế hoạch chỉ số giữ chân người chơi (Retention metrics) (2 ngày)
 
-### Phase 5 (Tháng 6)
-- GD-017: Final balancing pass (5 days)
-- GD-018: Tutorial flow design (3 days)
-- GD-019: First-time user experience (FTUE) testing (4 days)
-- GD-020: Post-launch content roadmap (3 days)
+### Giai đoạn 5 (Tháng 6)
+- GD-017: Rà soát cân bằng lần cuối (5 ngày)
+- GD-018: Thiết kế luồng hướng dẫn tân thủ (Tutorial flow) (3 ngày)
+- GD-019: Kiểm thử trải nghiệm người dùng đầu tiên (FTUE testing) (4 ngày)
+- GD-020: Lộ trình nội dung sau ra mắt (Post-launch roadmap) (3 ngày)

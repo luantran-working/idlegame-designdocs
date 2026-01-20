@@ -1,4 +1,4 @@
-# Kế hoạch chi tiết
+# Kế hoạch chi tiết thực hiện
 
 Tài liệu này vạch ra lộ trình thực thi dự án game "Bảo vệ khu phố". Phát triển theo mô hình các khối chức năng (work blocks).
 

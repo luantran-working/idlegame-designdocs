@@ -1,4 +1,4 @@
-# Game Design
+# Game Design Document
 
 Đây là bộ tài liệu thiết kế game (Game Design Document - GDD) cho dự án game mobile Idle/AFK "Bảo vệ khu phố".
 
