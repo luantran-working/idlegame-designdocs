@@ -15,6 +15,13 @@
 | **Art style**          | Cartoon 2D, hài hước, bối cảnh Việt Nam |
 | **Phiên bản tài liệu** | 1.0                                     |
 | **Cập nhật lần cuối**  | 20/01/2026                              |
+| **Bản chơi thử**       | [idle-game.test.iit.vn](https://idle-game.test.iit.vn) |
+
+---
+
+## Trải nghiệm game mẫu
+
+Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ hơn về core loop và mechanic tại: **[https://idle-game.test.iit.vn](https://idle-game.test.iit.vn)**
 
 ---
 
