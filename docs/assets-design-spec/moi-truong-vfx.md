@@ -1,4 +1,4 @@
-# Đặc tả thiết kế môi trường & hiệu ứng (Environment & VFX specs)
+# Thiết kế môi trường
 
 Tài liệu này mô tả các tài nguyên nghệ thuật môi trường (Backgrounds) và hiệu ứng hình ảnh (Visual Effects - VFX) để tạo không khí và trải nghiệm thị giác cho game.
 

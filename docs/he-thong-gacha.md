@@ -1,4 +1,4 @@
-# Hệ thống gacha - Vòng quay may mắn
+# Hệ thống gacha
 
 Tài liệu này mô tả chi tiết cơ chế quay thưởng ngẫu nhiên (gacha), tính năng kiếm tiền (monetization) quan trọng nhất của game.
 

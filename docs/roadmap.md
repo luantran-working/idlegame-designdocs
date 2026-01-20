@@ -1,4 +1,4 @@
-# Kế hoạch phát triển chi tiết (Detailed development roadmap)
+# Kế hoạch chi tiết
 
 Tài liệu này vạch ra lộ trình thực thi dự án game "Bảo vệ khu phố". Phát triển theo mô hình các khối chức năng (work blocks).
 

@@ -1,4 +1,4 @@
-# Hệ thống chỉ số và tăng trưởng (Stats and progression system)
+# Hệ thống chỉ số
 
 Tài liệu này cung cấp công thức toán học, logic tăng trưởng và các giới hạn của hệ thống chỉ số nhân vật. Đây là "xương sống" để cân bằng game (balancing).
 

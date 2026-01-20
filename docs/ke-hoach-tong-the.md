@@ -1,4 +1,4 @@
-# Kịch bản và kế hoạch tổng thể game IDLE AFK mobile: "Bảo vệ khu phố"
+# Kế hoạch tổng thể
 
 Tài liệu này là bản mô tả tổng quan (Game Design Document Overview) cho dự án game mobile thể loại Idle/AFK. Đây là tài liệu nền tảng, định hướng cho toàn bộ quá trình phát triển.
 

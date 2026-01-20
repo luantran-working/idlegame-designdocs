@@ -1,4 +1,4 @@
-# Đặc tả thiết kế nhân vật (Character design specs)
+# Thiết kế nhân vật
 
 Tài liệu này cung cấp yêu cầu chi tiết cho việc thiết kế nhân vật (Character Art), bao gồm phong cách, kích thước, và danh sách animation cần thiết.
 

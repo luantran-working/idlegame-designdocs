@@ -1,4 +1,4 @@
-# Hệ thống trang bị (Equipment system)
+# Hệ thống trang bị
 
 Tài liệu này mô tả chi tiết về các loại trang bị, phẩm chất, thuộc tính và các cơ chế tương tác. Đây là một trong những hệ thống quan trọng nhất ảnh hưởng đến sức mạnh nhân vật.
 

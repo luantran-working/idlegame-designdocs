@@ -1,4 +1,4 @@
-# Chi tiết cơ chế gameplay (Gameplay mechanics)
+# Cơ chế gameplay
 
 Tài liệu này mô tả chi tiết các cơ chế vận hành cốt lõi của game, bao gồm vòng lặp game, hệ thống chiến đấu, cấu trúc màn chơi và cơ chế tính toán tài nguyên khi AFK.
 

@@ -1,4 +1,4 @@
-# Chi tiết màn hình điều khiển (Control panel details)
+# Màn hình điều khiển
 
 Tài liệu này mô tả chi tiết 5 tab chức năng nằm ở nửa dưới màn hình. Đây là nơi người chơi thực hiện các thao tác quản lý, nâng cấp và tối ưu hóa chiến thuật.
 

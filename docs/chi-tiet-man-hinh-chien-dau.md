@@ -1,4 +1,4 @@
-# Chi tiết thiết kế màn hình chiến đấu (Battle screen design)
+# Màn hình chiến đấu
 
 Tài liệu này đi sâu vào thiết kế visual, bố cục và UX của khu vực màn hình trên (top screen), nơi diễn ra 90% các hoạt động visual của game.
 

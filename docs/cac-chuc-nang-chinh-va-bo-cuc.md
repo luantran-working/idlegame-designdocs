@@ -1,4 +1,4 @@
-# Các chức năng chính và bố cục (Features and layout)
+# Chức năng chính
 
 Tài liệu này mô tả chi tiết giao diện người dùng (UI) và tính năng của từng khu vực trên màn hình điện thoại. Game được thiết kế cho màn hình dọc (portrait mode) với tỉ lệ 9:16.
 

@@ -1,4 +1,4 @@
-# Hệ thống kinh tế và tài nguyên (Economy and resources)
+# Hệ thống kinh tế và tài nguyên
 
 Tài liệu này mô tả chi tiết dòng chảy của tài nguyên trong game, bao gồm cách người chơi kiếm được và tiêu xài chúng. Một hệ thống kinh tế cân bằng là chìa khóa để giữ chân người chơi lâu dài.
 

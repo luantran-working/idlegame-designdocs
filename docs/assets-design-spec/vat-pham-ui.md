@@ -1,4 +1,4 @@
-# Đặc tả thiết kế vật phẩm & UI (Item & UI asset specs)
+# Thiết kế vật phẩm
 
 Tài liệu này liệt kê các tài nguyên hình ảnh (sprites/icons) cần thiết cho hệ thống tiền tệ, vật phẩm tiêu thụ và giao diện người dùng (GUI).
 

@@ -1,4 +1,4 @@
-# Đặc tả thiết kế trang bị (Equipment asset specs)
+# Thiết kế trang bị
 
 Tài liệu này mô tả yêu cầu hình ảnh cho hệ thống trang bị, bao gồm icon trong túi đồ và hình ảnh hiển thị trên nhân vật (nếu có).
 

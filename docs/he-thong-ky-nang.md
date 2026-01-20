@@ -1,4 +1,4 @@
-# Hệ thống kỹ năng (Skill system)
+# Hệ thống kỹ năng
 
 Tài liệu này mô tả chi tiết về hệ thống kỹ năng của nhân vật chính (player skills). Đây là yếu tố quyết định chiến thuật và tạo sự hào hứng thị giác (visual effects).
 

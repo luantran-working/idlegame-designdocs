@@ -1,4 +1,4 @@
-# Hệ thống đồng đội (Teammate system)
+# Hệ thống đồng đội
 
 Tài liệu này mô tả chi tiết về hệ thống nhân vật hỗ trợ (heroes/sidekicks), yếu tố "gacha" chính của game.
 
