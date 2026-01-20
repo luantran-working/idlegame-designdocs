@@ -75,3 +75,41 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ Developer (2-3 ng
 | DEV-039 | Sửa lỗi QA cuối cùng (Final fixes) | 4 ngày | DEV-036 | Tối quan trọng |
 
 **Tổng cộng:** ~26 ngày
+
+---
+
+## Biểu đồ Gantt (Developer)
+
+```mermaid
+gantt
+    title Developer Timeline (01/02 - 30/06)
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+
+    section Giai đoạn 1
+    Setup Project & Data    :DEV1, 2026-02-01, 5d
+    Combat Loop & Wave      :DEV2, after DEV1, 7d
+    Save/Load & Game Flow   :DEV3, after DEV2, 5d
+
+    section Giai đoạn 2
+    UI Framework & Stats    :DEV4, 2026-03-01, 7d
+    Equipment System        :DEV5, after DEV4, 9d
+    AFK & Popup System      :DEV6, after DEV5, 5d
+
+    section Giai đoạn 3
+    Skill System            :DEV7, 2026-04-01, 10d
+    Teammate System         :DEV8, after DEV7, 10d
+    Level & Boss            :DEV9, after DEV8, 5d
+
+    section Giai đoạn 4
+    In-Game Economy         :DEV10, 2026-05-01, 2d
+    Gacha & UI              :DEV11, after DEV10, 8d
+    Shop & Ads & IAP        :DEV12, after DEV11, 10d
+    Analytics & Quests      :DEV13, after DEV12, 6d
+
+    section Giai đoạn 5
+    Audio Integration       :DEV14, 2026-06-01, 3d
+    Opimization             :DEV15, after DEV14, 8d
+    Bug Fix Sprint 1 & 2    :DEV16, after DEV15, 8d
+    Test & Final Fixes      :DEV17, after DEV16, 7d
+```

@@ -37,3 +37,33 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ Sound Designer (1
 | SND-015 | Sửa lỗi âm thanh cuối cùng | - | 2 ngày | Cao |
 
 **Tổng Giai đoạn 5:** ~21 ngày
+
+---
+
+## Biểu đồ Gantt (Sound)
+
+```mermaid
+gantt
+    title Sound Design Timeline (02/01 - 06/30)
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+
+    section Giai đoạn 1-3
+    Audio Style Guide         :SND1, 2026-02-01, 2d
+    Combat Sounds             :SND2, after SND1, 3d
+    UI Sounds                 :SND3, after SND2, 4d
+    Placeholder BGM & Ambient :SND4, after SND3, 6d
+
+    section Giai đoạn 4
+    Gacha SFX                 :SND5, 2026-05-01, 4d
+    Skill Set 1 SFX           :SND6, after SND5, 5d
+    Skill Set 2 SFX           :SND7, after SND6, 5d
+    Voice Cues                :SND8, after SND7, 4d
+    Boss SFX                  :SND9, after SND8, 2d
+
+    section Giai đoạn 5
+    BGM Production            :SND10, 2026-06-01, 10d
+    Mixing & Mastering        :SND11, after SND10, 4d
+    Implementation Support    :SND12, after SND11, 3d
+    Optimization & Fixes      :SND13, after SND12, 4d
+```

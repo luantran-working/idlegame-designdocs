@@ -50,3 +50,37 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ VFX Artist (1 ng�
 | VFX-021 | Rà soát và sửa lỗi VFX cuối cùng | - | 3 ngày | Cao |
 
 **Tổng Giai đoạn 5:** ~16 ngày
+
+---
+
+## Biểu đồ Gantt (VFX)
+
+```mermaid
+gantt
+    title VFX Timeline (02/01 - 06/30)
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+
+    section Giai đoạn 1-2
+    Style Guide               :VFX1, 2026-02-01, 2d
+    Combat Hit/Death FX       :VFX2, after VFX1, 5d
+    Coin & Level Up           :VFX3, after VFX2, 4d
+
+    section Giai đoạn 3
+    Skill Set 1               :VFX4, 2026-04-01, 8d
+    Skill Set 2               :VFX5, after VFX4, 8d
+    Teammate & Boss Skill     :VFX6, after VFX5, 8d
+    Upgrade & Merge           :VFX7, after VFX6, 3d
+
+    section Giai đoạn 4
+    Gacha Sequence            :VFX8, 2026-05-01, 4d
+    Rarity Reveal             :VFX9, after VFX8, 5d
+    UI & Confetti             :VFX10, after VFX9, 4d
+    Transitions               :VFX11, after VFX10, 3d
+
+    section Giai đoạn 5
+    Optimization              :VFX12, 2026-06-01, 4d
+    Polish Pass               :VFX13, after VFX12, 5d
+    Screen Shake & Pooling    :VFX14, after VFX13, 4d
+    Final Review              :VFX15, after VFX14, 3d
+```

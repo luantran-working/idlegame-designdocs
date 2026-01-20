@@ -66,7 +66,32 @@ Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và 
 
 ---
 
-## 2. Quản lý rủi ro (Risk Management)
+## 2. Biểu đồ Mốc quan trọng (Milestone Timeline)
+
+```mermaid
+gantt
+    title Project Milestones (01/02 - 30/06)
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+
+    section Milestones
+    M1 First Playable       :crit, milestone, 2026-02-28, 0d
+    M2 Vertical Slice       :crit, milestone, 2026-03-31, 0d
+    M3 Content Complete     :crit, milestone, 2026-04-30, 0d
+    M4 Feature Complete     :crit, milestone, 2026-05-31, 0d
+    M5 Launch Ready         :crit, milestone, 2026-06-30, 0d
+
+    section QA Review
+    QA Sprint 1 (Foundation):active, 2026-02-20, 8d
+    QA Sprint 2 (Core Sys)  :active, 2026-03-20, 11d
+    QA Sprint 3 (Content)   :active, 2026-04-20, 10d
+    QA Sprint 4 (Monetization):active, 2026-05-20, 11d
+    QA Final Certification   :active, 2026-06-15, 15d
+```
+
+---
+
+## 3. Quản lý rủi ro (Risk Management)
 
 ### Các hạng mục rủi ro cao
 
@@ -88,7 +113,7 @@ Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và 
 
 ---
 
-## 3. Giao tiếp & Họp hành (Communication & Meetings)
+## 4. Giao tiếp & Họp hành (Communication & Meetings)
 
 ### Hàng ngày
 - **Daily Standup:** 15 phút, 9:00 Sáng
@@ -119,7 +144,7 @@ Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và 
 
 ---
 
-## 4. Công cụ & Hạ tầng (Tools & Infrastructure)
+## 5. Công cụ & Hạ tầng (Tools & Infrastructure)
 
 ### Công cụ phát triển
 - **Engine:** Unity 2022 LTS hoặc Godot 4.2
@@ -145,7 +170,7 @@ Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và 
 
 ---
 
-## 5. Chỉ số thành công (Success Metrics)
+## 6. Chỉ số thành công (Success Metrics)
 
 ### KPIs Phát triển
 
@@ -168,7 +193,7 @@ Thông tin về quy trình quản lý, các mốc quan trọng (milestones) và 
 
 ---
 
-## 6. Kế hoạch sau ra mắt (Preview)
+## 7. Kế hoạch sau ra mắt (Preview)
 
 Sau 30/06/2026, team sẽ chuyển sang:
 
@@ -183,7 +208,7 @@ Sau 30/06/2026, team sẽ chuyển sang:
 
 ---
 
-## 7. Phụ lục: Mẫu phân công Task
+## 8. Phụ lục: Mẫu phân công Task
 
 ### Phân công Task Hàng tuần (Ví dụ)
 

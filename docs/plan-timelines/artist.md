@@ -74,3 +74,43 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ 2D Artist (2 ngư
 | ART-038 | Cập nhật tài liệu Art | 1 tài liệu | 1 ngày | Thấp |
 
 **Tổng cộng:** ~20 ngày
+
+---
+
+## Biểu đồ Gantt (Artist)
+
+```mermaid
+gantt
+    title Artist Timeline (01/02 - 30/06)
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+
+    section Giai đoạn 1
+    Style Guide & Concept   :ART1, 2026-02-01, 5d
+    Main Char Sprites       :ART2, after ART1, 5d
+    Enemy Concept & Sprites :ART3, after ART2, 9d
+    Setup UI Mockup         :ART4, after ART3, 4d
+
+    section Giai đoạn 2
+    Equipment Icons & UI    :ART5, 2026-03-01, 12d
+    Currency & Buttons      :ART6, after ART5, 4d
+    BG Chapter 1            :ART7, after ART6, 4d
+
+    section Giai đoạn 3
+    Teammate Concepts       :ART8, 2026-04-01, 5d
+    Teammate Sprites        :ART9, after ART8, 12d
+    Boss Concept & Sprites  :ART10, after ART9, 8d
+    Skill Icons & BG 2      :ART11, after ART10, 5d
+
+    section Giai đoạn 4
+    Gacha Assets            :ART12, 2026-05-01, 6d
+    Shop & IAP UI           :ART13, after ART12, 4d
+    Promo & App Icon        :ART14, after ART13, 6d
+    BG Chapter 3-4          :ART15, after ART14, 6d
+
+    section Giai đoạn 5
+    UI & Character Polish   :ART16, 2026-06-01, 8d
+    Loading & Tutorial      :ART17, after ART16, 4d
+    Marketing & Store Assets:ART18, after ART17, 5d
+    Export & Docs           :ART19, after ART18, 3d
+```
