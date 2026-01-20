@@ -26,6 +26,20 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Kế hoạch & Timeline',
+      collapsed: false,
+      items: [
+        'plan-timelines/tong-quan',
+        'plan-timelines/developer',
+        'plan-timelines/artist',
+        'plan-timelines/vfx',
+        'plan-timelines/sound',
+        'plan-timelines/game-designer',
+        'plan-timelines/quan-ly-du-an',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Gameplay & Cơ chế',
       collapsed: false,
       items: [
