@@ -64,12 +64,16 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 
 ### Tài liệu thiết kế assets
 
-| Tài liệu                                                             | Nội dung chính                                        |
-| :------------------------------------------------------------------- | :---------------------------------------------------- |
-| [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)                | Concept nhân vật, animation, thông số kích thước      |
-| [Thiết kế trang bị](./assets-design-spec/trang-bi.md)                | Hình ảnh vũ khí/giáp, khung phẩm chất, icon           |
-| [Thiết kế vật phẩm và UI](./assets-design-spec/vat-pham-ui.md)       | Icon tiền tệ, thành phần UI, style nút bấm            |
-| [Thiết kế môi trường và VFX](./assets-design-spec/moi-truong-vfx.md) | Background theo chương, hiệu ứng kỹ năng, hiệu ứng UI |
+| Tài liệu                                                              | Nội dung chính                                   |
+| :-------------------------------------------------------------------- | :----------------------------------------------- |
+| [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)                 | Concept nhân vật, animation, thông số kích thước |
+| [Thiết kế kỹ năng chính](./assets-design-spec/ky-nang.md)             | VFX/SFX cho kỹ năng nhân vật chính               |
+| [Thiết kế kỹ năng đồng đội](./assets-design-spec/ky-nang-dong-doi.md) | VFX/SFX cho kỹ năng của 30 nhân vật đồng đội     |
+| [Thiết kế trang bị](./assets-design-spec/trang-bi.md)                 | Hình ảnh vũ khí/giáp, khung phẩm chất, icon      |
+| [Thiết kế môi trường](./assets-design-spec/moi-truong.md)             | Background theo chương, hệ thống Parallax        |
+| [Thiết kế VFX chiến đấu](./assets-design-spec/vfx-chien-dau.md)       | Hiệu ứng sát thương, tình trạng nhân vật         |
+| [Thiết kế VFX hệ thống](./assets-design-spec/vfx-ui-he-thong.md)      | Hiệu ứng Gacha, nâng cấp, luồng tiền tệ          |
+| [Thiết kế âm thanh](./assets-design-spec/am-thanh.md)                 | BGM, Ambient, UI SFX và Voice Cues               |
 
 ---
 
