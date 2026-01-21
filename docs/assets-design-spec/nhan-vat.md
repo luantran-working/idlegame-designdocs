@@ -1,4 +1,4 @@
-# Thiết kế nhân vật (Character Design & Audio)
+# Thiết kế nhân vật
 
 Tài liệu quy định chi tiết về visual art (ngoại hình, animation) và audio (voice, SFX) cho toàn bộ nhân vật trong game.
 
