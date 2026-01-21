@@ -1,160 +1,97 @@
 # Thiết kế nhân vật (Character Design & Audio)
 
-Tài liệu quy định chi tiết về Visual Art (Ngoại hình, Animation) và Audio (Voice, SFX) cho toàn bộ nhân vật trong game.
+Tài liệu quy định chi tiết về visual art (ngoại hình, animation) và audio (voice, SFX) cho toàn bộ nhân vật trong game.
 
 ---
 
-## 1. Quy chuẩn chung (General Specs)
+## 1. Quy chuẩn chung (General specs)
 
-### 1.1. Art Style
+### 1.1. Art style
 
 - **Phong cách:** Cartoon 2D, tỷ lệ cơ thể 1:2.5 (đầu to thân nhỏ, cute nhưng bựa).
 - **Line:** Nét viền đậm, màu nâu đen (#2E2E2E).
-- **Màu sắc:** Tươi sáng (High saturation), đổ bóng Cel-shading đơn giản.
-- **Góc nhìn:** 3/4 Side-view.
+- **Màu sắc:** Tươi sáng (high saturation), đổ bóng cel-shading đơn giản.
+- **Góc nhìn:** 3/4 side-view.
 
 ### 1.2. Kỹ thuật (Technical)
 
-- **Kích thước Sprite:**
+- **Kích thước sprite:**
   - Ingame: ~150px chiều cao.
   - Source: 512x512px.
-- **Animation FPS:** 30fps (xuất ra sprite sheet có thể giảm xuống 12-15fps cho style giật giật nếu muốn).
+- **Animation FPS:** 30fps.
 - **Các trạng thái:** Idle, Move, Attack, Skill, Hit, Die, Win.
 
 ---
 
 ## 2. Nhân vật chính (Player)
 
-- **Tên:** Thanh niên nghiêm túc (Mặc định).
-- **Ngoại hình:** Nam thanh niên 20 tuổi, mặc quần đùi hoa, áo ba lỗ trắng cháo lòng, đi dép tổ ong.
-- **Vũ khí:** Thay đổi theo trang bị (Gậy, Gạch, Dép...).
-- **Tính cách:** Ngáo ngơ nhưng hay tỏ ra nguy hiểm.
-- **Audio:**
-  - _Attack:_ "Hây a!", "Đỡ này".
-  - _Hit:_ "Á đù!", "Đau!".
-  - _Die:_ "Thôi xong...", "Làm lại cuộc đời".
+| Tên                       | Visual concept                                                                               | Animation                                                            | Audio specs                                                                              | Hình ảnh mô phỏng   |
+| :------------------------ | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :------------------ |
+| **Thanh niên nghiêm túc** | Nam thanh niên 20 tuổi, mặc quần đùi hoa, áo ba lỗ trắng cháo lòng, đi dép tổ ong. Mặt ngáo. | Dáng đi lả lướt, tay vung vẩy. Đánh bằng cách ném dép hoặc quật gậy. | **Atk:** "Hây a!", "Đỡ này" <br/> **Hit:** "Á đù!", "Đau!" <br/> **Die:** "Thôi xong..." | <img width="200" /> |
 
 ---
 
-## 3. Thiết kế Đồng đội - Nhóm Huyền Thoại (Legendary)
+## 3. Danh sách đồng đội (Teammates)
 
-Nhóm nhân vật "trùm cuối", thiết kế cầu kỳ, nhiều hiệu ứng.
+### 3.1. Nhóm huyền thoại (Legendary)
 
-### 3.1. Đại Ca Khu Phố (Warrior)
+| Tên nhân vật       | Visual concept                                                                                                               | Animation                                                                    | Audio specs                                                                       | Hình ảnh mô phỏng   |
+| :----------------- | :--------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :------------------ |
+| **Đại ca khu phố** | Đàn ông 40 tuổi, to béo, bụng phệ, cởi trần khoe hình xăm "Nhẫn", đeo dây chuyền vàng, kính râm đen. Cầm phóng lợn.          | Dáng đi khệnh khạng ưỡn ngực. Skill: Giơ tay gọi đệ chạy ra từ 2 bên.        | **Call:** "Anh em đâu!", "Xử nó!" <br/> **Skill:** Tiếng huýt sáo chói tai.       | <img width="200" /> |
+| **Vua cờ bạc**     | Nam, mặc vest trắng nhàu nát, tóc vuốt keo bóng lộn, mắt thâm quầng. Tay cầm bộ bài xòe ra.                                  | Phi lá bài như ninja. Skill: Tung bộ bài lên trời rơi xuống như mưa.         | **Atk:** Tiếng bài bay "Vút vút" <br/> **Skill:** "Tất tay nhé!", "Khô máu luôn!" | <img width="200" /> |
+| **Bà trùm đề**     | Phụ nữ trung niên sang trọng, đeo đầy vàng ngọc, cầm quyển sổ to và bút bi thiên long. Ngồi trên ghế sofa nhung đỏ biết bay. | Viết vào sổ, chữ số bay ra tấn công. Skill: Sấm sét đánh xuống khi chốt số.  | **Skill:** "Hôm nay về con gì?", "Ghi nợ nhé!" <br/> **SFX:** Tiếng sấm sét.      | <img width="200" /> |
+| **Tiến sĩ giấy**   | Ông già gầy gò, áo cử nhân thùng thình, mũ tốt nghiệp, kính cận dày. Ôm chồng sách cao quá đầu.                              | Đi loạng choạng sắp ngã. Skill: Vấp ngã làm rơi sách tỏa sáng buff đồng đội. | **Skill:** "Học, học nữa, học mãi!" <br/> **Die:** "Rớt môn rồi..."               | <img width="200" /> |
 
-- **Visual:**
-  - Đàn ông 40 tuổi, to béo, bụng phệ, cởi trần khoe hình xăm "Nhẫn" trước ngực và rồng phượng sau lưng.
-  - Đeo dây chuyền vàng to như xích xe tăng, kính râm đen.
-  - Vũ khí: Cầm một cây phóng lợn (mã tấu) dài.
-- **Animation:** Dáng đi khệnh khạng, ưỡn ngực. Skill gọi đệ tử từ 2 bên màn hình chạy ra.
-- **Audio:**
-  - _Summon:_ "Anh em đâu!", "Xử nó cho tao!".
-  - _Skill:_ Tiếng huýt sáo chói tai.
+### 3.2. Nhóm tinh anh (Epic)
 
-### 3.2. Vua Cờ Bạc (Ranger)
+| Tên nhân vật            | Visual concept                                                                                    | Animation                                                                         | Audio specs                                                      | Hình ảnh mô phỏng   |
+| :---------------------- | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------- | :------------------ |
+| **Tổ trưởng dân phố**   | Ông già nghiêm túc, đeo băng đỏ "Tổ trưởng" tay trái, cầm loa phường mini. Áo sơ mi trắng sơ vin. | Hét vào loa tạo sóng âm đẩy lùi địch.                                             | **Skill:** "Đề nghị giữ trật tự!", "Alo 1 2 3 4"                 | <img width="200" /> |
+| **Thợ cắt tóc**         | Thanh niên tóc nhuộm màu mè, mặc áo gile đen, cầm kéo và lược, hông đeo bao da đựng đồ nghề.      | Múa kéo xoay vòng vòng. Skill: Lao tới cắt liên tục tạo vệt sáng.                 | **Atk:** Tiếng kéo "Cắt cắt" <br/> **Skill:** "Tóc này mốt lắm!" | <img width="200" /> |
+| **Bà chủ trọ**          | Phụ nữ béo mặc đồ bộ hoa, cuốn lô trên đầu, tay cầm quyển sổ nợ. Mặt dữ dằn.                      | Chỉ tay mắng chửi (tấn công từ xa bằng chữ). Skill: Hút máu địch bay về túi mình. | **Skill:** "Tháng này chưa đóng tiền!", "Dọn đi ngay!"           | <img width="200" /> |
+| **Youtuber ẩm thực**    | Béo tròn, áo thun in hình đồ ăn. Tay cầm đùi gà rán to đùng (vừa là vũ khí vừa là đồ ăn).         | Đánh bằng đùi gà. Skill: Ngồi bệt xuống ăn nhồm nhoàm hồi máu.                    | **Skill:** "Rộp rộp", "Mời các bạn ăn cùng mình"                 | <img width="200" /> |
+| **Rapper xóm**          | Mặc hoodie rộng, quần tụt, mũ snapback đội ngược, đeo dây chuyền $. Cầm micro.                    | Vừa đi vừa nhún nhảy. Skill: Bắn rap tạo ra chữ bay vào mặt địch.                 | **Skill:** "Yo yo check it out", "Khu phố này là của tao"        | <img width="200" /> |
+| **Hot girl livestream** | Nữ trẻ đẹp, váy ngắn, tai mèo RGB. Trước mặt luôn có điện thoại kẹp trên ring light di động.      | Vừa đánh vừa tạo dáng chụp ảnh. Skill: Bắn tim bay tung toé.                      | **Skill:** "Mọi người thả tim đi!", "Cảm ơn anh giai donate"     | <img width="200" /> |
+| **Thầy giáo thể dục**   | Mặc đồ thể thao, đeo còi, cơ bắp cuồn cuộn. Tay cầm bảng chấm điểm.                               | Chạy tại chỗ constant. Skill: Hít đất liên tục tạo chấn động.                     | **Skill:** "Một hai một hai!", "Cố lên các em!"                  | <img width="200" /> |
 
-- **Visual:**
-  - Nam, mặc Vest trắng nhưng nhàu nát, tóc vuốt keo bóng lộn.
-  - Tay luôn cầm bộ bài xòe ra.
-  - Mắt thâm quầng như gấu trúc (thức đêm đánh bài).
-- **Animation:** Tấn công bằng cách phi lá bài (giống Gambit). Skill tung cả bộ bài lên trời rơi xuống như mưa.
-- **Audio:**
-  - _Attack:_ Tiếng bài bay "Vút vút".
-  - _Skill:_ "Tất tay nhé!", "Khô máu luôn!".
+### 3.3. Nhóm chuyên nghiệp (Rare)
 
-### 3.3. Bà Trùm Đề (Mage)
+| Tên nhân vật         | Visual concept                                                                               | Animation                                                    | Audio specs                                                            | Hình ảnh mô phỏng   |
+| :------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------ |
+| **Chú Ba xe ôm**     | Đội mũ cối, mặc áo sờn vai, đi dép lào. Ngồi trên xe Dream (kể cả khi không di chuyển).      | Lao xe húc vào địch. Idle: Lấy khăn lau xe.                  | **Atk:** Tiếng pô xe "Bạch bạch" <br/> **Idle:** "Đi đâu em ơi?"       | <img width="200" /> |
+| **Cô Tư bán nước**   | Mặc đồ bộ hoa, ngồi ghế nhựa đỏ, cầm quạt nan phe phẩy. Bàn nước di động bên cạnh.           | Ném cốc trà đá. Skill: Rót trà mời cả team uống.             | **Skill:** "Uống gì con ơi?", "Trà đá miễn phí"                        | <img width="200" /> |
+| **Anh Bảy thợ điện** | Mặc áo cam bảo hộ, đeo đai đồ nghề lỉnh kỉnh, cầm kìm và tuốc nơ vít.                        | Phóng tia điện từ kìm. Skill: Giơ kìm lên trời gọi sét.      | **Atk:** Tiếng điện "Zẹt zẹt" <br/> **Skill:** "Tránh ra anh làm việc" | <img width="200" /> |
+| **Chị Mười bán cá**  | Mặc tạp dề cao su, đi ủng, cầm dao phay to bản. Người dính vảy cá lấp lánh.                  | Chém dao phay. Skill: Quất nguyên con cá đông lạnh vào địch. | **Atk:** "Cá tươi đây!" <br/> **Skill:** "Chém cho bây giờ!"           | <img width="200" /> |
+| **Ninja Lead**       | Kín mít từ đầu đến chân, áo chống nắng hoa, kính râm, khẩu trang. Đi xe Lead vàng gương zin. | Tạt đầu xe (dash). Skill: Bật đèn pha làm chói mắt địch.     | **Skill:** "Xi nhan trái rẽ phải", "Đường của chị"                     | <img width="200" /> |
+| **Thầy bói mù**      | Đeo kính đen tròn, mặc áo dài khăn đóng cũ, cầm gậy dò đường và mai rùa.                     | Gõ gậy xuống đất tạo phép. Skill: Tung đồng xu gieo quẻ.     | **Skill:** "Gia chủ năm nay xui", "Quẻ này đẹp"                        | <img width="200" /> |
+| **Anh shipper**      | Mặc đồng phục cam/xanh, đeo thùng hàng to hình vuông sau lưng.                               | Ném gói hàng. Skill: Mở thùng hàng thả ra bưu kiện nổ.       | **Atk:** "Hàng tới rồi" <br/> **Skill:** "Alo xuống nhận em ơi"        | <img width="200" /> |
+| **Chị đại gym**      | Mặc đồ tập bó sát, tóc buộc đuôi ngựa, tay cầm tạ đơn màu hồng.                              | Đấm bốc hoặc ném tạ. Skill: Squat tạo sóng xung kích.        | **Voice:** "No pain no gain!", "Lên cơ nào!"                           | <img width="200" /> |
 
-- **Visual:**
-  - Phụ nữ trung niên sang trọng (quý bà), đeo đầy vàng ngọc.
-  - Tay cầm quyển "Sổ ghi đề" dày cộp và cái bút bi thiên long.
-  - Ngồi trên ghế sofa nhung đỏ (kể cả khi di chuyển - sofa biết bay hoặc trượt).
-- **Animation:** Viết vào sổ -> Chữ bay ra tấn công địch.
-- **Audio:**
-  - _Skill:_ "Hôm nay về con gì?", "Ghi nợ nhé!".
-  - _SFX:_ Tiếng sấm sét khi chốt số.
+### 3.4. Nhóm tập sự (Uncommon)
 
-### 3.4. Tiến Sĩ Giấy (Support)
+| Tên nhân vật       | Visual concept                                                       | Animation                      | Audio specs                        | Hình ảnh mô phỏng   |
+| :----------------- | :------------------------------------------------------------------- | :----------------------------- | :--------------------------------- | :------------------ |
+| **Chị tạp vụ**     | Quấn khăn trùm đầu, xách xô nước và cầm cây lau nhà.                 | Lau sàn đẩy địch lùi lại.      | **Voice:** "Dơ quá đi mất"         | <img width="200" /> |
+| **Anh Grab Food**  | Mặc áo xanh lá cây, đội mũ bảo hiểm 3/4. Cầm túi đồ ăn.              | Ném túi đồ ăn.                 | **Voice:** "Đơn hàng tới rồi"      | <img width="200" /> |
+| **Thằng Tèo net**  | Gầy còm, mắt cận lồi, đầu bù tóc rối. Cầm bàn phím hỏng.             | Đập bàn phím vào địch (Melee). | **Voice:** "Lag quá!", "Đập phím"  | <img width="200" /> |
+| **Cô hàng xóm**    | Đứng núp sau một đoạn tường gạch (mang theo tường di động). Chỉ tay. | Chỉ trỏ ném đá giấu tay.       | **SFX:** Tiếng xì xầm bàn tán.     | <img width="200" /> |
+| **Ông chú câu cá** | Đội mũ tai bèo, mặc đồ rằn ri, cầm cần câu tre.                      | Quăng cần câu móc địch.        | **Voice:** "Suỵt! Cá đang cắn"     | <img width="200" /> |
+| **Bà bán xôi**     | Đội thúng xôi trên đầu, tay cầm gói xôi lá chuối.                    | Ném gói xôi cho đồng đội ăn.   | **Voice:** "Xôi lạc bánh khúc đây" | <img width="200" /> |
 
-- **Visual:**
-  - Ông già gầy gò, mặc áo cử nhân thùng thình, đội mũ tốt nghiệp.
-  - Kính cận dày cộp, tay ôm chồng sách cao quá đầu.
-- **Animation:** Vấp ngã làm rơi sách -> Sách tỏa sáng buff cho đồng đội.
-- **Audio:**
-  - _Skill:_ "Học, học nữa, học mãi!", "Kiến thức là sức mạnh".
+### 3.5. Nhóm bình dân (Common)
 
----
-
-## 4. Thiết kế Đồng đội - Nhóm Tinh Anh (Epic)
-
-### 4.1. Tổ Trưởng Dân Phố (Support)
-
-- **Visual:** Ông già nghiêm túc, đeo băng đỏ "Tổ Trưởng" ở tay trái, tay phải cầm loa phường mini. Mặc áo sơ mi trắng đóng thùng.
-- **Audio:** "Đề nghị bà con giữ trật tự!", "Alo alo 1 2 3 4".
-
-### 4.2. Hot Girl Livestream (Support)
-
-- **Visual:** Nữ trẻ đẹp, trang điểm đậm, mặc váy ngắn, tai đeo headphone mèo có đèn RGB. Trước mặt luôn có cái điện thoại đang kẹp trên ring light di động.
-- **Audio:** "Mọi người thả tim cho em đi!", "Cảm ơn anh giai đã donate nha!".
-
-### 4.3. Rapper Xóm (Mage)
-
-- **Visual:** Mặc áo Hoodie rộng, quần tụt, mũ Snapback đội ngược, đeo dây chuyền Dollar $.
-- **Audio:** Bắn rap xàm xí "Yo yo check it out", "Khu phố này là của tao".
-
-### 4.4. Youtuber Ẩm Thực (Tanker)
-
-- **Visual:** Béo tròn, mặc áo thun có hình đồ ăn. Tay cầm đùi gà rán to đùng (vừa là vũ khí vừa là đồ ăn).
-- **Audio:** Tiếng nhai nhồm nhoàm "Rộp rộp", "Mời các bạn ăn cùng mình nhé".
+| Tên nhân vật        | Visual concept                                        | Animation                        | Audio specs                             | Hình ảnh mô phỏng   |
+| :------------------ | :---------------------------------------------------- | :------------------------------- | :-------------------------------------- | :------------------ |
+| **Bé Tí bắn bi**    | Trẻ con, đeo khăn quàng đỏ, quần đùi xanh, cầm bi ve. | Búng bi (tay làm động tác búng). | **SFX:** Tiếng bi "Cạch cạch"           | <img width="200" /> |
+| **Chú Tư xe thồ**   | Đi xe đạp thồ cũ kỹ, thồ bao tải to phía sau.         | Húc xe đạp chậm chạp.            | **SFX:** "Kính coong"                   | <img width="200" /> |
+| **Cô Bảy quét rác** | Mặc áo bảo hộ lao động phản quang, cầm chổi tre dài.  | Quét chổi tạo bụi mù.            | **SFX:** Tiếng chổi "Soạt soạt"         | <img width="200" /> |
+| **Cậu Vàng**        | Chó cỏ màu vàng, đeo xích cổ, đuôi vẫy tít mù.        | Cắn và sủa.                      | **SFX:** "Gâu gâu!", "Ẳng ẳng"          | <img width="200" /> |
+| **Bác bảo vệ**      | Mặc đồng phục bảo vệ xanh dương, cầm dùi cui cao su.  | Vung dùi cui.                    | **Voice:** "Đứng lại!", còi "Tuýt tuýt" | <img width="200" /> |
 
 ---
 
-## 5. Thiết kế Đồng đội - Nhóm Chuyên Nghiệp (Rare)
+## 4. Yêu cầu bàn giao (Deliverables)
 
-(Các nhân vật đã có concept từ trước, bổ sung Audio)
-
-| Nhân vật             | Đặc điểm Visual chính                      | Audio Concept (Voice lines)                        |
-| :------------------- | :----------------------------------------- | :------------------------------------------------- |
-| **Chú Ba xe ôm**     | Mũ cối, xe Dream, áo sờn vai               | "Đi đâu đấy em?", "Có tiền lẻ không?"              |
-| **Cô Tư bán nước**   | Đồ bộ hoa, ghế nhựa, quạt nan              | "Uống gì con ơi?", "Trà đá miễn phí đây"           |
-| **Anh Bảy thợ điện** | Áo cam, đai đồ nghề, kìm                   | "Cẩn thận điện giật!", "Tránh ra cho anh làm việc" |
-| **Chị Mười bán cá**  | Tạp dề cao su, ủng, dao phay               | "Cá tươi đây!", "Chém cho bây giờ!"                |
-| **Ninja Lead**       | Kín mít, áo chống nắng, xe Lead            | "Xi nhan trái rẽ phải nhé", "Đường này của chị"    |
-| **Thầy Bói mù**      | Kính đen tròn, gậy dò đường, áo dài        | "Gia chủ năm nay xui lắm", "Quẻ này đẹp"           |
-| **Anh Shipper**      | Áo cam/xanh đồng phục, thùng hàng sau lưng | "Alo xuống nhận hàng em ơi", "Đang kẹt xe quá"     |
-| **Chị Đại Gym**      | Đồ tập gym bó sát, tạ tay                  | "No pain no gain!", "Lên cơ nào!"                  |
-
----
-
-## 6. Thiết kế Đồng đội - Nhóm Phổ thông (Common/Uncommon)
-
-Thiết kế đơn giản, ít chi tiết, dùng làm nền cho khu phố đông đúc.
-
-| Tên                 | Class   | Visual Concept                                          | Audio/SFX                          |
-| :------------------ | :------ | :------------------------------------------------------ | :--------------------------------- |
-| **Bé Tí bắn bi**    | Ranger  | Cậu bé đeo khăn quàng đỏ, quần đùi xanh, tay cầm bi ve. | Tiếng bi va vào nhau "Cạch cạch"   |
-| **Chú Tư xe thồ**   | Tanker  | Xe đạp thồ chất đầy bao tải lúa/ngô.                    | Tiếng chuông xe đạp "Kính coong"   |
-| **Cô Bảy quét rác** | Support | Áo công nhân vệ sinh phản quang, cầm chổi tre dài.      | Tiếng chổi "Ssoạt soạt"            |
-| **Cậu Vàng**        | Warrior | Chó cỏ vàng, đeo xích cổ, đuôi vẫy tít mù.              | "Gâu gâu!", "Ẳng ẳng"              |
-| **Bác Bảo vệ**      | Tanker  | Đồng phục bảo vệ xanh dương, dùi cui cao su.            | "Đứng lại!", Tiếng còi "Tuýt tuýt" |
-| **Chị Tạp vụ**      | Warrior | Khăn trùm đầu, xô nước và cây lau nhà.                  | "Dơ quá đi mất"                    |
-| **Anh Grab Food**   | Ranger  | Áo xanh lá cây, mũ bảo hiểm 3/4.                        | "Đơn hàng tới rồi"                 |
-| **Thằng Tèo net**   | Mage    | Mắt cận lòi, đầu bù tóc rối, tay cầm bàn phím hỏng.     | "Lag quá!", "Đập bàn phím"         |
-| **Cô Hàng xóm**     | Support | Đứng lấp ló sau tường, tay chỉ trỏ.                     | Tiếng xì xầm bàn tán               |
-| **Ông Chú câu cá**  | Ranger  | Mũ tai bèo, bộ đồ rằn ri, cần câu tre.                  | "Suỵt! Cá đang cắn câu"            |
-| **Bà Bán xôi**      | Support | Đội thúng xôi trên đầu, lá chuối gói xôi.               | Tiếng rao "Xôi lạc bánh khúc đây"  |
-
----
-
-## 7. Yêu cầu định dạng File Asset
-
-### 7.1. Image
-
-- **Naming:** `Char_[Rarity]_[Name]_[State].png`
-  - Ví dụ: `Char_Legend_VuaCoBac_Attack.png`
-- **Folder Structure:** Chia folder theo Rarity `Assets/Characters/Legendary/...`
-
-### 7.2. Audio
-
-- **Format:** .WAV (gốc) và .OGG (ingame).
-- **Naming:** `VO_[Name]_[Action].ogg`
-  - Ví dụ: `VO_NinjaLead_Skill.ogg`
+- **Định dạng:** Spine 2D (.json, .atlas, .png) hoặc Sprite Sheet (.png).
+- **Cấu trúc thư mục:** `Assets/Characters/[Rarity]/[Name]/`.
+- **Tên file:** Viết liền không dấu, ví dụ `DaiCaKhuPho_Idle.png`.
