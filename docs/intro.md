@@ -52,14 +52,15 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 
 ### Tài liệu hệ thống
 
-| Tài liệu                                                              | Nội dung chính                                            |
-| :-------------------------------------------------------------------- | :-------------------------------------------------------- |
-| [Hệ thống trang bị](./he-thong-trang-bi.md)                           | Loại trang bị, phẩm chất, cơ chế nâng cấp, ghép đồ        |
-| [Hệ thống kỹ năng](./he-thong-ky-nang.md)                             | Phân loại kỹ năng, danh sách mẫu, xây dựng bộ kỹ năng     |
-| [Hệ thống đồng đội](./he-thong-dong-doi.md)                           | Vai trò nhân vật, danh sách đồng đội, hệ thống duyên phận |
-| [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md) | Tiền tệ, dòng chảy kinh tế, chiến lược monetization       |
-| [Hệ thống gacha](./he-thong-gacha.md)                                 | Các loại banner, tỉ lệ rơi, cơ chế bảo hiểm               |
-| [Hệ thống nhiệm vụ và thành tựu](./he-thong-nhiem-vu.md)              | Nhiệm vụ ngày/tuần, thành tựu, phần thưởng                |
+| Tài liệu                                                                  | Nội dung chính                                            |
+| :------------------------------------------------------------------------ | :-------------------------------------------------------- |
+| [Hệ thống trang bị](./he-thong-trang-bi.md)                               | Loại trang bị, phẩm chất, cơ chế nâng cấp, ghép đồ        |
+| [Hệ thống kỹ năng](./he-thong-ky-nang.md)                                 | Phân loại kỹ năng, danh sách mẫu, xây dựng bộ kỹ năng     |
+| [Hệ thống đồng đội](./he-thong-dong-doi.md)                               | Vai trò nhân vật, danh sách đồng đội, hệ thống duyên phận |
+| [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md)     | Tiền tệ, dòng chảy kinh tế, chiến lược monetization       |
+| [Hệ thống gacha](./he-thong-gacha.md)                                     | Các loại banner, tỉ lệ rơi, cơ chế bảo hiểm               |
+| [Hệ thống nhiệm vụ và thành tựu](./he-thong-nhiem-vu.md)                  | Nhiệm vụ ngày/tuần, thành tựu, phần thưởng                |
+| [Hệ thống công thức toán học](./he-thong-cong-thuc-toan-hoc/tong-quan.md) | Tổng hợp các công thức damage, scaling, gacha (chi tiết)  |
 
 ### Tài liệu thiết kế assets
 

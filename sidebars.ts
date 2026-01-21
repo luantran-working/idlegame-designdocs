@@ -59,6 +59,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Công thức toán học",
+      items: [
+        "he-thong-cong-thuc-toan-hoc/tong-quan",
+        "he-thong-cong-thuc-toan-hoc/chien-dau",
+        "he-thong-cong-thuc-toan-hoc/tang-truong",
+        "he-thong-cong-thuc-toan-hoc/kinh-te",
+        "he-thong-cong-thuc-toan-hoc/gacha-xac-suat",
+      ],
+    },
+    {
+      type: "category",
       label: "Thiết kế assets",
       items: [
         {
