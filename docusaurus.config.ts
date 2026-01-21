@@ -11,6 +11,8 @@ const config: Config = {
   tagline: "Game IDLE",
   favicon: "img/favicon.ico",
 
+  plugins: ["docusaurus-plugin-image-zoom"],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -154,6 +156,18 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} by Công ty cổ phần IIT`,
+    },
+    zoom: {
+      selector: ".markdown :not(em) > img",
+      background: {
+        light: "rgb(255, 255, 255)",
+        dark: "rgb(50, 50, 50)",
+      },
+      config: {
+        // options you can pass to medium-zoom, see https://github.com/francoischalifour/medium-zoom#options
+        margin: 24,
+        scrollOffset: 0,
+      },
     },
     prism: {
       theme: prismThemes.github,

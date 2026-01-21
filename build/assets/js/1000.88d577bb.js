@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[1e3],{1e3(e,a,s){s.d(a,{createRadarServices:()=>d.f});var d=s(7846);s(7960)}}]);

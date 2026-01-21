@@ -64,3 +64,18 @@ h6 {
   --ifm-color-primary-lightest: #80eaff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Tinh chỉnh hình ảnh trong bảng */
+table img {
+  max-width: 200px !important;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+table img:hover {
+  transform: scale(1.05);
+}
