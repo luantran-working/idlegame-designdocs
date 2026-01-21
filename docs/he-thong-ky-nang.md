@@ -1,227 +1,103 @@
-# Hệ thống kỹ năng
+# Hệ thống kỹ năng (Skills)
 
-Tài liệu này mô tả chi tiết về hệ thống kỹ năng của nhân vật chính (player skills). Đây là yếu tố quyết định chiến thuật và tạo sự hào hứng thị giác (visual effects).
-
----
-
-## 1. Tổng quan hệ thống
-
-### 1.1. Thông tin cơ bản
-
-| Thuộc tính            | Mô tả                                                                                         |
-| :-------------------- | :-------------------------------------------------------------------------------------------- |
-| **Loại kỹ năng**      | Active (chủ động, tự kích hoạt theo cooldown) và Passive (bị động, tăng chỉ số ngầm)          |
-| **Số lượng trang bị** | 3 slots (mở khóa slot 4 ở level 50)                                                           |
-| **Cơ chế kích hoạt**  | Game Idle nên "chủ động" nghĩa là nhân vật tự dùng khi hết cooldown, không cần người chơi bấm |
-
-### 1.2. Cơ chế thi triển
-
-| Quy tắc            | Mô tả                                          |
-| :----------------- | :--------------------------------------------- |
-| **Thứ tự ưu tiên** | Skill 1 > Skill 2 > Skill 3 > Skill 4          |
-| **Điều kiện**      | Skill chỉ cast khi hết cooldown và có mục tiêu |
-| **Fallback**       | Nếu tất cả đang hồi chiêu thì đánh thường      |
+Tài liệu này mô tả chi tiết về hệ thống kỹ năng trong game, được chia thành hai phân loại chính: Kỹ năng nhân vật chính và Kỹ năng đồng đội.
 
 ---
 
-## 2. Phân loại kỹ năng
+## 1. Phân loại kỹ năng
 
-Để đa dạng hóa chiến thuật, kỹ năng được chia thành 4 nhóm màu sắc riêng biệt.
+Hệ thống kỹ năng chia làm 2 loại riêng biệt:
 
-### 2.1. Nhóm tấn công (Attack - Đỏ)
-
-| Thuộc tính      | Mô tả                                                 |
-| :-------------- | :---------------------------------------------------- |
-| **Mục tiêu**    | Gây sát thương lớn, dọn quái nhanh                    |
-| **Đặc điểm**    | Sát thương diện rộng (AOE) hoặc đơn mục tiêu cực mạnh |
-| **Icon border** | Đỏ #F44336                                            |
-
-### 2.2. Nhóm phòng thủ/khống chế (Control - Xanh dương)
-
-| Thuộc tính      | Mô tả                                   |
-| :-------------- | :-------------------------------------- |
-| **Mục tiêu**    | Giảm sát thương nhận vào hoặc chặn quái |
-| **Đặc điểm**    | Tạo khiên, đẩy lùi, choáng, làm chậm    |
-| **Icon border** | Xanh dương #2196F3                      |
-
-### 2.3. Nhóm hỗ trợ (Support - Xanh lá)
-
-| Thuộc tính      | Mô tả                                               |
-| :-------------- | :-------------------------------------------------- |
-| **Mục tiêu**    | Duy trì sự sống cho đội hình                        |
-| **Đặc điểm**    | Hồi máu tức thì, hồi máu theo thời gian, xóa debuff |
-| **Icon border** | Xanh lá #4CAF50                                     |
-
-### 2.4. Nhóm tăng cường (Buff - Vàng)
-
-| Thuộc tính      | Mô tả                                              |
-| :-------------- | :------------------------------------------------- |
-| **Mục tiêu**    | Tối ưu hóa sát thương trong thời gian ngắn (burst) |
-| **Đặc điểm**    | Tăng tốc đánh, tăng chí mạng, tăng công kích       |
-| **Icon border** | Vàng #FFC107                                       |
+1.  **Kỹ năng nhân vật chính (Player Skills):** Bộ 20 kỹ năng có thể thu thập, nâng cấp và lựa chọn để trang bị vào 6 ô kỹ năng (Skill slots).
+2.  **Kỹ năng đồng đội (Teammate Skills):** Mỗi đồng đội sở hữu bộ kỹ năng cố định (1 Chủ động + 1 Bị động) không thể thay đổi, tự động kích hoạt theo AI.
 
 ---
 
-## 3. Danh sách kỹ năng mẫu
+## 2. Kỹ năng nhân vật chính (Player Skills)
 
-Tên kỹ năng đậm chất "đường phố" và hài hước.
+Người chơi có thể thu thập tối đa 20 kỹ năng nhưng chỉ được mang **6 kỹ năng** vào trận chiến. Việc lựa chọn kỹ năng (Deck building) là yếu tố chiến thuật cốt lõi.
 
-### 3.1. Kỹ năng tấn công
+### 2.1. Cơ chế
 
-| Tên                     | Loại   | Hiệu ứng                                                  | Visual                                |
-| :---------------------- | :----- | :-------------------------------------------------------- | :------------------------------------ |
-| **Dép lào thần chưởng** | AOE    | Ném ra chiếc dép khổng lồ gây sát thương lan và choáng 1s | Dép bay vòng cung, rơi xuống nổ "bộp" |
-| **Cơn mưa gạch ống**    | AOE    | Triệu hồi mưa gạch từ trên trời rơi xuống ngẫu nhiên      | Gạch rơi vỡ tung tóe, particle dust   |
-| **Tổ ong ngàn lỗ**      | Single | Phóng liên tục kim tiêm/ong vào mục tiêu                  | Đạn bay như mưa (rapid fire effect)   |
+- **Slots:** Mở khóa theo cấp độ (Lv 1, 5, 10, 20, 30, 40).
+- **Cooldown:** Mỗi kỹ năng có thời gian hồi chiêu riêng.
+- **Auto-cast:** Tự động sử dụng từ trái sang phải khi hồi chiêu xong (trong chế độ Auto).
 
-### 3.2. Kỹ năng khống chế
+### 2.2. Danh sách 20 kỹ năng
 
-| Tên                    | Loại   | Hiệu ứng                                             | Visual                            |
-| :--------------------- | :----- | :--------------------------------------------------- | :-------------------------------- |
-| **Tiếng rao ve chai**  | AOE    | Hét lên làm quái sợ hãi chạy lùi (fear) và giảm giáp | Sóng âm lan tỏa từ miệng nhân vật |
-| **Dây thừng bắt trộm** | Single | Trói chặt mục tiêu, choáng 3s                        | Dây bay ra quấn quanh địch        |
+Được chia thành 3 nhóm để dễ lựa chọn: Tấn công, Khống chế, Hỗ trợ.
 
-### 3.3. Kỹ năng hỗ trợ
+#### A. Nhóm Tấn công (Damage Dealer) - 10 Skills
 
-| Tên                    | Loại      | Hiệu ứng                             | Visual                          |
-| :--------------------- | :-------- | :----------------------------------- | :------------------------------ |
-| **Trà đá vỉa hè**      | Self/Team | Hồi ngay 20% máu tối đa, giải debuff | Ly trà đá bay lên, tim xanh bay |
-| **Thuốc nam bà ngoại** | HoT       | Hồi 5% HP mỗi giây trong 5 giây      | Aura xanh lá bao quanh          |
+| #   | Tên kỹ năng             | Cooldown | Mô tả logic (Level 1)                                                | Scaling  |
+| :-- | :---------------------- | :------- | :------------------------------------------------------------------- | :------- |
+| 1   | **Ném gạch**            | 2s       | Ném viên gạch vào mục tiêu đơn lẻ, gây 150% ATK.                     | +10% Dmg |
+| 2   | **Quạt chả**            | 8s       | Quạt ra 3 luồng gió gây 120% ATK diện rộng hình nón.                 | +8% Dmg  |
+| 3   | **Dép lào thần chưởng** | 12s      | Ném dép boomerang gây 200% ATK, quay lại gây thêm 100% nếu trúng.    | +15% Dmg |
+| 4   | **Chém gió**            | 15s      | Tạo lốc xoáy gây 50% ATK/0.5s trong 3s tại vùng chỉ định.            | +5% Dmg  |
+| 5   | **Phun mưa**            | 20s      | Phun nước gây 250% ATK diện rộng.                                    | +20% Dmg |
+| 6   | **Mưa thiên thạch**     | 40s      | Triệu hồi 5 cục đá rơi xuống ngẫu nhiên, mỗi cục gây 300% ATK.       | +30% Dmg |
+| 7   | **Đấm trâu**            | 5s       | Đấm mạnh 1 mục tiêu gây 250% ATK và đẩy lùi.                         | +15% Dmg |
+| 8   | **Xả súng nước**        | 10s      | Bắn liên thanh 5 phát, mỗi phát 60% ATK.                             | +5% Dmg  |
+| 9   | **Bom hẹn giờ**         | 15s      | Gắn bom lên đầu địch, sau 3s nổ gây 400% ATK lan ra xung quanh.      | +25% Dmg |
+| 10  | **Tia laser**           | 25s      | Bắn tia laser xuyên thấu mọi kẻ địch trên đường thẳng, gây 350% ATK. | +20% Dmg |
 
-### 3.4. Kỹ năng tăng cường
+#### B. Nhóm Khống chế & Suy yếu (CC & Debuff) - 5 Skills
 
-| Tên                    | Loại | Hiệu ứng                  | Visual                                |
-| :--------------------- | :--- | :------------------------ | :------------------------------------ |
-| **Múa quạt vinahouse** | Self | +50% tốc độ đánh trong 5s | Hai tay quay vòng tròn, nhạc xập xình |
-| **Uống tăng lực**      | Self | +30% ATK trong 10s        | Lon nước đỏ xuất hiện, nhân vật uống  |
+| #   | Tên kỹ năng        | Cooldown | Mô tả logic (Level 1)                                                   | Scaling    |
+| :-- | :----------------- | :------- | :---------------------------------------------------------------------- | :--------- |
+| 11  | **Tiếng thét**     | 18s      | Giảm 20% ATK của toàn bộ địch trong 5s.                                 | +1% Effect |
+| 12  | **Đặt bẫy chuột**  | 10s      | Đặt bẫy, địch dẫm phải bị Trói chân (Root) 2s và chịu 100% ATK.         | +10% Dmg   |
+| 13  | **Mắt lé**         | 25s      | Làm kẻ địch Choáng (Stun) trong 1.5s (đơn mục tiêu).                    | -0.1s CD   |
+| 14  | **Ném mắm tôm**    | 20s      | Ném lọ mắm tôm gây hiệu ứng Độc (Poison), mất 50% ATK/s trong 5s.       | +5% Dmg    |
+| 15  | **Keo dính chuột** | 15s      | Tạo vùng keo dính làm Chậm (Slow) 50% tốc độ di chuyển của địch đi qua. | +2% Slow   |
 
----
+#### C. Nhóm Hỗ trợ & Sinh tồn (Buff & Survival) - 5 Skills
 
-## 4. Cơ chế nâng cấp
-
-Hệ thống "Thẻ bài và mảnh ghép" (card and fragment system).
-
-### 4.1. Mở khóa và lên cấp
-
-| Hành động             | Yêu cầu              | Kết quả                    |
-| :-------------------- | :------------------- | :------------------------- |
-| **Mở khóa (Level 1)** | 10 mảnh kỹ năng      | Có thể trang bị và sử dụng |
-| **Lv 1 -> Lv 2**      | 10 mảnh + 100 vàng   | Tăng 10% damage/effect     |
-| **Lv 2 -> Lv 3**      | 20 mảnh + 500 vàng   | Tăng 10% damage/effect     |
-| **Lv 3 -> Lv 4**      | 30 mảnh + 1,500 vàng | Tăng 10% damage/effect     |
-| **Max level**         | Level 10             | Cần đột phá để tiếp tục    |
-
-### 4.2. Đột phá (Rank up)
-
-| Hành động     | Yêu cầu                         | Kết quả                                |
-| :------------ | :------------------------------ | :------------------------------------- |
-| **Đột phá 1** | Max level + 1 sách kỹ năng xanh | Mở khóa max level 20, +1 effect        |
-| **Đột phá 2** | Max level + 1 sách kỹ năng tím  | Mở khóa max level 30, +1 effect        |
-| **Đột phá 3** | Max level + 1 sách kỹ năng cam  | Mở khóa max level 40, biến đổi kỹ năng |
-
-### 4.3. Hiệu ứng khi đột phá
-
-Ví dụ với kỹ năng "Dép lào thần chưởng":
-
-| Rank          | Hiệu ứng thêm                                      |
-| :------------ | :------------------------------------------------- |
-| Rank 0 (Base) | 1 chiếc dép, choáng 1s                             |
-| Rank 1        | 2 chiếc dép, choáng 1s                             |
-| Rank 2        | 2 chiếc dép, choáng 2s                             |
-| Rank 3        | 3 chiếc dép bay vòng vòng, choáng 2s, giảm 20% DEF |
+| #   | Tên kỹ năng            | Cooldown | Mô tả logic (Level 1)                                                               | Scaling     |
+| :-- | :--------------------- | :------- | :---------------------------------------------------------------------------------- | :---------- |
+| 16  | **Uống nước tăng lực** | 30s      | Tăng 30% Tốc đánh và 20% Tốc chạy trong 8s.                                         | +1% Effect  |
+| 17  | **Băng bó**            | 45s      | Hồi 20% HP tối đa trong 4s.                                                         | +2% Heal    |
+| 18  | **Gồng mình**          | 40s      | Tạo khiên chặn sát thương bằng 300% ATK trong 5s.                                   | +20% Shield |
+| 19  | **Nổi giận**           | 60s      | Tăng 50% ATK, giảm 30% Giáp trong 10s (All-in).                                     | +2% ATK     |
+| 20  | **Trốn tìm**           | 35s      | Tàng hình trong 3s (địch không thể target), đòn đánh đầu tiên sau đó x2 sát thương. | +0.2s Time  |
 
 ---
 
-## 5. Deck building (Xây dựng bộ kỹ năng)
+## 3. Kỹ năng đồng đội (Teammate Skills)
 
-Người chơi cần thay đổi bộ kỹ năng tùy theo hoàn cảnh.
+Mỗi đồng đội trong 30 nhân vật sở hữu bộ kỹ năng cố định.
 
-### 5.1. Bộ đi map (Farm quái thường)
+### 3.1. Cấu trúc
 
-| Ưu tiên         | Lý do                    | Ví dụ build                   |
-| :-------------- | :----------------------- | :---------------------------- |
-| AOE             | Diệt nhiều quái cùng lúc | Dép lào + Mưa gạch + Múa quạt |
-| Hồi chiêu nhanh | Liên tục cast            | -                             |
-| Buff tốc độ     | Tăng DPS tổng            | -                             |
+- **Kỹ năng Chủ động (Active):**
+  - Tự động kích hoạt khi thanh năng lượng (Energy) của đồng đội đầy.
+  - Có hiệu ứng mạnh (Sát thương lớn, hồi máu team, hoặc CC diện rộng).
+- **Kỹ năng Bị động (Passive):**
+  - Luôn kích hoạt hoặc kích hoạt theo điều kiện.
+  - Thường là hào quang (Aura) tăng stat cho team hoặc nội tại bản thân.
 
-### 5.2. Bộ săn boss (Single target)
+### 3.2. Chi tiết
 
-| Ưu tiên           | Lý do              | Ví dụ build                |
-| :---------------- | :----------------- | :------------------------- |
-| Single target DPS | Boss máu nhiều     | Tổ ong + Múa quạt + Trà đá |
-| Buff dame         | Burst trong window | -                          |
-| Hồi máu           | Boss đánh đau      | -                          |
+_(Xem chi tiết danh sách kỹ năng của từng đồng đội trong tài liệu **Hệ thống đồng đội**)_.
 
 ---
 
-## 6. Logic xử lý trong code
+## 4. Hệ thống hiệu ứng (Status Effects)
 
-Sơ đồ logic cho lập trình viên.
+### 4.1. Gây hại (Debuff)
 
-```mermaid
-flowchart TD
-    Start["BẮT ĐẦU TRẬN"] --> Init["Khởi tạo Skill CD = 0"]
+- **Stun (Choáng):** Đứng im hoàn toàn.
+- **Root (Trói):** Không di chuyển được, vẫn đánh được.
+- **Silence (Câm lặng):** Không dùng được skill.
+- **Slow (Làm chậm):** Giảm Speed/ASPD.
+- **Poison/Burn/Bleed:** Trừ máu theo thời gian (DoT).
+- **Armor Break (Phá giáp):** Giảm % phòng thủ.
 
-    Init --> Loop["COMBAT LOOP"]
+### 4.2. Có lợi (Buff)
 
-    Loop --> Check{"Skill nào sẵn sàng?"}
-
-    Check -->|"Skill 1 - Ưu tiên cao"| Cast1["Thi triển Skill 1"]
-    Check -->|"Skill 2"| Cast2["Thi triển Skill 2"]
-    Check -->|"Skill 3"| Cast3["Thi triển Skill 3"]
-    Check -->|"Không có"| Auto["Đánh thường"]
-
-    Cast1 --> Reset1["Đặt lại CD Skill 1"]
-    Cast2 --> Reset2["Đặt lại CD Skill 2"]
-    Cast3 --> Reset3["Đặt lại CD Skill 3"]
-
-    Reset1 --> Wait["Chờ Global CD"]
-    Reset2 --> Wait
-    Reset3 --> Wait
-    Auto --> Wait
-
-    Wait --> Loop
-
-    style Start fill:#ffab91,stroke:#d84315
-    style Check fill:#fff9c4,stroke:#fbc02d
-```
-
----
-
-## 7. Hướng dẫn cho đội phát triển
-
-### 7.1. Cho lập trình viên
-
-- Implement skill system với interface/abstract class để dễ extend
-- Cooldown tick ở fixed timestep (không phụ thuộc FPS)
-- Skill targeting: có thể override per-skill (AOE không cần target)
-- Animation cancel: cho phép skill mới interrupt animation cũ nếu cần
-
-### 7.2. Cho họa sĩ
-
-**Asset per skill:**
-
-| Asset          | Kích thước       | Số lượng                |
-| :------------- | :--------------- | :---------------------- |
-| Icon           | 128x128 px       | 1                       |
-| Projectile     | 64x64 px         | 1-3 frames nếu animated |
-| Impact VFX     | 256x256 px       | 4-8 frames              |
-| Cast animation | Character sprite | 4-6 frames thêm         |
-
-**Màu sắc theo loại:**
-
-| Loại    | Primary color | Secondary color |
-| :------ | :------------ | :-------------- |
-| Attack  | #F44336       | #FFCDD2         |
-| Control | #2196F3       | #BBDEFB         |
-| Support | #4CAF50       | #C8E6C9         |
-| Buff    | #FFC107       | #FFF9C4         |
-
-### 7.3. Cho sound designer
-
-| Kỹ năng  | Âm thanh cast            | Âm thanh impact   |
-| :------- | :----------------------- | :---------------- |
-| Dép lào  | "Vút" (tiếng dép bay)    | "Bộp" + tiếng đau |
-| Mưa gạch | Tiếng rít từ trên cao    | "Rầm rầm" gạch vỡ |
-| Trà đá   | Tiếng rót nước           | "Slurp" uống xong |
-| Múa quạt | Beat nhạc vinahouse ngắn | -                 |
+- **Haste:** Tăng tốc đánh.
+- **Shield:** Lớp giáp ảo.
+- **Immortal:** Bất tử tạm thời.
+- **Lifesteal:** Hồi máu khi đánh.
+- **Invisible:** Tàng hình, untargetable.

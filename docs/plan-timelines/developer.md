@@ -39,17 +39,17 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ Developer (2-3 ng
 
 ## Giai đoạn 3: Nội dung & Chiều sâu (Tháng 4)
 
-| Mã Task | Tên công việc (Task Name)                         | Thời gian | Phụ thuộc        | Độ ưu tiên     |
-| :------ | :------------------------------------------------ | :-------- | :--------------- | :------------- |
-| DEV-016 | Khung hệ thống kỹ năng (Skill framework)          | 4 ngày    | DEV-003          | Tối quan trọng |
-| DEV-017 | Triển khai kỹ năng Player (10+ kỹ năng)           | 4 ngày    | DEV-016          | Tối quan trọng |
-| DEV-018 | **Hệ thống đồng đội** (AI 5 class, slot logic)    | 5 ngày    | DEV-003          | Tối quan trọng |
-| DEV-019 | **Triển khai 30 kỹ năng đồng đội** (Unique logic) | 12 ngày   | DEV-016, DEV-018 | Tối quan trọng |
-| DEV-020 | UI xây dựng đội hình & quản lý đồng đội           | 4 ngày    | DEV-018, DEV-008 | Cao            |
-| DEV-021 | Hệ thống Duyên phận (Bond logic)                  | 3 ngày    | DEV-018          | Trung bình     |
-| DEV-022 | Hệ thống tiến độ ải (Stage progression) & Boss    | 4 ngày    | DEV-003          | Cao            |
+| Mã Task | Tên công việc (Task Name)                      | Thời gian | Phụ thuộc        | Độ ưu tiên     |
+| :------ | :--------------------------------------------- | :-------- | :--------------- | :------------- |
+| DEV-016 | Khung hệ thống kỹ năng (Skill framework)       | 4 ngày    | DEV-003          | Tối quan trọng |
+| DEV-017 | **Triển khai kỹ năng Player** (20 kỹ năng)     | 6 ngày    | DEV-016          | Tối quan trọng |
+| DEV-018 | **Hệ thống đồng đội** (AI 5 class, slot logic) | 5 ngày    | DEV-003          | Tối quan trọng |
+| DEV-019 | **Kỹ năng đồng đội** (30 Active + 30 Passive)  | 18 ngày   | DEV-016, DEV-018 | Tối quan trọng |
+| DEV-020 | UI xây dựng đội hình & quản lý đồng đội        | 4 ngày    | DEV-018, DEV-008 | Cao            |
+| DEV-021 | Hệ thống Duyên phận (Bond logic)               | 3 ngày    | DEV-018          | Trung bình     |
+| DEV-022 | Hệ thống tiến độ ải (Stage progression) & Boss | 4 ngày    | DEV-003          | Cao            |
 
-**Tổng cộng:** ~36 ngày công (cần 2 dev làm song song)
+**Tổng cộng:** ~44 ngày công (Bắt buộc 2 dev làm song song để đảm bảo timeline tháng 4)
 
 ---
 
@@ -105,7 +105,8 @@ gantt
     section Giai đoạn 3
     Skill Framework         :DEV5, 2026-04-01, 4d
     Teammate AI & Boss      :DEV6, after DEV5, 8d
-    Impl 30 Skills & Bonds  :DEV7, after DEV6, 12d
+    Impl 20 Player Skills   :DEV7, after DEV6, 6d
+    Impl 60 Team Skills     :DEV7b, after DEV7, 18d
 
     section Giai đoạn 4
     Economy & Gacha Logic   :DEV8, 2026-05-01, 7d
