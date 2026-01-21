@@ -6,15 +6,15 @@
 
 ## Thông tin dự án
 
-| Hạng mục               | Mô tả                                   |
-| :--------------------- | :-------------------------------------- |
-| **Tên game**           | Bảo vệ khu phố                          |
-| **Thể loại**           | Idle/AFK RPG                            |
-| **Nền tảng**           | Mobile (Android, iOS)                   |
-| **Định dạng**          | Portrait (màn hình dọc), tỉ lệ 9:16     |
-| **Art style**          | Cartoon 2D, hài hước, bối cảnh Việt Nam |
-| **Phiên bản tài liệu** | 1.0                                     |
-| **Cập nhật lần cuối**  | 20/01/2026                              |
+| Hạng mục               | Mô tả                                                  |
+| :--------------------- | :----------------------------------------------------- |
+| **Tên game**           | Bảo vệ khu phố                                         |
+| **Thể loại**           | Idle/AFK RPG                                           |
+| **Nền tảng**           | Mobile (Android, iOS)                                  |
+| **Định dạng**          | Portrait (màn hình dọc), tỉ lệ 9:16                    |
+| **Art style**          | Cartoon 2D, hài hước, bối cảnh Việt Nam                |
+| **Phiên bản tài liệu** | 1.0                                                    |
+| **Cập nhật lần cuối**  | 20/01/2026                                             |
 | **Bản chơi thử**       | [idle-game.test.iit.vn](https://idle-game.test.iit.vn) |
 
 ---
@@ -29,44 +29,46 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 
 ### Tài liệu tổng quan
 
-| Tài liệu                                         | Nội dung chính                                              |
-| :----------------------------------------------- | :---------------------------------------------------------- |
-| [Kế hoạch tổng thể](./ke-hoach-tong-the.md)      | Tổng quan dự án, storyline, core mechanics, layout overview |
-| [Kế hoạch phát triển (Roadmap)](./roadmap.md)    | Roadmap, task breakdown, gantt chart, QA checklist          |
+| Tài liệu                                    | Nội dung chính                                                |
+| :------------------------------------------ | :------------------------------------------------------------ |
+| [Kế hoạch tổng thể](./ke-hoach-tong-the.md) | Tổng quan dự án, cốt truyện, cơ chế cốt lõi, bố cục tổng quan |
+| [Kế hoạch phát triển](./roadmap.md)         | Lộ trình, phân chia công việc, biểu đồ Gantt, checklist QA    |
 
-### Tài liệu thiết kế giao diện (UI/UX)
+### Tài liệu thiết kế giao diện
 
-| Tài liệu                                                | Nội dung chính                                     |
-| :------------------------------------------------------ | :------------------------------------------------- |
-| [Các chức năng chính và bố cục](./cac-chuc-nang-chinh-va-bo-cuc.md) | Tổng quan layout, 5 tab chức năng, navigation flow |
-| [Chi tiết màn hình chiến đấu](./chi-tiet-man-hinh-chien-dau.md)        | Battle screen design, HUD, VFX, art style          |
-| [Chi tiết màn hình điều khiển](./chi-tiet-man-hinh-dieu-khien.md)                  | 5 tabs chi tiết, popup, interaction design         |
+| Tài liệu                                                            | Nội dung chính                                      |
+| :------------------------------------------------------------------ | :-------------------------------------------------- |
+| [Các chức năng chính và bố cục](./cac-chuc-nang-chinh-va-bo-cuc.md) | Tổng quan layout, 5 tab chức năng, luồng điều hướng |
+| [Chi tiết màn hình chiến đấu](./chi-tiet-man-hinh-chien-dau.md)     | Thiết kế visual chiến đấu, HUD, VFX, art style      |
+| [Chi tiết màn hình điều khiển](./chi-tiet-man-hinh-dieu-khien.md)   | 5 tabs chi tiết, popup, thiết kế tương tác          |
 
 ### Tài liệu gameplay
 
-| Tài liệu                                                         | Nội dung chính                                           |
-| :--------------------------------------------------------------- | :------------------------------------------------------- |
-| [Chi tiết cơ chế gameplay](./chi-tiet-co-che-gameplay.md)                                                         | Core loop, combat system, stage structure, AFK mechanics |
-| [Hệ thống chỉ số và tăng trưởng](./he-thong-chi-so-va-tang-truong.md) | Stats classification, formulas, balancing                |
+| Tài liệu                                                              | Nội dung chính                                                      |
+| :-------------------------------------------------------------------- | :------------------------------------------------------------------ |
+| [Chi tiết cơ chế gameplay](./chi-tiet-co-che-gameplay.md)             | Vòng lặp cốt lõi, hệ thống chiến đấu, cấu trúc màn chơi, cơ chế AFK |
+| [Hướng dẫn người chơi mới](./huong-dan-nguoi-choi-moi.md)             | Luồng tutorial, FTUE, quà tân thủ, hệ thống nhắc nhở                |
+| [Hệ thống chỉ số và tăng trưởng](./he-thong-chi-so-va-tang-truong.md) | Phân loại chỉ số, công thức, cân bằng game                          |
 
 ### Tài liệu hệ thống
 
-| Tài liệu                                                                         | Nội dung chính                                    |
-| :------------------------------------------------------------------------------- | :------------------------------------------------ |
-| [Hệ thống trang bị](./he-thong-trang-bi.md)     | Equipment types, rarity, upgrade mechanics, merge |
-| [Hệ thống kỹ năng](./he-thong-ky-nang.md)           | Skill categories, skill list, deck building       |
-| [Hệ thống đồng đội](./he-thong-dong-doi.md)      | Character classes, roster, bond system            |
-| [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md) | Currencies, economy flow, monetization            |
-| [Hệ thống gacha](./he-thong-gacha.md)                  | Banners, drop rates, pity system                  |
+| Tài liệu                                                              | Nội dung chính                                            |
+| :-------------------------------------------------------------------- | :-------------------------------------------------------- |
+| [Hệ thống trang bị](./he-thong-trang-bi.md)                           | Loại trang bị, phẩm chất, cơ chế nâng cấp, ghép đồ        |
+| [Hệ thống kỹ năng](./he-thong-ky-nang.md)                             | Phân loại kỹ năng, danh sách mẫu, xây dựng bộ kỹ năng     |
+| [Hệ thống đồng đội](./he-thong-dong-doi.md)                           | Vai trò nhân vật, danh sách đồng đội, hệ thống duyên phận |
+| [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md) | Tiền tệ, dòng chảy kinh tế, chiến lược monetization       |
+| [Hệ thống gacha](./he-thong-gacha.md)                                 | Các loại banner, tỉ lệ rơi, cơ chế bảo hiểm               |
+| [Hệ thống nhiệm vụ và thành tựu](./he-thong-nhiem-vu.md)              | Nhiệm vụ ngày/tuần, thành tựu, phần thưởng                |
 
-### Tài liệu thiết kế Assets (Art Specifications)
+### Tài liệu thiết kế assets
 
-| Tài liệu                                                                    | Nội dung chính                                     |
-| :-------------------------------------------------------------------------- | :------------------------------------------------- |
-| [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)               | Character concepts, animations, size specs         |
-| [Thiết kế trang bị](./assets-design-spec/trang-bi.md)               | Weapon/Armor visuals, rarity borders, icons        |
-| [Thiết kế vật phẩm & UI](./assets-design-spec/vat-pham-ui.md)       | Currency icons, UI elements, button styles         |
-| [Thiết kế môi trường & VFX](./assets-design-spec/moi-truong-vfx.md) | Backgrounds per chapter, skill effects, UI effects |
+| Tài liệu                                                             | Nội dung chính                                        |
+| :------------------------------------------------------------------- | :---------------------------------------------------- |
+| [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)                | Concept nhân vật, animation, thông số kích thước      |
+| [Thiết kế trang bị](./assets-design-spec/trang-bi.md)                | Hình ảnh vũ khí/giáp, khung phẩm chất, icon           |
+| [Thiết kế vật phẩm và UI](./assets-design-spec/vat-pham-ui.md)       | Icon tiền tệ, thành phần UI, style nút bấm            |
+| [Thiết kế môi trường và VFX](./assets-design-spec/moi-truong-vfx.md) | Background theo chương, hiệu ứng kỹ năng, hiệu ứng UI |
 
 ---
 
