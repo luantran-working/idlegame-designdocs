@@ -33,58 +33,60 @@ Hệ thống sử dụng 6 cấp độ phẩm chất tương tự trang bị.
 
 ### 2.1. Nhóm bình dân (Common) - 5 nhân vật
 
-| Tên                 | Class   | Kỹ năng chính (Active)                                                 |
-| :------------------ | :------ | :--------------------------------------------------------------------- |
-| **Bé Tí bắn bi**    | Ranger  | **Bắn bi:** Bắn viên bi ve gây 120% sát thương chuẩn.                  |
-| **Chú Tư xe thồ**   | Tanker  | **Chặn đầu:** Lao xe đạp thồ ra chặn 1 đòn đánh cho chủ nhân.          |
-| **Cô Bảy quét rác** | Support | **Quét sạch:** Xóa bỏ 1 hiệu ứng xấu (debuff) cho đồng đội ngẫu nhiên. |
-| **Cậu Vàng**        | Warrior | **Cắn trộm:** Gây 150% sát thương và làm chậm địch 30%.                |
-| **Bác bảo vệ**      | Tanker  | **Đèn pin:** Chiếu đèn làm giảm chính xác của địch trong 3s.           |
+| Tên                 | Class   | Kỹ năng chính (Active)                                                 | Kỹ năng bị động (Passive)                                         |
+| :------------------ | :------ | :--------------------------------------------------------------------- | :---------------------------------------------------------------- |
+| **Bé Tí bắn bi**    | Ranger  | **Bắn bi:** Bắn viên bi ve gây 120% sát thương chuẩn.                  | **Ham chơi:** Tăng 10% Tốc chạy khi không có địch xung quanh.     |
+| **Chú Tư xe thồ**   | Tanker  | **Chặn đầu:** Lao xe đạp thồ ra chặn 1 đòn đánh cho chủ nhân.          | **Thồ hàng:** Tăng 10% tải trọng (Inventory Size) cho người chơi. |
+| **Cô Bảy quét rác** | Support | **Quét sạch:** Xóa bỏ 1 hiệu ứng xấu (debuff) cho đồng đội ngẫu nhiên. | **Cần lao:** Tăng 5% Vàng rơi ra từ quái (nhặt ve chai).          |
+| **Cậu Vàng**        | Warrior | **Cắn trộm:** Gây 150% sát thương và làm chậm địch 30%.                | **Đánh hơi:** Tăng 10% tỉ lệ tìm thấy rương báu.                  |
+| **Bác bảo vệ**      | Tanker  | **Đèn pin:** Chiếu đèn làm giảm chính xác của địch trong 3s.           | **Gác đêm:** Tăng 10% tầm nhìn trong map tối.                     |
 
 ### 2.2. Nhóm tập sự (Uncommon) - 6 nhân vật
 
-| Tên                | Class   | Kỹ năng chính (Active)                                                      |
-| :----------------- | :------ | :-------------------------------------------------------------------------- |
-| **Chị tạp vụ**     | Warrior | **Lau sàn:** Lướt tới làm ngã (Stun) kẻ địch trong 1.5s.                    |
-| **Anh Grab Food**  | Ranger  | **Giao tốc hành:** Ném hộp cơm gây dame diện rộng (AOE).                    |
-| **Thằng Tèo net**  | Mage    | **Rớt mạng:** Làm địch đứng im (Freeze) trong 2s vì "rớt mạng".             |
-| **Cô hàng xóm**    | Support | **Buôn dưa lê:** Giảm 20% giáp của toàn bộ địch (nghe nói xấu nên suy sụp). |
-| **Ông chú câu cá** | Ranger  | **Quăng cần:** Kéo 1 kẻ địch yếu nhất về phía mình.                         |
-| **Bà bán xôi**     | Support | **Xôi gà:** Hồi 15% HP cho đồng đội thấp máu nhất.                          |
+| Tên                | Class   | Kỹ năng chính (Active)                                                      | Kỹ năng bị động (Passive)                                        |
+| :----------------- | :------ | :-------------------------------------------------------------------------- | :--------------------------------------------------------------- |
+| **Chị tạp vụ**     | Warrior | **Lau sàn:** Lướt tới làm ngã (Stun) kẻ địch trong 1.5s.                    | **Sàn trơn:** Địch đánh chị có 10% bị trượt chân (ngã stun 1s).  |
+| **Anh Grab Food**  | Ranger  | **Giao tốc hành:** Ném hộp cơm gây dame diện rộng (AOE).                    | **Đúng giờ:** Tăng 20% Tốc chạy sau khi dùng skill.              |
+| **Thằng Tèo net**  | Mage    | **Rớt mạng:** Làm địch đứng im (Freeze) trong 2s vì "rớt mạng".             | **Lag:** Sau khi chết, xác vẫn đứng đó chặn đường địch trong 5s. |
+| **Cô hàng xóm**    | Support | **Buôn dưa lê:** Giảm 20% giáp của toàn bộ địch (nghe nói xấu nên suy sụp). | **Hóng hớt:** Cứ mỗi 5s hồi 2% HP cho bản thân.                  |
+| **Ông chú câu cá** | Ranger  | **Quăng cần:** Kéo 1 kẻ địch yếu nhất về phía mình.                         | **Kiên nhẫn:** Đứng im 3s sẽ tăng 20% sát thương đòn sau.        |
+| **Bà bán xôi**     | Support | **Xôi gà:** Hồi 15% HP cho đồng đội thấp máu nhất.                          | **Sáng sớm:** Tăng 10% Max HP cho toàn team.                     |
 
 ### 2.3. Nhóm chuyên nghiệp (Rare) - 8 nhân vật
 
-| Tên                  | Class   | Kỹ năng chính (Active)                                                               |
-| :------------------- | :------ | :----------------------------------------------------------------------------------- |
-| **Chú Ba xe ôm**     | Tanker  | **Đón khách:** Lao xe Dream gây choáng diện rộng 2s và khiêu khích đối thủ.          |
-| **Cô Tư bán nước**   | Support | **Trà đá:** Hồi năng lượng cho toàn team và tăng tốc đánh.                           |
-| **Anh Bảy thợ điện** | Mage    | **Đấu tắt:** Phóng sét dây chuyền (Chain Lightning) giật 3 mục tiêu.                 |
-| **Chị Mười bán cá**  | Warrior | **Cá đông lạnh:** Quất cá gây 300% sát thương, chắc chắn chí mạng.                   |
-| **Ninja Lead**       | Tanker  | **Xi nhan trái:** Tăng 50% né tránh trong 5s. Phản sát thương khi né.                |
-| **Thầy bói mù**      | Mage    | **Phán xét:** Ngẫu nhiên gây sát thương cực lớn hoặc hồi máu cho địch (tỉ lệ 80/20). |
-| **Anh shipper**      | Ranger  | **Mưa đơn hàng:** Ném hàng loạt gói hàng gây sát thương liên tục lên vùng chỉ định.  |
-| **Chị đại gym**      | Warrior | **Squat thần thánh:** Dậm đất gây slow và giảm tốc đánh của địch xung quanh.         |
+| Tên                  | Class   | Kỹ năng chính (Active)                                                               | Kỹ năng bị động (Passive)                                                            |
+| :------------------- | :------ | :----------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| **Chú Ba xe ôm**     | Tanker  | **Đón khách:** Lao xe Dream gây choáng diện rộng 2s và khiêu khích đối thủ.          | **Vượt đèn đỏ:** Miễn nhiễm với hiệu ứng Làm chậm (Slow).                            |
+| **Cô Tư bán nước**   | Support | **Trà đá:** Hồi năng lượng cho toàn team và tăng tốc đánh.                           | **Chém gió:** Tăng 15% tốc độ đánh cho đồng minh đứng gần.                           |
+| **Anh Bảy thợ điện** | Mage    | **Đấu tắt:** Phóng sét dây chuyền (Chain Lightning) giật 3 mục tiêu.                 | **Tích điện:** Đòn đánh thường thứ 3 gây thêm sát thương và tê liệt nhẹ.             |
+| **Chị Mười bán cá**  | Warrior | **Cá đông lạnh:** Quất cá gây 300% sát thương, chắc chắn chí mạng.                   | **Mồm mép:** Phản lại 20% sát thương nhận vào dưới dạng sát thương chuẩn (chửi lại). |
+| **Ninja Lead**       | Tanker  | **Xi nhan trái:** Tăng 50% né tránh trong 5s. Phản sát thương khi né.                | **Áo chống nắng:** Giảm 20% sát thương phép nhận vào.                                |
+| **Thầy bói mù**      | Mage    | **Phán xét:** Ngẫu nhiên gây sát thương cực lớn hoặc hồi máu cho địch (tỉ lệ 80/20). | **Thiên cơ:** Tăng 5% tỉ lệ chí mạng cho toàn đội.                                   |
+| **Anh shipper**      | Ranger  | **Mưa đơn hàng:** Ném hàng loạt gói hàng gây sát thương liên tục lên vùng chỉ định.  | **Freeship:** Đồng đội đứng gần được giảm 10% Cooldown skill.                        |
+| **Chị đại gym**      | Warrior | **Squat thần thánh:** Dậm đất gây slow và giảm tốc đánh của địch xung quanh.         | **Protein:** Tự hồi 1% HP mỗi giây.                                                  |
 
 ### 2.4. Nhóm tinh anh (Epic) - 7 nhân vật
 
-| Tên                     | Class   | Kỹ năng chính (Active)                                                             |
-| :---------------------- | :------ | :--------------------------------------------------------------------------------- |
-| **Tổ trưởng dân phố**   | Support | **Loa phường:** Hét vào loa tăng 30% ATK cho toàn đội trong 10s.                   |
-| **Thợ cắt tóc**         | Warrior | **Múa kéo:** Tấn công liên hoàn 5 nhát, gây chảy máu (Bleed).                      |
-| **Bà chủ trọ**          | Tanker  | **Đòi tiền:** Hút 10% HP của địch chuyển thành khiên cho bản thân.                 |
-| **Youtuber ẩm thực**    | Tanker  | **Mukbang:** Ăn 1 cái đùi gà to, hồi 50% HP và tăng giáp.                          |
-| **Rapper xóm**          | Mage    | **Diss track:** Gây sát thương âm thanh và câm lặng (Silence) địch 3s.             |
-| **Hot girl livestream** | Support | **Thả tim:** Buff bất tử 2s cho đồng đội sắp chết.                                 |
-| **Thầy giáo thể dục**   | Warrior | **Hít đất:** Tăng vĩnh viễn ATK mỗi khi hạ gục một kẻ địch (cộng dồn max 10 tầng). |
+| Tên                     | Class   | Kỹ năng chính (Active)                                                             | Kỹ năng bị động (Passive)                                                        |
+| :---------------------- | :------ | :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **Tổ trưởng dân phố**   | Support | **Loa phường:** Hét vào loa tăng 30% ATK cho toàn đội trong 10s.                   | **Uy tín:** Các đồng đội thuộc team "Bình dân" được tăng thêm 20% HP.            |
+| **Thợ cắt tóc**         | Warrior | **Múa kéo:** Tấn công liên hoàn 5 nhát, gây chảy máu (Bleed).                      | **Tút tát:** Khi hạ gục kẻ địch, tăng 30% Tốc đánh trong 5s.                     |
+| **Bà chủ trọ**          | Tanker  | **Đòi tiền:** Hút 10% HP của địch chuyển thành khiên cho bản thân.                 | **Luật rừng:** Giảm 15% sát thương nhận vào khi HP dưới 50%.                     |
+| **Youtuber ẩm thực**    | Tanker  | **Mukbang:** Ăn 1 cái đùi gà to, hồi 50% HP và tăng giáp.                          | **Mỡ thừa:** Tăng vĩnh viễn Max HP dựa trên số quái đã tiêu diệt (stack vô hạn). |
+| **Rapper xóm**          | Mage    | **Diss track:** Gây sát thương âm thanh và câm lặng (Silence) địch 3s.             | **Vần điệu:** Skill gây thêm 50% sát thương nếu địch đang dính Debuff.           |
+| **Hot girl livestream** | Support | **Thả tim:** Buff bất tử 2s cho đồng đội sắp chết.                                 | **Donate:** Mỗi 10s, có tỉ lệ 50% rớt ra một item Máu hoặc Mana trên sàn.        |
+| **Thầy giáo thể dục**   | Warrior | **Hít đất:** Tăng vĩnh viễn ATK mỗi khi hạ gục một kẻ địch (cộng dồn max 10 tầng). | **Kỷ luật:** Tăng 10% phòng thủ cho đồng đội đứng cạnh.                          |
 
 ### 2.5. Nhóm huyền thoại (Legendary) - 4 nhân vật
 
-| Tên                | Class   | Kỹ năng chính (Active)                                                                  |
-| :----------------- | :------ | :-------------------------------------------------------------------------------------- |
-| **Vua cờ bạc**     | Ranger  | **Thần bài:** Ném 3 lá bài (Xanh, Đỏ, Vàng). Xanh hồi mana, Đỏ gây nổ, Vàng làm choáng. |
-| **Đại ca khu phố** | Warrior | **Triệu hồi đàn em:** Gọi ra 2 tên đệ tử (quái thường) chiến đấu cùng.                  |
-| **Bà trùm đề**     | Mage    | **Sổ sinh tử:** Chọn 1 kẻ địch, sau 5s gây sát thương chuẩn bằng 50% máu đã mất của nó. |
-| **Tiến sĩ giấy**   | Support | **Hack game:** Reset toàn bộ thời gian hồi chiêu của cả đội (Cooldown: 60s).            |
+| Tên                | Class   | Kỹ năng chính (Active)                                                                  | Kỹ năng bị động (Passive)                                                     |
+| :----------------- | :------ | :-------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| **Vua cờ bạc**     | Ranger  | **Thần bài:** Ném 3 lá bài (Xanh, Đỏ, Vàng). Xanh hồi mana, Đỏ gây nổ, Vàng làm choáng. | **Gian lận:** 20% cơ hội x2 sát thương khi đánh thường.                       |
+| **Đại ca khu phố** | Warrior | **Triệu hồi đàn em:** Gọi ra 2 tên đệ tử (quái thường) chiến đấu cùng.                  | **Bảo kê:** Chia sẻ 30% sát thương nhận vào cho các đệ tử triệu hồi.          |
+| **Bà trùm đề**     | Mage    | **Sổ sinh tử:** Chọn 1 kẻ địch, sau 5s gây sát thương chuẩn bằng 50% máu đã mất của nó. | **Nuôi lô:** Sát thương kỹ năng tăng 10% mỗi lần sử dụng (Reset khi hết màn). |
+| **Tiến sĩ giấy**   | Support | **Hack game:** Reset toàn bộ thời gian hồi chiêu của cả đội (Cooldown: 60s).            | **Lý thuyết:** Tăng 20% EXP nhận được cho cả đội.                             |
+
+> **Lưu ý:** Xem chi tiết mô tả hiệu ứng hình ảnh (VFX) và âm thanh (SFX) cho các kỹ năng trên tại tài liệu: [Thiết kế kỹ năng đồng đội](../assets-design-spec/ky-nang-dong-doi.md).
 
 ---
 

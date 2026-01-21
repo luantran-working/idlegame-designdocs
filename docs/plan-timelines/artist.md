@@ -43,7 +43,7 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ 2D Artist (2 nhâ
 | ART-015 | **Đồng đội Rare (8 nhân vật)** - Concept & Asset | 8 bộ assets       | 10 ngày   | Tối quan trọng |
 | ART-016 | **Đồng đội Epic (7 nhân vật)** - Concept & Asset | 7 bộ assets       | 10 ngày   | Tối quan trọng |
 | ART-017 | Concept & Sprite Boss (4 boss)                   | 4 bộ assets       | 6 ngày    | Tối quan trọng |
-| ART-018 | Icon kỹ năng (30+ kỹ năng đồng đội)              | 30 icons          | 4 ngày    | Cao            |
+| ART-018 | Icon kỹ năng (80+ kỹ năng: 20 Player + 60 Team)  | 80 icons          | 8 ngày    | Cao            |
 | ART-019 | Chân dung đồng đội (26 nhân vật đã vẽ)           | 26 hình           | 4 ngày    | Cao            |
 | ART-020 | Background Chương 2                              | 1 bộ BG           | 3 ngày    | Trung bình     |
 
@@ -104,7 +104,7 @@ gantt
     Teammates Rare          :ART6, 2026-04-01, 10d
     Teammates Epic          :ART7, after ART6, 10d
     Boss Assets             :ART8, after ART7, 6d
-    Skill Icons             :ART9, 2026-04-20, 4d
+    Skill Icons             :ART9, 2026-04-20, 8d
 
     section Giai đoạn 4
     Teammates Legend        :ART10, 2026-05-01, 8d

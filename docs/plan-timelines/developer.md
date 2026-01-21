@@ -1,4 +1,4 @@
-# Công việc Developer (Lập trình)
+# Công việc Game Developer
 
 Chi tiết phân chia công việc (breakdown) cho đội ngũ Developer (2-3 người).
 

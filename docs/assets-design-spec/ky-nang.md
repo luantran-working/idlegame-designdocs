@@ -1,4 +1,4 @@
-# Thiết kế kỹ năng (Skill Assets: VFX & SFX)
+# Thiết kế kỹ năng chính
 
 Tài liệu quy định chi tiết về hiệu ứng hình ảnh (VFX) và âm thanh (SFX) cho hệ thống kỹ năng của nhân vật chính.
 
