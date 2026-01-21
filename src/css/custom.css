@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,25 +8,59 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #ff4757; /* Changed to a more vibrant gaming red/pink */
+  --ifm-color-primary-dark: #e84118;
+  --ifm-color-primary-darker: #c23616;
+  --ifm-color-primary-darkest: #7f8c8d;
+  --ifm-color-primary-light: #ff6b81;
+  --ifm-color-primary-lighter: #ff7f50;
+  --ifm-color-primary-lightest: #ffa502;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Fonts */
+  --ifm-font-family-base: "Be Vietnam Pro", sans-serif;
+  /* --ifm-heading-font-family: "Chakra Petch", sans-serif; */
+  --ifm-font-family-monospace: "JetBrains Mono", monospace;
+  --ifm-font-weight-bold: 700;
+  --ifm-heading-font-weight: 700;
+
+  /* Font Sizes */
+  --ifm-font-size-base: 15px;
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-code-font-size: 0.85rem;
+}
+
+/* Sidebar and TOC font adjustments */
+.menu__link {
+  font-size: 0.9rem;
+  padding: 0.75rem;
+}
+
+.table-of-contents {
+  font-size: 0.85rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: 0.02em;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #00d2ff;
+  --ifm-color-primary-dark: #00b8e6;
+  --ifm-color-primary-darker: #00a1cc;
+  --ifm-color-primary-darkest: #007a99;
+  --ifm-color-primary-light: #33dbff;
+  --ifm-color-primary-lighter: #4de1ff;
+  --ifm-color-primary-lightest: #80eaff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

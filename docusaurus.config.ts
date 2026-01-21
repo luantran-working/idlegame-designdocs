@@ -147,7 +147,7 @@ const config: Config = {
     mermaid: {
       theme: { light: "neutral", dark: "forest" },
       options: {
-        fontFamily: "arial, sans-serif",
+        fontFamily: '"Chakra Petch", sans-serif',
       },
     },
   } satisfies Preset.ThemeConfig,
