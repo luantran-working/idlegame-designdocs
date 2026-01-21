@@ -67,15 +67,106 @@ h6 {
 
 /* Tinh chỉnh hình ảnh trong bảng */
 table img {
-  max-width: 200px !important;
+  max-width: 100px !important;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: 0 auto;
+  cursor: zoom-in;
 }
 
 table img:hover {
-  transform: scale(1.05);
+  transform: scale(2.5);
+  z-index: 100;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Modern Table Styles */
+.markdown table {
+  display: table; /* Reset to standard table behavior */
+  width: auto; /* Fit to content */
+  min-width: 60%; /* Ensure it's not too narrow */
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px var(--ifm-color-emphasis-200),
+    0 10px 30px rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+  background-color: var(--ifm-background-surface-color);
+}
+
+/* Header Styling - More Prominent */
+.markdown thead tr {
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary) 0%,
+    var(--ifm-color-primary-dark) 100%
+  );
+}
+
+.markdown th {
+  background-color: transparent !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  padding: 16px 20px;
+  color: #ffffff !important; /* High contrast white text */
+  vertical-align: middle;
+  text-align: left;
+}
+
+/* Cell Styling */
+.markdown td {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-right: 1px solid var(--ifm-color-emphasis-100);
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+.markdown td:last-child {
+  border-right: none;
+}
+
+/* Last row border fix */
+.markdown tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Zebra Striping - Subtle */
+.markdown tbody tr:nth-child(even) {
+  background-color: rgba(var(--ifm-color-emphasis-100-rgb), 0.3);
+}
+
+/* Row Hover Effect */
+.markdown tbody tr:hover {
+  background-color: rgba(
+    var(--ifm-color-primary-rgb),
+    0.05
+  ); /* Very subtle primary tint on hover */
+  transition: background-color 0.2s ease;
+}
+
+[data-theme="dark"] .markdown tbody tr:hover {
+  background-color: rgba(0, 210, 255, 0.1);
+}
+
+/* Responsive Table Wrapper via Media Queries */
+@media screen and (max-width: 996px) {
+  .markdown table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
