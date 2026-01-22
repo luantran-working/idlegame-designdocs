@@ -1,4 +1,4 @@
-# Hệ thống kỹ năng (Skills)
+# Hệ thống kỹ năng
 
 Tài liệu này mô tả chi tiết về hệ thống kỹ năng trong game, được chia thành hai phân loại chính: Kỹ năng nhân vật chính và Kỹ năng đồng đội.
 

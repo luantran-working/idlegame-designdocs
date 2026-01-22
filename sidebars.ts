@@ -53,6 +53,7 @@ const sidebars: SidebarsConfig = {
         "he-thong-ky-nang",
         "he-thong-trang-bi",
         "he-thong-dong-doi",
+        "he-thong-quai-vat",
         "he-thong-gacha",
         "he-thong-nhiem-vu",
       ],

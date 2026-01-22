@@ -57,6 +57,7 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 | [Hệ thống trang bị](./he-thong-trang-bi.md)                               | Loại trang bị, phẩm chất, cơ chế nâng cấp, ghép đồ        |
 | [Hệ thống kỹ năng](./he-thong-ky-nang.md)                                 | Phân loại kỹ năng, danh sách mẫu, xây dựng bộ kỹ năng     |
 | [Hệ thống đồng đội](./he-thong-dong-doi.md)                               | Vai trò nhân vật, danh sách đồng đội, hệ thống duyên phận |
+| [Hệ thống quái vật](./he-thong-quai-vat.md)                               | Phân loại Minion/Elite/Boss, AI hành vi và danh sách quái |
 | [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md)     | Tiền tệ, dòng chảy kinh tế, chiến lược monetization       |
 | [Hệ thống gacha](./he-thong-gacha.md)                                     | Các loại banner, tỉ lệ rơi, cơ chế bảo hiểm               |
 | [Hệ thống nhiệm vụ và thành tựu](./he-thong-nhiem-vu.md)                  | Nhiệm vụ ngày/tuần, thành tựu, phần thưởng                |
@@ -67,6 +68,7 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 | Tài liệu                                                              | Nội dung chính                                   |
 | :-------------------------------------------------------------------- | :----------------------------------------------- |
 | [Thiết kế nhân vật](./assets-design-spec/nhan-vat.md)                 | Concept nhân vật, animation, thông số kích thước |
+| [Thiết kế quái vật](./assets-design-spec/quai-vat.md)                 | Concept kẻ địch (Humanoid), animation, hành vi   |
 | [Thiết kế kỹ năng chính](./assets-design-spec/ky-nang.md)             | VFX/SFX cho kỹ năng nhân vật chính               |
 | [Thiết kế kỹ năng đồng đội](./assets-design-spec/ky-nang-dong-doi.md) | VFX/SFX cho kỹ năng của 30 nhân vật đồng đội     |
 | [Thiết kế trang bị](./assets-design-spec/trang-bi.md)                 | Hình ảnh vũ khí/giáp, khung phẩm chất, icon      |

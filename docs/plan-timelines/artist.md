@@ -22,17 +22,18 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ 2D Artist (2 nhâ
 
 ## Giai đoạn 2: Hệ thống lõi & Đồng đội cơ bản (Tháng 3)
 
-| Mã Task | Tên công việc (Task Name)                      | Sản phẩm bàn giao | Thời gian         | Độ ưu tiên     |
-| :------ | :--------------------------------------------- | :---------------- | :---------------- | :------------- |
-| ART-008 | Icon trang bị (40 món, Tier 1-10)              | 40 icons          | 6 ngày            | Tối quan trọng |
-| ART-009 | Khung viền phẩm chất trang bị (6 loại)         | 6 khung           | 2 ngày            | Tối quan trọng |
-| ART-010 | **Đồng đội Com/Uncom (11 nhân vật)** - Concept | 11 phác thảo      | 5 ngày            | Cao            |
-| ART-011 | **Đồng đội Com/Uncom** - Sprite/Spine          | 11 bộ assets      | 10 ngày (2 người) | Cao            |
-| ART-012 | Icon tiền tệ & Tài nguyên nút bấm              | Bộ assets         | 3 ngày            | Cao            |
-| ART-013 | UI tab Chỉ số & Trang bị                       | 2 màn hình        | 3 ngày            | Cao            |
-| ART-014 | Background Chương 1                            | 1 bộ BG           | 4 ngày            | Cao            |
+| Mã Task | Tên công việc (Task Name)                      | Sản phẩm bàn giao | Thời gian          | Độ ưu tiên     |
+| :------ | :--------------------------------------------- | :---------------- | :----------------- | :------------- |
+| ART-008 | Icon trang bị (40 món, Tier 1-10)              | 40 icons          | 6 ngày             | Tối quan trọng |
+| ART-009 | Khung viền phẩm chất trang bị (6 loại)         | 6 khung           | 2 ngày             | Tối quan trọng |
+| ART-010 | **Đồng đội Com/Uncom (11 nhân vật)** - Concept | 11 phác thảo      | 5 ngày             | Cao            |
+| ART-011 | **Đồng đội Com/Uncom** - Sprite/Spine          | 11 bộ assets      | 10 ngày (2 người)  | Cao            |
+| ART-012 | Icon tiền tệ & Tài nguyên nút bấm              | Bộ assets         | 3 ngày             | Cao            |
+| ART-013 | UI tab Chỉ số & Trang bị                       | 2 màn hình        | 3 ngày             | Cao            |
+| ART-014 | Background Chương 1                            | 1 bộ BG           | 4 ngày             | Cao            |
+| ART-035 | **Quái thường (48 loại - 12x4 chương)**        | 48 phác thảo      | 12 ngày (chia nhỏ) | Tối quan trọng |
 
-**Tổng cộng:** ~33 ngày công (chia cho 2 người làm song song trong 1 tháng)
+**Tổng cộng:** ~45 ngày công (Cần phân bổ thêm nhân sự hoặc outsource phần quái thường)
 
 ---
 
@@ -42,12 +43,13 @@ Chi tiết phân chia công việc (breakdown) cho đội ngũ 2D Artist (2 nhâ
 | :------ | :----------------------------------------------- | :---------------- | :-------- | :------------- |
 | ART-015 | **Đồng đội Rare (8 nhân vật)** - Concept & Asset | 8 bộ assets       | 10 ngày   | Tối quan trọng |
 | ART-016 | **Đồng đội Epic (7 nhân vật)** - Concept & Asset | 7 bộ assets       | 10 ngày   | Tối quan trọng |
-| ART-017 | Concept & Sprite Boss (4 boss)                   | 4 bộ assets       | 6 ngày    | Tối quan trọng |
+| ART-017 | **Sprite sheet & Anim Boss (4 Boss)**            | 4 bộ assets       | 10 ngày   | Tối quan trọng |
+| ART-036 | **Sprite sheet Quái thường (48 loại)**           | 48 bộ assets      | 24 ngày   | Cao            |
 | ART-018 | Icon kỹ năng (80+ kỹ năng: 20 Player + 60 Team)  | 80 icons          | 8 ngày    | Cao            |
 | ART-019 | Chân dung đồng đội (26 nhân vật đã vẽ)           | 26 hình           | 4 ngày    | Cao            |
 | ART-020 | Background Chương 2                              | 1 bộ BG           | 3 ngày    | Trung bình     |
 
-**Tổng cộng:** ~37 ngày công (Cần 2 người full-time)
+**Tổng cộng:** ~69 ngày công (Khối lượng RẤT LỚN - Cần Outsourcing gấp)
 
 ---
 
@@ -99,11 +101,13 @@ gantt
     Eq Icons & UI           :ART3, 2026-03-01, 8d
     Teammates Com/Uncom     :ART4, 2026-03-05, 12d
     BG Chapter 1            :ART5, after ART3, 4d
+    Minion Concepts (48)    :ART35, after ART4, 12d
 
     section Giai đoạn 3
     Teammates Rare          :ART6, 2026-04-01, 10d
     Teammates Epic          :ART7, after ART6, 10d
-    Boss Assets             :ART8, after ART7, 6d
+    Boss Assets (4)         :ART8, after ART7, 10d
+    Minion Assets (48)      :ART36, 2026-04-01, 24d
     Skill Icons             :ART9, 2026-04-20, 8d
 
     section Giai đoạn 4
