@@ -45,18 +45,20 @@ _Assets ID: ENM_C1_xx_
 
 _Assets ID: ENM_C2_xx_
 
-1.  **Móc túi chuyên nghiệp:** Áo hoodie trùm kín, khẩu trang y tế, dáng đi lén lút (Sneak).
-2.  **Phe vé chợ đen:** Cầm xấp vé quạt quạt trên tay, mắt nhìn ngang liếc dọc.
-3.  **Bà bán thịt heo:** Người to béo, tạp dề dính vết đỏ thực phẩm, cầm dao phay to bản.
-4.  **Cửu vạn (bốc vác):** Cơ bắp lực lưỡng, vác bao tải gạo to che mất đầu, chỉ hở chân.
-5.  **Chị bán cá chua ngoa:** Găng tay cao su màu hồng dài đến khuỷu, tay cầm con cá đang giãy đành đạch.
-6.  **Lơ xe hách dịch:** Đeo túi chéo trước ngực, dáng đứng xiêu vẹo, tay vẫy khách liên tục.
-7.  **Thầy bói dạo:** Kính đen tròn thầy bói, áo dài the cũ kỹ, đi gậy dò đường (giả mù).
-8.  **Ăn xin giả dạng:** Ngồi trên bán trượt (ván gỗ có bánh xe), quần áo rách nhưng túi phồng tiền.
-9.  **Tiểu thương gian lận:** Một tay cầm cân đĩa, một tay lén ấn ngón tay xuống đĩa cân.
-10. **Giang hồ bến xe:** Ngồi xổm trên ghế đẩu, tay cầm điếu cày dài ngoằng, xăm trổ kín tay.
-11. **Cò mồi bệnh viện:** Đeo khẩu trang, tay cầm tập hồ sơ bệnh án, lôi kéo người khác.
-12. **Bà bán nước mía:** Tay quay vô hình (động tác quay máy nước mía), người dính đầy bã mía.
+| Tên quái vật              | Visual Concept                                                              | Animation                                                               | Hình ảnh mô phỏng   |
+| :------------------------ | :-------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :------------------ |
+| **Móc túi chuyên nghiệp** | Áo hoodie trùm kín, khẩu trang y tế.                                        | Dáng đi lén lút (Sneak), mắt đảo liên tục.                              | <img width="150" /> |
+| **Phe vé chợ đen**        | Cầm xấp vé quạt quạt trên tay, mắt nhìn ngang liếc dọc.                     | Tay vẫy vé mời chào, thỉnh thoảng giấu vé đi.                           | <img width="150" /> |
+| **Bà bán thịt heo**       | Người to béo, tạp dề dính vết đỏ thực phẩm, cầm dao phay to bản.            | Chặt thịt "băm băm" xuống bàn, tay lau mồ hôi.                          | <img width="150" /> |
+| **Cửu vạn (bốc vác)**     | Cơ bắp lực lưỡng, vác bao tải gạo to che mất đầu, chỉ hở chân.              | Bước đi nặng nề, lưng còng xuống, thở dốc.                              | <img width="150" /> |
+| **Chị bán cá chua ngoa**  | Găng tay cao su màu hồng dài đến khuỷu, tay cầm con cá đang giãy.           | Vừa mắng khách vừa vung vẩy con cá nước bắn tung tóe.                   | <img width="150" /> |
+| **Lơ xe hách dịch**       | Đeo túi chéo trước ngực, dáng đứng xiêu vẹo, tay vẫy khách liên tục.        | Hét "Về đâu em ơi", tay đập đập vào hông xe.                            | <img width="150" /> |
+| **Thầy bói dạo**          | Kính đen tròn thầy bói, áo dài the cũ kỹ, đi gậy dò đường (giả mù).         | Gõ gậy xuống đường, tay kia bấm độn.                                    | <img width="150" /> |
+| **Ăn xin giả dạng**       | Ngồi trên ván trượt (ván gỗ có bánh xe), quần áo rách nhưng túi phồng tiền. | Đẩy ván trượt đi, tay chìa nón rách ra xin nhưng mắt soi ví người khác. | <img width="150" /> |
+| **Tiểu thương gian lận**  | Một tay cầm cân đĩa, một tay lén ấn ngón tay xuống đĩa cân.                 | Cân điêu, mắt nhìn khách, tay ấn cân thoăn thoắt.                       | <img width="150" /> |
+| **Giang hồ bến xe**       | Ngồi xổm trên ghế đẩu, tay cầm điếu cày dài ngoằng, xăm trổ kín tay.        | Rít thuốc lào kêu "róc róc", nhả khói mù mịt.                           | <img width="150" /> |
+| **Cò mồi bệnh viện**      | Đeo khẩu trang, tay cầm tập hồ sơ bệnh án, lôi kéo người khác.              | Chạy theo níu áo, dúi card visit vào tay.                               | <img width="150" /> |
+| **Bà bán nước mía**       | Tay quay vô hình (động tác quay máy nước mía), người dính đầy bã mía.       | Quay tay đều đều, lâu lâu lấy khăn lau máy.                             | <img width="150" /> |
 
 **BOSS C2: Trùm bảo kê chợ**
 
@@ -68,18 +70,20 @@ _Assets ID: ENM_C2_xx_
 
 _Assets ID: ENM_C3_xx_
 
-1.  **Hot girl kem trộn:** Da trắng bệch mất tự nhiên, môi đỏ chót, tay cầm hũ kem khổng lồ.
-2.  **Thánh livestream:** Điện thoại gắn trên gậy selfie trước mặt, đèn ring light đeo cổ sáng lóa.
-3.  **Anh hùng bàn phím:** Ôm bàn phím PC to đùng trước ngực như tấm khiên, đầu đeo băng đô "Quyết Thắng".
-4.  **Ninja Lead:** Trùm kín mít áo hoa chống nắng, kính râm choán hết mặt, không thấy tay chân đâu.
-5.  **Trẻ trâu nẹt pô:** Tóc nhuộm xanh đỏ dựng ngược, cầm cái ống xả xe máy (Pô) đang bốc khói.
-6.  **Streamer toxic:** Đeo tai nghe gaming hầm hố, mặt đỏ gay gắt, mồm há to đang gào thét.
-7.  **Rich kid rởm:** Cầm ví tiền dày cộp but tiền rơi ra là tiền âm phủ, mặc đồ hiệu logo sai chính tả.
-8.  **Thợ chụp ảnh dạo:** Đeo máy ảnh DSLR ống kính dài ngoằng như súng bazooka.
-9.  **Gymer khoe cơ:** Mặc áo ba lỗ rách nách, gồng tay khoe chuột, người bôi dầu bóng loáng.
-10. **Tiktoker nhảy nhót:** Vừa đi vừa thực hiện các động tác múa tay trend TikTok kỳ quặc.
-11. **Phượt thủ ý thức kém:** Balo to quá khổ cao quá đầu, treo lủng lẳng chai lọ, vừa đi vừa rải rác.
-12. **Hacker mũ đen:** Mặc hoodie đen trùm kín mặt, chỉ thấy 2 mắt sáng trong bóng tối, tay gõ không khí.
+| Tên quái vật             | Visual Concept                                                                     | Animation                                                         | Hình ảnh mô phỏng   |
+| :----------------------- | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------- | :------------------ |
+| **Hot girl kem trộn**    | Da trắng bệch mất tự nhiên, môi đỏ chót, tay cầm hũ kem khổng lồ.                  | Vừa đi vừa bôi kem, giơ hũ kem lên mời chào.                      | <img width="150" /> |
+| **Thánh livestream**     | Điện thoại gắn trên gậy selfie trước mặt, đèn ring light đeo cổ sáng lóa.          | Đi lùi (để quay mặt), miệng nói liên thoắng vào điện thoại.       | <img width="150" /> |
+| **Anh hùng bàn phím**    | Ôm bàn phím PC to đùng trước ngực như tấm khiên, đầu đeo băng đô "Quyết Thắng".    | Ngón tay múa trên bàn phím tóe lửa, mặt hầm hầm sát khí.          | <img width="150" /> |
+| **Ninja Lead**           | Trùm kín mít áo hoa chống nắng, kính râm choán hết mặt, không thấy tay chân đâu.   | Lái xe máy tàng hình (chỉ thấy dáng ngồi lái), tạt đầu đánh võng. | <img width="150" /> |
+| **Trẻ trâu nẹt pô**      | Tóc nhuộm xanh đỏ dựng ngược, cầm cái ống xả xe máy (Pô) đang bốc khói.            | Vừa quật ống xả vừa rú ga miệng "Én én".                          | <img width="150" /> |
+| **Streamer toxic**       | Đeo tai nghe gaming hầm hố, mặt đỏ gay gắt, mồm há to.                             | Đập bàn phím, gào thét vào micro nước bọt bắn tứ tung.            | <img width="150" /> |
+| **Rich kid rởm**         | Cầm ví tiền dày cộp but tiền rơi ra là tiền âm phủ, mặc đồ hiệu logo sai chính tả. | Vung tiền (giấy) tứ tung, điệu bộ sang chảnh kệch cỡm.            | <img width="150" /> |
+| **Thợ chụp ảnh dạo**     | Đeo máy ảnh DSLR ống kính dài ngoằng như súng bazooka.                             | Ngắm bắn (chụp) liên thanh, đèn flash nháy liên tục mù mắt.       | <img width="150" /> |
+| **Gymer khoe cơ**        | Mặc áo ba lỗ rách nách, gồng tay khoe chuột, người bôi dầu bóng loáng.             | Đi kiểu cua, thỉnh thoảng đứng lại pose dáng khoe cơ bắp.         | <img width="150" /> |
+| **Tiktoker nhảy nhót**   | Mặc đồ trend, tay cầm điện thoại quay tiktok.                                      | Vừa đi vừa thực hiện các động tác múa tay trend TikTok kỳ quặc.   | <img width="150" /> |
+| **Phượt thủ ý thức kém** | Balo to quá khổ cao quá đầu, treo lủng lẳng chai lọ.                               | Vừa đi vừa rải rác (vỏ chai, túi nilon) rơi ra từ balo.           | <img width="150" /> |
+| **Hacker mũ đen**        | Mặc hoodie đen trùm kín mặt, chỉ thấy 2 mắt sáng trong bóng tối, tay gõ không khí. | Lướt đi như bóng ma, xung quanh có các dòng code 010101 bay.      | <img width="150" /> |
 
 **BOSS C3: Idol giới trẻ**
 
@@ -91,18 +95,20 @@ _Assets ID: ENM_C3_xx_
 
 _Assets ID: ENM_C4_xx_
 
-1.  **Sếp hách dịch:** Bụng bia, hói đầu, tay luôn trong tư thế chỉ ngón trỏ quát tháo.
-2.  **Thực tập sinh ngáo ngơ:** Đeo thẻ nhân viên ngược, tóc tai rối bời, cầm chồng giấy tờ sắp rơi.
-3.  **Kế toán khó tính:** Đeo kính trễ mũi, tay cầm máy tính cầm tay (Casio) bấm liên tục "tạch tạch".
-4.  **HR thảo mai:** Cười công nghiệp, tay cầm tập hồ sơ có chữ "Đuổi Việc" (Fired).
-5.  **IT support cáu kỉnh:** Mắt thâm quầng như gấu trúc, bê cái case máy tính bốc khói.
-6.  **Sale chèo kéo:** Mặc vest chỉnh tề, tay cầm 2 cái điện thoại kề 2 bên tai.
-7.  **Drama queen:** Vừa đi vừa buôn chuyện điện thoại, tay kia cầm cốc trà sữa size XL.
-8.  **Thánh ngủ trưa:** Ôm gối ngủ văn phòng hình chữ U, vừa đi vừa mộng du.
-9.  **Nhân viên OT:** Mặt hốc hác, râu ria xồm xoàm, tay cầm cốc cà phê đen đặc sánh.
-10. **Đồng nghiệp đổ lỗi:** Hai tay luôn chỉ sang hai bên (kiểu "tại nó, không phải tại tôi").
-11. **Bà cô lao công:** Quấn khăn mỏ quạ, cầm chổi lau nhà ướt sũng nước bẩn.
-12. **Bảo vệ tòa nhà:** Ngồi trên ghế nhựa (phiên bản cao cấp hơn C1), cầm dùi cui điện.
+| Tên quái vật               | Visual Concept                                                               | Animation                                                   | Hình ảnh mô phỏng   |
+| :------------------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------- | :------------------ |
+| **Sếp hách dịch**          | Bụng bia, hói đầu, tay luôn trong tư thế chỉ ngón trỏ quát tháo.             | Mặt đỏ tía tai, tay chỉ trỏ, miệng sùi bọt mép.             | <img width="150" /> |
+| **Thực tập sinh ngáo ngơ** | Đeo thẻ nhân viên ngược, tóc tai rối bời, cầm chồng giấy tờ sắp rơi.         | Đi loạng choạng, giấy tờ bay lả tả theo sau.                | <img width="150" /> |
+| **Kế toán khó tính**       | Đeo kính trễ mũi, tay cầm máy tính cầm tay (Casio) bấm liên tục "tạch tạch". | Vừa đi vừa soi hóa đơn, mắt lườm nguýt.                     | <img width="150" /> |
+| **HR thảo mai**            | Cười công nghiệp, tay cầm tập hồ sơ có chữ "Đuổi Việc" (Fired).              | Cười giả trân, tay giấu cái búa sau lưng (nụ cười ẩn dao).  | <img width="150" /> |
+| **IT support cáu kỉnh**    | Mắt thâm quầng như gấu trúc, bê cái case máy tính bốc khói.                  | Vừa đi vừa gõ vào cái case máy tính để sửa.                 | <img width="150" /> |
+| **Sale chèo kéo**          | Mặc vest chỉnh tề, tay cầm 2 cái điện thoại kề 2 bên tai.                    | Miệng hoạt động hết công suất (đa cấp), tay đưa namecard.   | <img width="150" /> |
+| **Drama queen**            | Vừa đi vừa buôn chuyện điện thoại, tay kia cầm cốc trà sữa size XL.          | Mắt đảo như rang lạc, miệng thì thầm to nhỏ.                | <img width="150" /> |
+| **Thánh ngủ trưa**         | Ôm gối ngủ văn phòng hình chữ U, vừa đi vừa mộng du.                         | Nước miếng chảy ròng ròng, đi đâm vào tường rồi bật lại.    | <img width="150" /> |
+| **Nhân viên OT**           | Mặt hốc hác, râu ria xồm xoàm, tay cầm cốc cà phê đen đặc sánh.              | Đi như zombie, mắt lờ đờ, thỉnh thoảng giật mình uống cafe. | <img width="150" /> |
+| **Đồng nghiệp đổ lỗi**     | Hai tay luôn chỉ sang hai bên (kiểu "tại nó, không phải tại tôi").           | Đi giật lùi, tay xua xua chối bỏ trách nhiệm.               | <img width="150" /> |
+| **Bà cô lao công**         | Quấn khăn mỏ quạ, cầm chổi lau nhà ướt sũng nước bẩn.                        | Vung chổi lau nhà như múa côn, nước bẩn văng tung tóe.      | <img width="150" /> |
+| **Bảo vệ tòa nhà**         | Ngồi trên ghế nhựa (phiên bản cao cấp hơn C1), cầm dùi cui điện.             | Ngủ gật nhưng tay vẫn bấm điện thoại xem Tiktok.            | <img width="150" /> |
 
 **BOSS C4: Chủ tịch giả danh**
 
