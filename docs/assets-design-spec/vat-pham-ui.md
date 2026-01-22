@@ -8,11 +8,11 @@ Tài liệu này liệt kê các tài nguyên hình ảnh (sprites/icons) cần 
 
 Icon cần thiết kế đơn giản, dễ đọc ở kích thước nhỏ (trên thanh header).
 
-| Tên                     | Mô tả hình ảnh (Visual)                                                    | Kích thước | Ghi chú                             |
-| :---------------------- | :------------------------------------------------------------------------- | :--------- | :---------------------------------- |
-| **Vàng (Gold)**         | Đồng xu hình tròn, màu vàng kim loại, có ký hiệu '$' hoặc chữ 'V' dập nổi. | 64x64      | Cần bản stack: 1 xu, 3 xu, đống xu. |
-| **Kim Cương (Gem)**     | Viên kim cương cắt giác (cut structure), màu xanh dương sáng hoặc ngũ sắc. | 64x64      | Cần bản stack: 1 viên, đống viên.   |
-| **Cờ lê (Scrap)**       | Cờ lê kim loại màu xám, dính chút dầu mỡ.                                  | 64x64      | Dùng nâng cấp trang bị.             |
+| Tên                     | Mô tả hình ảnh (Visual)                                                    | Kích thước | Ghi chú                             | Hình ảnh minh họa                   |
+| :---------------------- | :------------------------------------------------------------------------- | :--------- | :---------------------------------- | :---------------------------------- |
+| **Vàng (Gold)**         | Đồng xu hình tròn, màu vàng kim loại, có ký hiệu '$' hoặc chữ 'V' dập nổi. | 64x64      | Cần bản stack: 1 xu, 3 xu, đống xu. | ![Vàng](./images/item_gold.png)     |
+| **Kim Cương (Gem)**     | Viên kim cương cắt giác (cut structure), màu xanh dương sáng hoặc ngũ sắc. | 64x64      | Cần bản stack: 1 viên, đống viên.   | ![Kim Cương](./images/item_gem.png) |
+| **Cờ lê (Scrap)**       | Cờ lê kim loại màu xám, dính chút dầu mỡ.                                  | 64x64      | Dùng nâng cấp trang bị.             |                                     |
 | **Bí kíp (Skill Book)** | Quyển sách bìa xanh dương, có hào quang tri thức.                          | 64x64      | Dùng nâng skill.                    |
 | **Mảnh kỹ năng**        | Một trang giấy rách từ cuốn bí kíp, có ký tự cổ.                           | 64x64      |                                     |
 | **Bánh mì (Bread)**     | Ổ bánh mì kẹp thịt (Bánh mì Việt Nam) ngon lành.                           | 64x64      | Dùng tăng Exp đồng đội.             |

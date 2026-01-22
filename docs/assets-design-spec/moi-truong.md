@@ -29,12 +29,12 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 
 ### Bảng tóm tắt môi trường
 
-| Chương       | Chủ đề chính     | Đặc điểm nhận dạng                                                   | Animation môi trường                                      |
-| :----------- | :--------------- | :------------------------------------------------------------------- | :-------------------------------------------------------- |
-| **Chương 1** | Ngõ nhỏ phố xưa  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh.       |
-| **Chương 2** | Chợ cóc dân sinh | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ.       |
-| **Chương 3** | Công viên        | Ghế đá "tặng bởi...", hàng rào xanh gỉ, loa phường trên cây.         | Các cụ tập dưỡng sinh, gợn sóng mặt hồ, lá rơi phủ đường. |
-| **Chương 4** | Bến xe liên tỉnh | Xe khách 45 chỗ, hành khách chờ, bến bãi nứt vỡ, xe ôm vẫy khách.    | Khói pô xe, hành khách đi lại, ánh đèn pha quét qua.      |
+| Chương       | Chủ đề chính     | Đặc điểm nhận dạng                                                   | Animation môi trường                                      | Hình ảnh minh họa                  |
+| :----------- | :--------------- | :------------------------------------------------------------------- | :-------------------------------------------------------- | :--------------------------------- |
+| **Chương 1** | Ngõ nhỏ phố xưa  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh.       | ![Chương 1](./images/chuong_1.png) |
+| **Chương 2** | Chợ cóc dân sinh | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ.       | ![Chương 2](./images/chuong_2.png) |
+| **Chương 3** | Công viên        | Ghế đá "tặng bởi...", hàng rào xanh gỉ, loa phường trên cây.         | Các cụ tập dưỡng sinh, gợn sóng mặt hồ, lá rơi phủ đường. | ![Chương 3](./images/chuong_3.png) |
+| **Chương 4** | Bến xe liên tỉnh | Xe khách 45 chỗ, hành khách chờ, bến bãi nứt vỡ, xe ôm vẫy khách.    | Khói pô xe, hành khách đi lại, ánh đèn pha quét qua.      | ![Chương 4](./images/chuong_4.png) |
 
 ---
 

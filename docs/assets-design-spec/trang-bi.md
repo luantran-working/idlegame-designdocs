@@ -36,11 +36,11 @@ Mỗi loại trang bị cần có các tier hình ảnh khác nhau thể hiện 
 
 _Đại diện cho sức mạnh tấn công._
 
-| Tier        | Tên gợi ý       | Mô tả hình ảnh (Visual description)                                            |
-| :---------- | :-------------- | :----------------------------------------------------------------------------- |
-| **Tier 1**  | Cây gậy gỗ      | Một cành cây khô, hoặc thanh gỗ vuông đơn giản, có dằm.                        |
-| **Tier 2**  | Cục gạch        | Viên gạch ống màu đỏ cam, bị mẻ một góc.                                       |
-| **Tier 3**  | Dép lào         | Chiếc dép xốp cao su màu xanh/vàng quen thuộc.                                 |
+| Tier        | Tên gợi ý       | Mô tả hình ảnh (Visual description)                                            | Hình ảnh minh họa                        |
+| :---------- | :-------------- | :----------------------------------------------------------------------------- | :--------------------------------------- |
+| **Tier 1**  | Cây gậy gỗ      | Một cành cây khô, hoặc thanh gỗ vuông đơn giản, có dằm.                        | ![Gậy gỗ](./images/equip_gay_go.png)     |
+| **Tier 2**  | Cục gạch        | Viên gạch ống màu đỏ cam, bị mẻ một góc.                                       | ![Cục gạch](./images/equip_cuc_gach.png) |
+| **Tier 3**  | Dép lào         | Chiếc dép xốp cao su màu xanh/vàng quen thuộc.                                 |                                          |
 | **Tier 4**  | Cờ lê rỉ sét    | Cây cờ lê kim loại cũ kỹ, có vết rỉ sét màu nâu.                               |
 | **Tier 5**  | Gậy bóng chày   | Gậy gỗ bóng chày, có đóng vài cái đinh ở đầu.                                  |
 | **Tier 6**  | Tuýp sắt        | Ống tuýp nước bằng kim loại sáng bóng, dài.                                    |

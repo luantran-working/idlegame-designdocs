@@ -6,12 +6,12 @@ Tài liệu quy định chi tiết về hiệu ứng hình ảnh (VFX) và âm t
 
 ## 1. Nhóm Bình dân (Common)
 
-| Nhân vật            | Kỹ năng               | VFX Mô tả                                                                                                            | SFX Mô tả                                              |
-| :------------------ | :-------------------- | :------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
-| **Bé Tí bắn bi**    | **Active: Bắn bi**    | Viên bi ve đa sắc (trong suốt) bay nhanh theo đường thẳng, có vệt sáng nhỏ. Trúng đích vỡ ra các mảnh thủy tinh nhỏ. | Tiếng búng tay "Póc". Tiếng bi va chạm "Cạch".         |
-|                     | **Passive: Ham chơi** | Dưới chân có hiệu ứng bụi cuốn (dust trail) khi chạy.                                                                | Tiếng cười khúc khích "Hihi".                          |
-| **Chú Tư xe thồ**   | **Active: Chặn đầu**  | Xe đạp thồ xuất hiện rào chắn gỗ phía trước. Có hiệu ứng va chạm "Sparks" khi đỡ đòn.                                | Tiếng phanh xe "Kít...". Tiếng va chạm kim loại "Rầm". |
-|                     | **Passive: Thồ hàng** | Không có VFX đặc biệt (stat passive).                                                                                | -                                                      |
+| Nhân vật            | Kỹ năng               | VFX Mô tả                                                                                                            | SFX Mô tả                                              | Hình ảnh minh họa                        |
+| :------------------ | :-------------------- | :------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------- | :--------------------------------------- |
+| **Bé Tí bắn bi**    | **Active: Bắn bi**    | Viên bi ve đa sắc (trong suốt) bay nhanh theo đường thẳng, có vệt sáng nhỏ. Trúng đích vỡ ra các mảnh thủy tinh nhỏ. | Tiếng búng tay "Póc". Tiếng bi va chạm "Cạch".         | ![Bắn bi](./images/skill_ban_bi.png)     |
+|                     | **Passive: Ham chơi** | Dưới chân có hiệu ứng bụi cuốn (dust trail) khi chạy.                                                                | Tiếng cười khúc khích "Hihi".                          |                                          |
+| **Chú Tư xe thồ**   | **Active: Chặn đầu**  | Xe đạp thồ xuất hiện rào chắn gỗ phía trước. Có hiệu ứng va chạm "Sparks" khi đỡ đòn.                                | Tiếng phanh xe "Kít...". Tiếng va chạm kim loại "Rầm". | ![Chặn đầu](./images/skill_chan_dau.png) |
+|                     | **Passive: Thồ hàng** | Không có VFX đặc biệt (stat passive).                                                                                | -                                                      |                                          |
 | **Cô Bảy quét rác** | **Active: Quét sạch** | Một làn gió xoáy nhỏ mang theo lá cây khô bay qua người đồng đội được buff.                                          | Tiếng chổi quét "Sroạt sroạt".                         |
 |                     | **Passive: Cần lao**  | Khi quái chết, có hiệu ứng đồng xu vàng nhỏ bay về phía Cô Bảy.                                                      | Tiếng tiền xu rơi "Keng".                              |
 | **Cậu Vàng**        | **Active: Cắn trộm**  | Hàm răng chó khổng lồ (hoạt hình) cắn phập vào đối thủ. Hiệu ứng chảy dãi.                                           | Tiếng chó sủa "Gâu gâu". Tiếng cắn "Grừ... Phập".      |
