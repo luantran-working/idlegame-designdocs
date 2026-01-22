@@ -19,42 +19,20 @@ Tài liệu này đặc tả chi tiết về ngoại hình, animation và phong 
 
 _Assets ID: ENM_C1_xx_
 
-1.  **Bà hàng xóm đa chuyện:**
-    - _Visual:_ Đồ bộ hoa sặc sỡ, tóc cuốn lô, tay cầm quạt nan phe phẩy.
-    - _Anim:_ Miệng nhép liên tục (tám chuyện), tay chỉ trỏ.
-2.  **Thanh niên xăm trổ:**
-    - _Visual:_ Cởi trần, quần đùi bò, xăm rồng phượng nguệch ngoạc.
-    - _Anim:_ Dáng đi khệnh khạng, gồng mình dọa nạt.
-3.  **Bác xe ôm ngủ gật:**
-    - _Visual:_ Mũ cối, áo sơ mi cũ bung cúc, chân đi dép rọ.
-    - _Anim:_ Vừa đi vừa gật gù, thỉnh thoảng giật mình tỉnh dậy.
-4.  **Chị bán rau "chặt chém":**
-    - _Visual:_ Đội nón lá sùm sụp, đeo tạp dề, cầm hai bó rau.
-    - _Anim:_ Ném bó rau như ném phi tiêu.
-5.  **Anh thợ điện:**
-    - _Visual:_ Áo cam bảo hộ lấm lem, người quấn cuộn dây điện rối mù.
-    - _Anim:_ Bước đi nặng nề, tia điện nổ lách tách quanh người.
-6.  **Cô gái bán hoa (rong):**
-    - _Visual:_ Dắt xe đạp thồ đầy hoa sau lưng (xe đạp là một phần của body).
-    - _Anim:_ Vừa đi vừa rao hàng (tay đưa lên miệng).
-7.  **Thằng bé bán vé số:**
-    - _Visual:_ Nhỏ thó, đội mũ lưỡi trai ngược, cầm xấp vé số trên tay.
-    - _Anim:_ Chạy lon ton, chìa vé số ra mời.
-8.  **Ông chú say rượu:**
-    - _Visual:_ Mặt đỏ gay, bụng phệ lộ rốn, tay cầm chai rượu.
-    - _Anim:_ Đi bước thấp bước cao, thỉnh thoảng nấc cụt.
-9.  **Bà ghi lô đề:**
-    - _Visual:_ Ngồi trên ghế nhựa (ghế dính liền người), tay cầm sổ bút, đeo kính râm.
-    - _Anim:_ Cắm cúi ghi chép, ngẩng lên nhìn láo liên.
-10. **Thanh niên đa cấp:**
-    - _Visual:_ Vest rẻ tiền hơi rộng, tóc vuốt keo bóng lộn, kẹp tài liệu nách.
-    - _Anim:_ Cười công nghiệp (răng sáng lóa), tay chìa ra bắt tay.
-11. **Shipper vội vã:**
-    - _Visual:_ Áo khoác đồng phục (xanh/cam), đội mũ bảo hiểm, tay ôm gói hàng.
-    - _Anim:_ Chạy cúi người về phía trước, nhìn đồng hồ liên tục.
-12. **Bảo vệ ngủ gật:**
-    - _Visual:_ Đồng phục xanh dương chật ních, bụng phệ, cầm dùi cui nhưng mắt nhắm.
-    - _Anim:_ Đi chậm chạp, ngáp dài.
+| Tên quái vật                | Visual Concept                                                          | Animation                                              | Hình ảnh mô phỏng                                      |
+| :-------------------------- | :---------------------------------------------------------------------- | :----------------------------------------------------- | :----------------------------------------------------- |
+| **Bà hàng xóm đa chuyện**   | Đồ bộ hoa sặc sỡ, tóc cuốn lô, tay cầm quạt nan phe phẩy.               | Miệng nhép liên tục (tám chuyện), tay chỉ trỏ.         | ![Bà hàng xóm](./images/ba_hang_xom_da_chuyen.png)     |
+| **Thanh niên xăm trổ**      | Cởi trần, quần đùi bò, xăm rồng phượng nguệch ngoạc.                    | Dáng đi khệnh khạng, gồng mình dọa nạt.                | ![Thanh niên xăm trổ](./images/thanh_nien_xam_tro.png) |
+| **Bác xe ôm ngủ gật**       | Mũ cối, áo sơ mi cũ bung cúc, chân đi dép rọ.                           | Vừa đi vừa gật gù, thỉnh thoảng giật mình tỉnh dậy.    | ![Bác xe ôm](./images/bac_xe_om_ngu_gat.png)           |
+| **Chị bán rau "chặt chém"** | Đội nón lá sùm sụp, đeo tạp dề, cầm hai bó rau.                         | Ném bó rau như ném phi tiêu.                           | <img width="150" />                                    |
+| **Anh thợ điện**            | Áo cam bảo hộ lấm lem, người quấn cuộn dây điện rối mù.                 | Bước đi nặng nề, tia điện nổ lách tách quanh người.    | <img width="150" />                                    |
+| **Cô gái bán hoa (rong)**   | Dắt xe đạp thồ đầy hoa sau lưng (xe đạp là một phần của body).          | Vừa đi vừa rao hàng (tay đưa lên miệng).               | <img width="150" />                                    |
+| **Thằng bé bán vé số**      | Nhỏ thó, đội mũ lưỡi trai ngược, cầm xấp vé số trên tay.                | Chạy lon ton, chìa vé số ra mời.                       | <img width="150" />                                    |
+| **Ông chú say rượu**        | Mặt đỏ gay, bụng phệ lộ rốn, tay cầm chai rượu.                         | Đi bước thấp bước cao, thỉnh thoảng nấc cụt.           | <img width="150" />                                    |
+| **Bà ghi lô đề**            | Ngồi trên ghế nhựa (ghế dính liền người), tay cầm sổ bút, đeo kính râm. | Cắm cúi ghi chép, ngẩng lên nhìn láo liên.             | <img width="150" />                                    |
+| **Thanh niên đa cấp**       | Vest rẻ tiền hơi rộng, tóc vuốt keo bóng lộn, kẹp tài liệu nách.        | Cười công nghiệp (răng sáng lóa), tay chìa ra bắt tay. | <img width="150" />                                    |
+| **Shipper vội vã**          | Áo khoác đồng phục (xanh/cam), đội mũ bảo hiểm, tay ôm gói hàng.        | Chạy cúi người về phía trước, nhìn đồng hồ liên tục.   | <img width="150" />                                    |
+| **Bảo vệ ngủ gật**          | Đồng phục xanh dương chật ních, bụng phệ, cầm dùi cui nhưng mắt nhắm.   | Đi chậm chạp, ngáp dài.                                | <img width="150" />                                    |
 
 **BOSS C1: Tổ trưởng dân phố**
 
