@@ -137,7 +137,7 @@ $$
 **Trường hợp 1: Đòn đánh thường (Skill 100%), Không Crit**
 
 1.  Raw Damage = $1000 \times 1.0 = 1000$.
-2.  Qua giáp = $1000 \times (5000 / (5000+5000)) = 1000 \times 0.5 = 500$.
+2.  Qua giáp = $1000 \times \frac{5000}{5000+5000} = 1000 \times 0.5 = 500$.
 3.  Biến thiên (giả sử 1.0) = **500 Damage**.
 
 **Trường hợp 2: Dùng Skill (200%), Có Crit**

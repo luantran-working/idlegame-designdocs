@@ -62,25 +62,25 @@ Game sử dụng cơ chế chiến đấu thời gian thực (real-time auto-bat
 
 ### 2.2. Bảng chỉ số chiến đấu
 
-| Tên chỉ số              | Ký hiệu | Mô tả                                     | Công thức                 |
-| :---------------------- | :------ | :---------------------------------------- | :------------------------ |
-| **Sức tấn công**        | ATK     | Sát thương cơ bản mỗi đòn đánh            | Base_ATK \* (1 + %Buff)   |
-| **Máu tối đa**          | HP      | Lượng sát thương chịu được trước khi chết | Base_HP + Gear_HP         |
-| **Phòng thủ**           | DEF     | Giảm sát thương nhận vào                  | DEF / (DEF + 500)         |
-| **Tốc độ đánh**         | ASPD    | Số lần đánh trong một giây                | Base_ASPD \* (1 + %Bonus) |
-| **Chí mạng**            | CRIT    | Tỉ lệ gây sát thương đột biến             | Max 100%                  |
-| **Sát thương chí mạng** | CDMG    | Lượng sát thương khi chí mạng             | Mặc định 150%             |
-| **Hồi phục**            | REGEN   | Lượng máu hồi mỗi giây                    | HP \* %Regen + Flat       |
+| Tên chỉ số              | Ký hiệu | Mô tả                                     | Công thức                           |
+| :---------------------- | :------ | :---------------------------------------- | :---------------------------------- |
+| **Sức tấn công**        | ATK     | Sát thương cơ bản mỗi đòn đánh            | $$Base\_ATK \times (1 + \%Buff)$$   |
+| **Máu tối đa**          | HP      | Lượng sát thương chịu được trước khi chết | $$Base\_HP + Gear\_HP$$             |
+| **Phòng thủ**           | DEF     | Giảm sát thương nhận vào                  | $$\frac{DEF}{DEF + 500}$$           |
+| **Tốc độ đánh**         | ASPD    | Số lần đánh trong một giây                | $$Base\_ASPD \times (1 + \%Bonus)$$ |
+| **Chí mạng**            | CRIT    | Tỉ lệ gây sát thương đột biến             | Max 100%                            |
+| **Sát thương chí mạng** | CDMG    | Lượng sát thương khi chí mạng             | Mặc định 150%                       |
+| **Hồi phục**            | REGEN   | Lượng máu hồi mỗi giây                    | $$HP \times \%Regen + Flat$$        |
 
 ### 2.3. Công thức tính sát thương
 
 ```
-FinalDamage = BaseDamage * (1 - DamageReduction) * CritMultiplier
+$$FinalDamage = BaseDamage \times (1 - DamageReduction) \times CritMultiplier$$
 
 Trong đó:
-- BaseDamage = ATK * SkillMultiplier
-- DamageReduction = DEF / (DEF + 500)
-- CritMultiplier = 1 (thường) hoặc CDMG (chí mạng)
+- $BaseDamage = ATK \times SkillMultiplier$
+- $DamageReduction = \frac{DEF}{DEF + 500}$
+- $CritMultiplier = 1$ (thường) hoặc $CDMG$ (chí mạng)
 ```
 
 ---
@@ -147,7 +147,7 @@ Tính năng quan trọng nhất để giữ chân người chơi bận rộn.
 | Thuộc tính         | Mô tả                                                    |
 | :----------------- | :------------------------------------------------------- |
 | **Mốc tham chiếu** | Dựa trên hiệu suất diệt quái tại ải cao nhất đã vượt qua |
-| **Công thức**      | Tài nguyên = (Sản lượng mỗi phút) \* (Số phút offline)   |
+| **Công thức**      | $Resources = (Rate \times Time)$                         |
 | **Giới hạn**       | 8 tiếng (cơ bản), 12 tiếng (VIP)                         |
 
 ### 4.2. Bảng tài nguyên AFK

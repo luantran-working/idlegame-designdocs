@@ -106,18 +106,19 @@ _Đại diện cho sự may mắn/sang chảnh._
 
 Khi nâng cấp trang bị (Tier up), hình ảnh cần thay đổi để người chơi cảm thấy mạnh lên:
 
-1.  **Chất liệu:** Gỗ/Giấy -> Nhựa/Cao su -> Kim loại rỉ -> Kim loại sáng -> Vàng/Ngọc/Ánh sáng.
-2.  **Độ phức tạp:** Đơn giản ít chi tiết -> Nhiều phụ kiện, gai góc, hầm hố hơn.
-3.  **Hiệu ứng:**
-    - Tier thấp: Tĩnh.
-    - Tier trung: Có độ bóng (shine).
-    - Tier cao: Có hào quang (glow) hoặc particle bay quanh icon.
+| Yếu tố          | Progression (Tiến hóa)                                                                                                           |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| **Chất liệu**   | Gỗ/Giấy -> Nhựa/Cao su -> Kim loại rỉ -> Kim loại sáng -> Vàng/Ngọc/Ánh sáng.                                                    |
+| **Độ phức tạp** | Đơn giản ít chi tiết -> Nhiều phụ kiện, gai góc, hầm hố hơn.                                                                     |
+| **Hiệu ứng**    | **Tier thấp:** Tĩnh.<br/>**Tier trung:** Có độ bóng (shine).<br/>**Tier cao:** Có hào quang (glow) hoặc particle bay quanh icon. |
 
 ## 4. Tổng hợp số lượng Asset (Giai đoạn 1)
 
-- **Vũ khí:** 10 icons.
-- **Áo:** 10 icons.
-- **Giày:** 10 icons.
-- **Dây chuyền:** 10 icons.
-- **Khung viền:** 6 icons (Common -> Mythic).
-- **Tổng cộng:** ~46 icons.
+| Loại Asset     | Số lượng icons       |
+| :------------- | :------------------- |
+| **Vũ khí**     | 10                   |
+| **Áo**         | 10                   |
+| **Giày**       | 10                   |
+| **Dây chuyền** | 10                   |
+| **Khung viền** | 6 (Common -> Mythic) |
+| **TỔNG CỘNG**  | **~46 icons**        |

@@ -42,43 +42,31 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 
 - **Chủ đề:** Sự giao thoa giữa Hà Nội cũ và nhịp sống hiện đại.
 - **Bảng màu:** Vàng thư (tường cũ), Xanh rêu, Đỏ gạch.
-- **Chi tiết đặc trưng:**
-  - Dây điện chằng chịt như mạng nhện.
-  - Cột điện dán kín quảng cáo "Khoan cắt bê tông", "Hút bể phốt".
-  - Quán trà đá vỉa hè với ghế nhựa xanh đỏ.
-  - Cục nóng điều hòa chảy nước.
-- **Animation môi trường:**
-  - Quạt trần trong quán cũ quay chậm.
-  - Chim bồ câu bay lên từ nóc nhà.
-  - Lá cây xà cừ rơi lưa thưa.
+
+| Hạng mục                 | Chi tiết                                                                                                                                                                                    |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Chi tiết đặc trưng**   | - Dây điện chằng chịt như mạng nhện.<br/>- Cột điện dán kín quảng cáo "Khoan cắt bê tông", "Hút bể phốt".<br/>- Quán trà đá vỉa hè với ghế nhựa xanh đỏ.<br/>- Cục nóng điều hòa chảy nước. |
+| **Animation môi trường** | - Quạt trần trong quán cũ quay chậm.<br/>- Chim bồ câu bay lên từ nóc nhà.<br/>- Lá cây xà cừ rơi lưa thưa.                                                                                 |
 
 ### Chương 2: Chợ Cóc Dân Sinh
 
 - **Chủ đề:** Sự xô bồ, náo nhiệt của chợ Việt Nam.
 - **Bảng màu:** Xanh bạt, Đỏ tươi (thịt), Cam/Vàng (trái cây).
-- **Chi tiết đặc trưng:**
-  - Dãy bạt che mưa nhấp nhô đủ màu.
-  - Xe đẩy tự chế, mẹt hoa quả, thúng xôi.
-  - Vũng nước đọng loang lổ vết dầu.
-  - Bảng hiệu vẽ tay: "Tạp hóa Cô Lan", "Bún đậu mắm tôm".
-- **Animation môi trường:**
-  - Bạt che rung nhẹ theo gió.
-  - Ruồi bay quanh sạp hàng (nhỏ).
-  - Khói bốc lên từ nồi nước lèo của hàng bún.
+
+| Hạng mục                 | Chi tiết                                                                                                                                                                            |
+| :----------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Chi tiết đặc trưng**   | - Dãy bạt che mưa nhấp nhô đủ màu.<br/>- Xe đẩy tự chế, mẹt hoa quả, thúng xôi.<br/>- Vũng nước đọng loang lổ vết dầu.<br/>- Bảng hiệu vẽ tay: "Tạp hóa Cô Lan", "Bún đậu mắm tôm". |
+| **Animation môi trường** | - Bạt che rung nhẹ theo gió.<br/>- Ruồi bay quanh sạp hàng (nhỏ).<br/>- Khói bốc lên từ nồi nước lèo của hàng bún.                                                                  |
 
 ### Chương 3: Công Viên Thống Nhất
 
 - **Chủ đề:** Không gian xanh, thư giãn và đời sống cộng đồng.
 - **Bảng màu:** Xanh lá đậm, Xanh hồ thủy, Vàng nắng.
-- **Chi tiết đặc trưng:**
-  - Hàng rào sắt màu xanh lá cây mục gỉ.
-  - Ghế đá phun sơn "tặng bởi...".
-  - Dụng cụ tập thể dục ngoài trời màu vàng xanh.
-  - Loa phường gắn trên cây cổ thụ.
-- **Animation môi trường:**
-  - Mặt hồ có gợn sóng lăn tăn.
-  - Các cụ tập dưỡng sinh (Lớp Mid).
-  - Lá rơi phủ kín mặt đường lát gạch.
+
+| Hạng mục                 | Chi tiết                                                                                                                                                              |
+| :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Chi tiết đặc trưng**   | - Hàng rào sắt màu xanh lá cây mục gỉ.<br/>- Ghế đá phun sơn "tặng bởi...".<br/>- Dụng cụ tập thể dục ngoài trời màu vàng xanh.<br/>- Loa phường gắn trên cây cổ thụ. |
+| **Animation môi trường** | - Mặt hồ có gợn sóng lăn tăn.<br/>- Các cụ tập dưỡng sinh (Lớp Mid).<br/>- Lá rơi phủ kín mặt đường lát gạch.                                                         |
 
 ---
 
@@ -86,8 +74,9 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 
 Để tăng tính sống động, mỗi màn chơi sẽ có các "Particle Layer" phủ lên:
 
-- **Bụi mịn (Dust):** Các hạt bụi nhỏ bay lơ lửng trong nắng.
-- **Vết nứt (Decals):** Các vết nứt, vết ố trên tường xuất hiện ngẫu nhiên.
-- **Thời tiết:**
-  - _Mưa phùn:_ Vệt mưa mỏng, trắng mờ.
-  - _Nắng gắt:_ Hiệu ứng Bloom mạnh ở các vùng sáng, Lens flare nhẹ.
+| Loại hiệu ứng            | Mô tả                                                |
+| :----------------------- | :--------------------------------------------------- |
+| **Bụi mịn (Dust)**       | Các hạt bụi nhỏ bay lơ lửng trong nắng.              |
+| **Vết nứt (Decals)**     | Các vết nứt, vết ố trên tường xuất hiện ngẫu nhiên.  |
+| **Thời tiết (Mưa phùn)** | Vệt mưa mỏng, trắng mờ.                              |
+| **Thời tiết (Nắng gắt)** | Hiệu ứng Bloom mạnh ở các vùng sáng, Lens flare nhẹ. |

@@ -55,24 +55,23 @@ Game diễn ra tại một góc phố bình dân điển hình của Việt Nam.
 
 Kẻ thù là các đối tượng gây rối trật tự khu phố, được phân theo từng chương (chapter):
 
-| Loại kẻ thù          | Mô tả                                         | Xuất hiện tại |
-| :------------------- | :-------------------------------------------- | :------------ |
-| **Chó thả rông**     | Quái cơ bản, tốc độ cao, máu thấp             | Chương 1      |
-| **Giang hồ mõm**     | Quái cận chiến, máu trung bình                | Chương 1-2    |
-| **Trẻ trâu nẹt pô**  | Quái tầm xa, gây nhiễu bằng tiếng ồn          | Chương 2      |
-| **Đội đòi nợ thuê**  | Quái tinh anh, đánh theo nhóm                 | Chương 3      |
-| **Tiếp thị lừa đảo** | Quái đặc biệt, có khả năng buff đồng đội địch | Chương 4      |
+| Loại kẻ thù (Theme)     | Mô tả sơ lược                                 | Xuất hiện tại     |
+| :---------------------- | :-------------------------------------------- | :---------------- |
+| **Thành phần bất hảo**  | Bà hàng xóm, Thanh niên xăm trổ, Bác xe ôm... | Chương 1: Ngõ Nhỏ |
+| **Cư dân chợ búa**      | Móc túi, Phe vé, Bà bán thịt, Cửu vạn...      | Chương 2: Khu Chợ |
+| **Giới trẻ sống ảo**    | Hot girl kem trộn, Streamer, Rich kid rởm...  | Chương 3: Sống Ảo |
+| **Dân văn phòng toxic** | Sếp hách dịch, Kế toán, HR, IT support...     | Chương 4: Công Sở |
 
 ### 2.4. Hệ thống boss
 
-Mỗi chương có một boss đại diện:
+Mỗi chương có một boss đại diện, là trùm cuối của khu vực đó:
 
-| Boss                           | Chương | Đặc điểm                                     |
-| :----------------------------- | :----- | :------------------------------------------- |
-| **Đại ca khu phố**             | 1      | Boss cận chiến, máu cao, có đàn em hỗ trợ    |
-| **Tổ trưởng dân phố khó tính** | 2      | Boss có khả năng triệu hồi thêm quái         |
-| **Chủ nợ hung dữ**             | 3      | Boss gây sát thương cao, có kỹ năng chí mạng |
-| **Trùm tiếp thị đa cấp**       | 4      | Boss có khả năng buff và debuff phức tạp     |
+| Boss                  | Chương | Đặc điểm                                              |
+| :-------------------- | :----- | :---------------------------------------------------- |
+| **Tổ trưởng dân phố** | 1      | Dùng loa phường gây choáng, gọi dân phòng hỗ trợ.     |
+| **Trùm bảo kê chợ**   | 2      | Sát thương rộng (AOE) bằng mã tấu, cực kỳ trâu bò.    |
+| **Idol giới trẻ**     | 3      | Dùng fan cuồng tấn công, bắn tim gây mê hoặc.         |
+| **Chủ tịch giả danh** | 4      | Ném tiền gây sát thương, gọi bảo vệ, bỏ trốn khi yếu. |
 
 ---
 

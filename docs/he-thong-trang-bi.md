@@ -200,7 +200,7 @@ Tăng cấp độ (level) của trang bị để tăng chỉ số cơ bản.
 | **Nguyên liệu**       | Vàng + Cờ lê                                              |
 | **Kết quả**           | Tăng chỉ số cơ bản (base stat). Chỉ số phụ không thay đổi |
 | **Giới hạn**          | Level trang bị không được vượt quá level nhân vật         |
-| **Công thức chi phí** | `Cost = BaseCost * (1.07 ^ Level)`                        |
+| **Công thức chi phí** | $$Cost = BaseCost \times (1.07^{Level})$$                 |
 
 **Bảng chi phí mẫu (cho balancing):**
 

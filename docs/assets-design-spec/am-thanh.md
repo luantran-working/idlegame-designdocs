@@ -39,18 +39,23 @@ Tài liệu này quy bản sắc âm thanh của trò chơi, bao gồm Nhạc n�
 
 Mỗi chương có một bộ âm thanh nền đặc trưng (Layered Audio):
 
-- **Chương 1 (Phố):** Tiếng còi xe xa xa, tiếng rao "Ai... bánh mì đây", tiếng chó sủa lầu bầu.
-- **Chương 2 (Chợ):** Tiếng xì xào đám đông, tiếng dao băm thớt, tiếng mặc cả ("Bớt cho em đi chị").
-- **Chương 3 (Công viên):** Tiếng chim hót, tiếng gió thổi qua lá cây, tiếng loa phường rè rè phát nhạc cổ điển.
+| Chương       | Chủ đề    | Âm thanh chi tiết                                                                                    |
+| :----------- | :-------- | :--------------------------------------------------------------------------------------------------- |
+| **Chương 1** | Ngõ nhỏ   | Tiếng quạt trần quay vo vo, tiếng chim bồ câu gù, tiếng rao hàng văng vẳng ("Ai... xôi lạc đi").     |
+| **Chương 2** | Chợ cóc   | Tiếng dao thớt lạch cạch, tiếng nước sôi sùng sục, tiếng mặc cả ồn ào, tiếng bạt che rung trong gió. |
+| **Chương 3** | Công viên | Tiếng nhạc dưỡng sinh từ loa phường, tiếng chổi tre quét lá xao xác, tiếng ve kêu (nếu là mùa hè).   |
+| **Chương 4** | Bến xe    | Tiếng động cơ xe khách nổ máy rầm rì, tiếng còi hơi giật mình, tiếng loa thông báo "Xe về bến...".   |
 
 ---
 
 ## 4. Hiệu ứng âm thanh UI (UI SFX)
 
-- **Click General:** Tiếng "Tách" nhẹ, thanh thoát (mô phỏng tiếng phím cơ hoặc bật nắp lon).
-- **Confirm/Success:** Tiếng "Keng" vang, tươi sáng.
-- **Cancel/Error:** Tiếng "Bộp" trầm, đục.
-- **Tab Switch:** Tiếng "Soạt" (mô phỏng tiếng lật trang sách giấy).
+| Loại tương tác      | Mô tả âm thanh                                                           |
+| :------------------ | :----------------------------------------------------------------------- |
+| **Click General**   | Tiếng "Tách" nhẹ, thanh thoát (mô phỏng tiếng phím cơ hoặc bật nắp lon). |
+| **Confirm/Success** | Tiếng "Keng" vang, tươi sáng.                                            |
+| **Cancel/Error**    | Tiếng "Bộp" trầm, đục.                                                   |
+| **Tab Switch**      | Tiếng "Soạt" (mô phỏng tiếng lật trang sách giấy).                       |
 
 ---
 
@@ -58,6 +63,8 @@ Mỗi chương có một bộ âm thanh nền đặc trưng (Layered Audio):
 
 Sử dụng các câu thoại ngắn (Voice cues) mang đậm phong cách vùng miền:
 
-- **Nhân vật chính:** "Zô nè!", "Đỡ nè con!", "Hú hồn chưa?".
-- **Đồng đội:** (Theo đặc trưng từng người như đã mô tả trong tài liệu nhân vật).
-- **Kẻ địch khi chết:** "Á đù!", "Tha em đại ca!", "Thôi xong...".
+| Đối tượng            | Câu thoại mẫu                                                     |
+| :------------------- | :---------------------------------------------------------------- |
+| **Nhân vật chính**   | "Zô nè!", "Đỡ nè con!", "Hú hồn chưa?".                           |
+| **Đồng đội**         | (Theo đặc trưng từng người như đã mô tả trong tài liệu nhân vật). |
+| **Kẻ địch khi chết** | "Á đù!", "Tha em đại ca!", "Thôi xong...".                        |

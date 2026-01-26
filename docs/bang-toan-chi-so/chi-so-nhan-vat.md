@@ -1,4 +1,4 @@
-# Chỉ số nhân vật chính (Player Stats)
+# Chỉ số nhân vật chính
 
 Tài liệu này định nghĩa chi tiết hệ thống chỉ số (Stats) của nhân vật chính, bao gồm ý nghĩa, công thức tính toán và giới hạn (Cap).
 

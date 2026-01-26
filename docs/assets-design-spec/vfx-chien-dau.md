@@ -21,16 +21,10 @@ Tài liệu này quy định chi tiết về các hiệu ứng thị giác xảy
 
 Đây là hiệu ứng quan trọng nhất để tạo cảm giác "lực" (Game Feel).
 
-### 1.1. Normal Hit (Đòn đánh thường)
-
-- **Visual:** Tia lửa (Sparks) màu trắng xanh hoặc vàng sáng tóe ra. Hình dạng tia chớp nhọn, kéo dài 0.2s (khoảng 6 khung hình).
-- **Decal:** Xuất hiện một vệt cắt (Slash) hoặc vết lõm mờ trên người mục tiêu trong tích tắc.
-
-### 1.2. Critical Hit (Chí mạng)
-
-- **Visual:** Nổ lớn màu vàng cam rực rỡ (Explosion).
-- **Text FX:** Xuất hiện chữ "BÙM" hoặc số sát thương lớn hơn bình thường, lắc nhẹ (Shake).
-- **Screen Effect:** Rung màn hình (Screen Shake) nhẹ trong 0.1s.
+| Loại hit                     | Visual                                                                                        | Decal / Hiệu ứng phụ                                                              |
+| :--------------------------- | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Normal Hit (Đánh thường)** | Tia lửa (Sparks) màu trắng xanh hoặc vàng sáng tóe ra. Hình dạng tia chớp nhọn, kéo dài 0.2s. | Xuất hiện một vệt cắt (Slash) hoặc vết lõm mờ trên người mục tiêu trong tích tắc. |
+| **Critical Hit (Chí mạng)**  | Nổ lớn màu vàng cam rực rỡ (Explosion).                                                       | Chữ "BÙM" hoặc số lớn, màn hình rung nhẹ (Screen Shake) trong 0.1s.               |
 
 ---
 
@@ -40,15 +34,19 @@ Tài liệu này quy định chi tiết về các hiệu ứng thị giác xảy
 
 ### 2.1. Gây hại (Debuffs)
 
-- **Choáng (Stun):** Vòng tròn xoắn ốc màu vàng quay trên đầu. Các ngôi sao nhỏ bay quanh.
-- **Độc (Poison):** Bong bóng màu xanh lục bốc lên từ kẽ chân. Nhân vật nhấp nháy màu xanh lá nhạt theo nhịp mất máu.
-- **Cháy (Burn):** Ngọn lửa nhỏ bốc lên từ người nhân vật. Màu cam đỏ chủ đạo.
-- **Làm chậm (Slow):** Hào quang màu xanh dương nhạt bao phủ, có các vệt băng giá mờ dưới chân.
+| Trạng thái          | Mô tả hình ảnh                                                                                    |
+| :------------------ | :------------------------------------------------------------------------------------------------ |
+| **Choáng (Stun)**   | Vòng tròn xoắn ốc màu vàng quay trên đầu. Các ngôi sao nhỏ bay quanh.                             |
+| **Độc (Poison)**    | Bong bóng màu xanh lục bốc lên từ kẽ chân. Nhân vật nhấp nháy màu xanh lá nhạt theo nhịp mất máu. |
+| **Cháy (Burn)**     | Ngọn lửa nhỏ bốc lên từ người nhân vật. Màu cam đỏ chủ đạo.                                       |
+| **Làm chậm (Slow)** | Hào quang màu xanh dương nhạt bao phủ, có các vệt băng giá mờ dưới chân.                          |
 
 ### 2.2. Có lợi (Buffs)
 
-- **Hồi máu (Heal):** Hào quang xanh lá bốc lên từ dưới chân. Có các dấu cộng (+) và trái tim nhỏ bay lên rồi mờ dần.
-- **Gồng sức (Power Up):** Aura lửa màu xanh dương hoặc vàng bùng lên phía sau lưng (theo phong cách Super Saiyan nhưng hài hước hơn).
+| Trạng thái              | Mô tả hình ảnh                                                                                              |
+| :---------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Hồi máu (Heal)**      | Hào quang xanh lá bốc lên từ dưới chân. Có các dấu cộng (+) và trái tim nhỏ bay lên rồi mờ dần.             |
+| **Gồng sức (Power Up)** | Aura lửa màu xanh dương hoặc vàng bùng lên phía sau lưng (theo phong cách Super Saiyan nhưng hài hước hơn). |
 
 ---
 
@@ -56,34 +54,43 @@ Tài liệu này quy định chi tiết về các hiệu ứng thị giác xảy
 
 Khi quái vật HP về 0.
 
-- **VFX 1 (Default):** Quái vật biến thành một đám khói trắng "Bụpppp" rồi biến mất.
-- **VFX 2 (Rich):** Quái vật vỡ tung thành các đồng xu vàng bay về phía người chơi.
-- **VFX 3 (Boss):** Một vụ nổ lớn, màn hình chuyển trắng trong 0.5s, sau đó các rương báu xuất hiện.
+| Loại Death          | Mô tả hiệu ứng                                                                   |
+| :------------------ | :------------------------------------------------------------------------------- |
+| **VFX 1 (Default)** | Quái vật biến thành một đám khói trắng "Bụpppp" rồi biến mất.                    |
+| **VFX 2 (Rich)**    | Quái vật vỡ tung thành các đồng xu vàng bay về phía người chơi.                  |
+| **VFX 3 (Boss)**    | Một vụ nổ lớn, màn hình chuyển trắng trong 0.5s, sau đó các rương báu xuất hiện. |
 
 ---
 
 ## 4. Hệ thống số sát thương (Damage Numbers)
 
-- **Sát thương vật lý:** Màu trắng, font chữ dày, có viền đen.
-- **Sát thương phép:** Màu xanh tím, có hiệu ứng phát sáng (Glow).
-- **Hồi máu:** Màu xanh lá cây, di chuyển từ dưới lên trên và lướt sang phải.
-- **Miss/Né tránh:** Chữ "XỊT" màu xám, bay lướt ngang nhanh.
+| Loại sát thương       | Visual Style                                                   |
+| :-------------------- | :------------------------------------------------------------- |
+| **Sát thương vật lý** | Màu trắng, font chữ dày, có viền đen.                          |
+| **Sát thương phép**   | Màu xanh tím, có hiệu ứng phát sáng (Glow).                    |
+| **Hồi máu**           | Màu xanh lá cây, di chuyển từ dưới lên trên và lướt sang phải. |
+| **Miss/Né tránh**     | Chữ "XỊT" màu xám, bay lướt ngang nhanh.                       |
 
 ---
 
 ## 5. Hiệu ứng đạn & tầm xa (Projectile VFX)
 
-- **Vệt đạn (Trail):** Một dải màu mờ ảo kéo dài sau vật thể bay (ví dụ: dép lào, gạch, bi).
-  - _Màu sắc:_ Lưu huỳnh/trắng cho vật lý, neon cho kỹ năng.
-- **Muzzle Flash:** Một đốm sáng nhỏ nơi bắt đầu phát bắn để báo hiệu đòn tấn công từ xa.
+| Thành phần          | Mô tả                                                                                                                        |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------- |
+| **Vệt đạn (Trail)** | Một dải màu mờ ảo kéo dài sau vật thể bay (ví dụ: dép lào, gạch, bi). Màu sắc: Lưu huỳnh/trắng cho vật lý, neon cho kỹ năng. |
+| **Muzzle Flash**    | Một đốm sáng nhỏ nơi bắt đầu phát bắn để báo hiệu đòn tấn công từ xa.                                                        |
 
 ## 6. Hiệu ứng vùng (AOE & Indicator VFX)
 
-- **Vòng cảnh báo (Danger Zone):** Vòng tròn hoặc hình chữ nhật màu đỏ nhấp nháy trên mặt sàn 0.5s trước khi kỹ năng của quái dội xuống.
-- **Vòng hiệu ứng (Buff/Debuff Aura):** Vòng hào quang nét đứt bao quanh dưới chân nhân vật đang chịu ảnh hưởng của Aura.
+| Loại hiệu ứng                        | Mô tả                                                                                                 |
+| :----------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **Vòng cảnh báo (Danger Zone)**      | Vòng tròn hoặc hình chữ nhật màu đỏ nhấp nháy trên mặt sàn 0.5s trước khi kỹ năng của quái dội xuống. |
+| **Vòng hiệu ứng (Buff/Debuff Aura)** | Vòng hào quang nét đứt bao quanh dưới chân nhân vật đang chịu ảnh hưởng của Aura.                     |
 
 ## 7. Hiệu ứng phòng thủ & đặc biệt (Special VFX)
 
-- **Đỡ đòn (Parry/Block):** Hiệu ứng "Keng" kèm theo các mảnh vỡ kim loại bắn ra, nhân vật hơi lùi lại 1px để tạo cảm giác nặng.
-- **Hút máu (Lifesteal/Drain):** Một tia sáng đỏ từ kẻ địch bay về phía nhân vật hiện tại.
-- **Vỡ giáp (Shield Break):** Hiệu ứng các mảnh kính vỡ vụn bay ra kèm theo icon [Giáp gạch chéo] trên đầu địch.
+| Loại hiệu ứng                 | Mô tả                                                                                                |
+| :---------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Đỡ đòn (Parry/Block)**      | Hiệu ứng "Keng" kèm theo các mảnh vỡ kim loại bắn ra, nhân vật hơi lùi lại 1px để tạo cảm giác nặng. |
+| **Hút máu (Lifesteal/Drain)** | Một tia sáng đỏ từ kẻ địch bay về phía nhân vật hiện tại.                                            |
+| **Vỡ giáp (Shield Break)**    | Hiệu ứng các mảnh kính vỡ vụn bay ra kèm theo icon [Giáp gạch chéo] trên đầu địch.                   |

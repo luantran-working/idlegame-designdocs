@@ -51,9 +51,7 @@ Thường không hiển thị ở màn hình nâng cấp chính.
 
 Giá nâng cấp tăng theo hàm mũ để đảm bảo người chơi phải farm nhiều hơn ở level cao.
 
-```
-Cost(Level) = BaseCost * (CostGrowth ^ Level)
-```
+$$Cost(Level) = BaseCost \times (CostGrowth^{Level})$$
 
 Trong đó:
 
@@ -76,9 +74,7 @@ Trong đó:
 
 Chỉ số cộng thêm thường là tuyến tính hoặc tuyến tính lũy tiến nhẹ.
 
-```
-Value(Level) = BaseValue + (Level * GrowthValue)
-```
+$$Value(Level) = BaseValue + (Level \times GrowthValue)$$
 
 **Lý do thiết kế:** Điều này đảm bảo càng về sau, hiệu quả trên mỗi đồng vàng bỏ ra càng giảm (diminishing return), ép người chơi phải tìm các nguồn sức mạnh khác (gacha trang bị, skill).
 
@@ -90,14 +86,9 @@ Lực chiến là con số ảo đại diện cho sức mạnh tổng hợp, dù
 
 ### 3.1. Công thức tính lực chiến
 
-```
-CP_Total = (ATK * 1.0)
-         + (HP / 5)
-         + (DEF * 2)
-         + (CRIT_Rate * 100)
-         + (ASPD * 500)
-         + (CRIT_Dmg * 50)
-```
+$$
+CP_{Total} = (ATK \times 1.0) + (HP / 5) + (DEF \times 2) + (CRIT\_Rate \times 100) + (ASPD \times 500) + (CRIT\_Dmg \times 50)
+$$
 
 ### 3.2. Bảng trọng số
 
@@ -151,18 +142,23 @@ CP_Total = (ATK * 1.0)
 | **Icon**      | Hình khiên                                     |
 | **Màu sắc**   | Xanh dương                                     |
 | **Vai trò**   | Giảm sát thương nhận vào theo %                |
-| **Công thức** | DamageReduction = DEF / (DEF + 500)            |
+| **Công thức** | $$DamageReduction = \frac{DEF}{DEF + 500}$$    |
 | **Ví dụ**     | DEF 500 = giảm 50% damage; DEF 1000 = giảm 67% |
 
 ### 4.5. Biểu đồ giảm thương của DEF
 
+<!--
 ```mermaid
 xychart-beta
     title "Tỉ lệ giảm thương theo DEF"
     x-axis [0, 100, 250, 500, 750, 1000, 1500, 2000]
     y-axis "Giảm thương %" 0 --> 100
+
     line [0, 17, 33, 50, 60, 67, 75, 80]
+
 ```
+-->
+*(Biểu đồ tạm ẩn do lỗi hiển thị)*
 
 ---
 
@@ -214,3 +210,4 @@ Các chỉ số có thể bị thay đổi tạm thời trong trận đấu.
 | Mid (Lv 51-150)   | 1,000 - 50,000 | 5,000 - 100,000 | Main progression |
 | Late (Lv 151-300) | 50,000 - 1M    | 100,000 - 10M   | Gacha dependent  |
 | Endgame (300+)    | 1M+            | 10M+            | Whale territory  |
+```

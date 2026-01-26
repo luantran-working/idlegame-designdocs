@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[9858],{5516(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);

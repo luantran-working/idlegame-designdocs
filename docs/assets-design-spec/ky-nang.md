@@ -8,15 +8,19 @@ Tài liệu quy định chi tiết về hiệu ứng hình ảnh (VFX) và âm t
 
 ### 1.1. Visual Effects (VFX)
 
-- **Phong cách:** Cartoon, 2D Particle, Flashy (lòe loẹt), Chibi style.
-- **Màu sắc:** Phân biệt rõ ràng giữa skill gây sát thương (Màu nóng: Đỏ, Cam) và skill khống chế/buff (Màu lạnh/Xanh: Xanh dương, Xanh lá, Vàng).
-- **Performance:** Hạn chế số lượng particle quá lớn gây lag (target mobile devices). Tối đa 50 particles/effect.
+| Spec            | Yêu cầu                                                                                                                             |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| **Phong cách**  | Cartoon, 2D Particle, Flashy (lòe loẹt), Chibi style.                                                                               |
+| **Màu sắc**     | Phân biệt rõ ràng giữa skill gây sát thương (Màu nóng: Đỏ, Cam) và skill khống chế/buff (Màu lạnh/Xanh: Xanh dương, Xanh lá, Vàng). |
+| **Performance** | Hạn chế số lượng particle quá lớn gây lag. Tối đa 50 particles/effect.                                                              |
 
 ### 1.2. Sound Effects (SFX)
 
-- **Phong cách:** Comical (Hài hước), Cartoon (giống âm thanh Tom & Jerry), Rõ ràng, có lực (Impactful).
-- **Định dạng:** .WAV (Source), .OGG (Ingame).
-- **Naming:** `SFX_[SkillName].wav`.
+| Spec           | Yêu cầu                                                                                |
+| :------------- | :------------------------------------------------------------------------------------- |
+| **Phong cách** | Comical (Hài hước), Cartoon (giống âm thanh Tom & Jerry), Rõ ràng, có lực (Impactful). |
+| **Định dạng**  | .WAV (Source), .OGG (Ingame).                                                          |
+| **Naming**     | `SFX_[SkillName].wav`.                                                                 |
 
 ---
 
@@ -65,10 +69,14 @@ Danh sách 20 kỹ năng nhân vật chính.
 
 ### 3.1. VFX
 
-- **Format:** Sprite Sheet (PNG) hoặc Spine Project.
-- **Naming:** `VFX_[SkillName]_[State].png` (e.g., `VFX_NemGach_Hit.png`).
+| Hạng mục   | Yêu cầu                                                      |
+| :--------- | :----------------------------------------------------------- |
+| **Format** | Sprite Sheet (PNG) hoặc Spine Project.                       |
+| **Naming** | `VFX_[SkillName]_[State].png` (e.g., `VFX_NemGach_Hit.png`). |
 
 ### 3.2. SFX
 
-- **Format:** Mono, 44.1kHz, 16-bit WAV.
-- **Duration:** < 2s (cho các âm thanh impact), < 5s (cho các âm thanh skill kéo dài).
+| Hạng mục     | Yêu cầu                                                                |
+| :----------- | :--------------------------------------------------------------------- |
+| **Format**   | Mono, 44.1kHz, 16-bit WAV.                                             |
+| **Duration** | < 2s (cho các âm thanh impact), < 5s (cho các âm thanh skill kéo dài). |

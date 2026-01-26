@@ -76,8 +76,8 @@ $$
 
 Boss tại các ải 5, 10, v.v... có chỉ số vượt trội so với quái thường.
 
-- **Boss HP** = Monster HP $\times$ 10.
-- **Boss ATK** = Monster ATK $\times$ 1.5.
+- **Boss HP** = $Monster HP \times 10$.
+- **Boss ATK** = $Monster ATK \times 1.5$.
 - **Boss Time:** Giới hạn 60 giây để kill boss (DPS Check).
 
 ---
@@ -119,9 +119,9 @@ $$
 BaseStat_{New} = BaseStat_{Old} \times Multiplier_{StarUp}
 $$
 
-- 1 sao -> 2 sao: x1.5
-- 2 sao -> 3 sao: x1.5
+- 1 sao $\to$ 2 sao: $\times 1.5$
+- 2 sao $\to$ 3 sao: $\times 1.5$
 - ...
-- 5 sao -> 1 sao (Tier sau): x2.0
+- 5 sao $\to$ 1 sao (Tier sau): $\times 2.0$
 
 Điều này tạo động lực cực lớn cho việc gacha và nâng cấp tướng.

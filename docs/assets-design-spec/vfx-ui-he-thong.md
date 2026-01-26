@@ -21,60 +21,73 @@ Tài liệu này quy định về các hiệu ứng hình ảnh dành cho giao d
 
 Quy trình hiển thị niềm vui (Joy) khi người chơi nhận được vật phẩm mới.
 
-1.  **Giai đoạn chuẩn bị:** Thùng gỗ/Thùng sắt rung lắc mạnh, có ánh sáng (God rays) phát ra qua các kẽ nứt.
-2.  **Giai đoạn mở:** Nắp thùng bật tung (văng ra khỏi màn hình).
-3.  **Giai đoạn công bố:**
-    - _Đồ thường:_ Ánh sáng trắng đơn giản.
-    - _Đồ hiếm:_ Cột sáng tím/cam tùy phẩm chất.
-    - _Vật phẩm:_ Bay từ trong thùng ra chính giữa màn hình kèm hiệu ứng xoay tròn và lấp lánh (Sparkling).
+| Giai đoạn       | Mô tả hiệu ứng                                                                                                                                                                                       |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Chuẩn bị** | Thùng gỗ/Thùng sắt rung lắc mạnh, có ánh sáng (God rays) phát ra qua các kẽ nứt.                                                                                                                     |
+| **2. Mở**       | Nắp thùng bật tung (văng ra khỏi màn hình).                                                                                                                                                          |
+| **3. Công bố**  | **Đồ thường:** Ánh sáng trắng đơn giản.<br/>**Đồ hiếm:** Cột sáng tím/cam tùy phẩm chất.<br/>**Vật phẩm:** Bay từ trong thùng ra chính giữa màn hình kèm hiệu ứng xoay tròn và lấp lánh (Sparkling). |
 
 ---
 
-## 2. Hiệu ứng Nâng cấp (Level Up / Upgrade)
+## 3. Hiệu ứng Nâng cấp (Level Up / Upgrade)
 
-### 2.1. Nhân vật lên cấp
+### 3.1. Nhân vật lên cấp
 
-- Một cột sáng vàng rộng bao quanh nhân vật.
-- Chữ "LEVEL UP" bay lên với Animation lò xo (Spring).
-- Pháo giấy (Confetti) màu sắc bắn ra từ 2 bên mép màn hình.
+| Thành phần    | Mô tả                                                      |
+| :------------ | :--------------------------------------------------------- |
+| **Cột sáng**  | Một cột sáng vàng rộng bao quanh nhân vật.                 |
+| **Text**      | Chữ "LEVEL UP" bay lên với Animation lò xo (Spring).       |
+| **Particles** | Pháo giấy (Confetti) màu sắc bắn ra từ 2 bên mép màn hình. |
 
-### 2.2. Nâng cấp Trang bị / Đồng đội
+### 3.2. Nâng cấp Trang bị / Đồng đội
 
-- **Success:** Hiệu ứng búa đập "Keng" -> Một luồng sáng chạy dọc viền vật phẩm -> Các chỉ số mới bay lên màu xanh lá.
-- **Merge (Gộp):** Hai vật phẩm bay vào nhau, xoay tròn tạo thành một hố đen nhỏ -> Vụ nổ ánh sáng nhẹ -> Vật phẩm cấp cao hiện ra.
+| Loại nâng cấp   | Hiệu ứng                                                                                                         |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------- |
+| **Success**     | Hiệu ứng búa đập "Keng" -> Một luồng sáng chạy dọc viền vật phẩm -> Các chỉ số mới bay lên màu xanh lá.          |
+| **Merge (Gộp)** | Hai vật phẩm bay vào nhau, xoay tròn tạo thành một hố đen nhỏ -> Vụ nổ ánh sáng nhẹ -> Vật phẩm cấp cao hiện ra. |
 
 ---
 
-## 3. Hiệu ứng luồng tiền (Currency Flow)
+## 4. Hiệu ứng luồng tiền (Currency Flow)
 
 Cực kỳ quan trọng để kích thích người chơi thu thập tài nguyên.
 
-- **Vàng (Gold):** Các đồng xu vàng bay theo đường cong (Parabol) từ vị trí quái chết về phía túi tiền trên góc UI. Có tiếng "Keng" nhỏ khi đồng xu chạm vào túi.
-- **Kim cương (Gem):** Bay chậm hơn, có vệt sáng lấp lánh (Shiny trail) phía sau.
-- **Kinh nghiệm (EXP):** Các hạt năng lượng màu tím bay vào thanh Level.
+| Loại tài nguyên       | Mô tả hiệu ứng                                                                                                                                 |
+| :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vàng (Gold)**       | Các đồng xu vàng bay theo đường cong (Parabol) từ vị trí quái chết về phía túi tiền trên góc UI. Có tiếng "Keng" nhỏ khi đồng xu chạm vào túi. |
+| **Kim cương (Gem)**   | Bay chậm hơn, có vệt sáng lấp lánh (Shiny trail) phía sau.                                                                                     |
+| **Kinh nghiệm (EXP)** | Các hạt năng lượng màu tím bay vào thanh Level.                                                                                                |
 
 ---
 
-## 4. Hiệu ứng chuyển cảnh (Transitions)
+## 5. Hiệu ứng chuyển cảnh (Transitions)
 
-- **Vào trận:** Màn hình thu nhỏ lại vào giữa (Iris close) rồi mở rộng ra bối cảnh mới.
-- **Thất bại:** Màn hình chuyển sang màu Grayscale (đen trắng) mờ ảo.
-- **Thắng trận:** Một dải lụa đỏ/vàng chạy ngang qua màn hình kèm chữ "CHIẾN THẮNG".
+| Loại chuyển cảnh | hiệu ứng                                                                |
+| :--------------- | :---------------------------------------------------------------------- |
+| **Vào trận**     | Màn hình thu nhỏ lại vào giữa (Iris close) rồi mở rộng ra bối cảnh mới. |
+| **Thất bại**     | Màn hình chuyển sang màu Grayscale (đen trắng) mờ ảo.                   |
+| **Thắng trận**   | Một dải lụa đỏ/vàng chạy ngang qua màn hình kèm chữ "CHIẾN THẮNG".      |
 
 ---
 
-## 5. Hiệu ứng tương tác UI (Interaction VFX)
+## 6. Hiệu ứng tương tác UI (Interaction VFX)
 
-- **Click/Tap:** Một vòng tròn sóng nước (Ripple) lan tỏa từ vị trí chạm, màu sắc theo theme của nút.
-- **Hover (PC/Emulator):** Nút bấm hơi phóng to (Scale 1.05) và phát sáng nhẹ ở viền.
-- **Disabled:** Nút bấm bị xám hóa (Grayscale) và có hiệu ứng rung nhẹ (Shake) nếu người chơi cố bấm vào.
+| Trạng thái              | Hiệu ứng                                                                                  |
+| :---------------------- | :---------------------------------------------------------------------------------------- |
+| **Click/Tap**           | Một vòng tròn sóng nước (Ripple) lan tỏa từ vị trí chạm, màu sắc theo theme của nút.      |
+| **Hover (PC/Emulator)** | Nút bấm hơi phóng to (Scale 1.05) và phát sáng nhẹ ở viền.                                |
+| **Disabled**            | Nút bấm bị xám hóa (Grayscale) và có hiệu ứng rung nhẹ (Shake) nếu người chơi cố bấm vào. |
 
-## 6. Hiệu ứng thành tựu & nhiệm vụ (Achievement VFX)
+## 7. Hiệu ứng thành tựu & nhiệm vụ (Achievement VFX)
 
-- **Hoàn thành nhiệm vụ:** Một dải banner hiện ra chính giữa màn hình với icon [Huy hiệu], sau đó thu nhỏ và bay vào icon [Nhiệm vụ] trên menu.
-- **Kỷ lục mới (New Record):** Hiệu ứng pháo hoa nhỏ nổ rải rác trên màn hình kèm chữ "KỶ LỤC MỚI" nhấp nháy 7 màu.
+| Loại thành tựu              | Hiệu ứng                                                                                                             |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| **Hoàn thành nhiệm vụ**     | Một dải banner hiện ra chính giữa màn hình với icon [Huy hiệu], sau đó thu nhỏ và bay vào icon [Nhiệm vụ] trên menu. |
+| **Kỷ lục mới (New Record)** | Hiệu ứng pháo hoa nhỏ nổ rải rác trên màn hình kèm chữ "KỶ LỤC MỚI" nhấp nháy 7 màu.                                 |
 
-## 7. Hiệu ứng tài nguyên đặc biệt (Special Energy VFX)
+## 8. Hiệu ứng tài nguyên đặc biệt (Special Energy VFX)
 
-- **Hồi thể lực (Energy Refill):** Một luồng khí màu xanh dương chảy ngược từ màn hình vào thanh thể lực, thanh thể lực sáng rực lên trong 1s.
-- **Nhận quà từ mail:** Bao lì rơi từ trên xuống, mở ra có hiệu ứng ánh sáng tỏa tròn.
+| Loại hiệu ứng                   | Mô tả                                                                                                       |
+| :------------------------------ | :---------------------------------------------------------------------------------------------------------- |
+| **Hồi thể lực (Energy Refill)** | Một luồng khí màu xanh dương chảy ngược từ màn hình vào thanh thể lực, thanh thể lực sáng rực lên trong 1s. |
+| **Nhận quà từ mail**            | Bao lì rơi từ trên xuống, mở ra có hiệu ứng ánh sáng tỏa tròn.                                              |

@@ -61,23 +61,29 @@ Cần thiết kế theo bộ (Atlas) để tái sử dụng. Style: Cartoon, nú
 
 ### 3.1. Các loại nút bấm (Buttons)
 
-- **Nút xanh lá (Primary):** Dùng cho hành động xác nhận, nâng cấp, nhận quà (cảm giác tích cực).
-- **Nút vàng/cam (Important):** Dùng cho nút shop, nạp, hoặc hành động tốn tiền (kêu gọi hành động).
-- **Nút đỏ (Danger/Close):** Dùng cho nút tắt, xóa, hủy bỏ.
-- **Nút xanh dương (Info/Secondary):** Dùng cho các nút chức năng phụ.
-- **Nút xám (Disabled):** Trạng thái không thể bấm.
+| Loại nút           | Màu sắc/Style | Công dụng                                                   |
+| :----------------- | :------------ | :---------------------------------------------------------- |
+| **Primary**        | Xanh lá       | Hành động xác nhận, nâng cấp, nhận quà (cảm giác tích cực). |
+| **Important**      | Vàng/Cam      | Nút shop, nạp, hoặc hành động tốn tiền (kêu gọi hành động). |
+| **Danger/Close**   | Đỏ            | Nút tắt, xóa, hủy bỏ.                                       |
+| **Info/Secondary** | Xanh dương    | Các nút chức năng phụ.                                      |
+| **Disabled**       | Xám           | Trạng thái không thể bấm.                                   |
 
 ### 3.2. Khung cửa sổ (Panels/Popups)
 
-- **Khung nền (Popup BG):** Hình chữ nhật bo góc, màu giấy cũ (beige) hoặc trắng kem, viền nâu gỗ. Texture giấy nhẹ.
-- **Header (Tiêu đề):** Dải băng (Ribbon) vắt ngang phía trên popup để ghi tên tiêu đề.
-- **Nút tắt (Close btn):** Dấu X đỏ nằm góc trên phải popup.
+| Thành phần               | style                                                                                    |
+| :----------------------- | :--------------------------------------------------------------------------------------- |
+| **Khung nền (Popup BG)** | Hình chữ nhật bo góc, màu giấy cũ (beige) hoặc trắng kem, viền nâu gỗ. Texture giấy nhẹ. |
+| **Header (Tiêu đề)**     | Dải băng (Ribbon) vắt ngang phía trên popup để ghi tên tiêu đề.                          |
+| **Nút tắt (Close btn)**  | Dấu X đỏ nằm góc trên phải popup.                                                        |
 
 ### 3.3. Thanh tiến độ (Progress Bars)
 
-- **Thanh HP:** Màu đỏ (Enemy) và Xanh lá (Player).
-- **Thanh Exp:** Màu vàng hoặc xanh lơ.
-- **Thanh Loading/Download:** Màu xanh dương.
+| Loại thanh        | Màu sắc                             |
+| :---------------- | :---------------------------------- |
+| **Thanh HP**      | Màu đỏ (Enemy) và Xanh lá (Player). |
+| **Thanh Exp**     | Màu vàng hoặc xanh lơ.              |
+| **Thanh Loading** | Màu xanh dương.                     |
 
 ---
 
@@ -85,23 +91,30 @@ Cần thiết kế theo bộ (Atlas) để tái sử dụng. Style: Cartoon, nú
 
 ### 4.1. Gói nạp (IAP Bundles)
 
-- **Gói tay nải:** Túi vải nhỏ đựng ít kim cương.
-- **Gói rương gỗ:** Rương gỗ chứa vừa vừa kim cương.
-- **Gói rương vàng:** Rương vàng tràn ngập kim cương.
-- **Gói xe tải:** Xe tải chở đầy kim cương (gói to nhất).
+| Tên gói            | Mô tả hình ảnh                          |
+| :----------------- | :-------------------------------------- |
+| **Gói tay nải**    | Túi vải nhỏ đựng ít kim cương.          |
+| **Gói rương gỗ**   | Rương gỗ chứa vừa vừa kim cương.        |
+| **Gói rương vàng** | Rương vàng tràn ngập kim cương.         |
+| **Gói xe tải**     | Xe tải chở đầy kim cương (gói to nhất). |
 
 ### 4.2. Thùng Gacha (Gacha Box)
 
 - **Style:** Thùng carton dán băng dính (như thùng hàng ship online).
-- **Trạng thái 1:** Đóng kín.
-- **Trạng thái 2:** Rung lắc, phồng lên, ánh sáng lọt ra khe.
-- **Trạng thái 3:** Bung nắp, ánh sáng tỏa ra (Vàng/Tím/Xanh).
+
+| Trạng thái      | Mô tả animation                                |
+| :-------------- | :--------------------------------------------- |
+| **1. Đóng kín** | Thùng nằm im.                                  |
+| **2. Rung lắc** | Phồng lên, rung mạnh, ánh sáng lọt ra khe nứt. |
+| **3. Bung nắp** | Nắp bật tung, ánh sáng tỏa ra (Vàng/Tím/Xanh). |
 
 ---
 
 ## 5. Tổng hợp (Summary)
 
-- **Icon tài nguyên:** ~12 icons.
-- **Icon Tab Bar:** 10 icons (2 states).
-- **Icon HUD:** ~10 icons.
-- **UI Atlas:** Buttons, Panels, Frame, Bars.
+| Loại Asset          | Số lượng ước tính            |
+| :------------------ | :--------------------------- |
+| **Icon tài nguyên** | ~12 icons                    |
+| **Icon Tab Bar**    | 10 icons (2 states)          |
+| **Icon HUD**        | ~10 icons                    |
+| **UI Atlas**        | Buttons, Panels, Frame, Bars |

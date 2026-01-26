@@ -86,7 +86,7 @@ Hệ thống sử dụng 6 cấp độ phẩm chất tương tự trang bị.
 | **Bà trùm đề**     | Mage    | **Sổ sinh tử:** Chọn 1 kẻ địch, sau 5s gây sát thương chuẩn bằng 50% máu đã mất của nó. | **Nuôi lô:** Sát thương kỹ năng tăng 10% mỗi lần sử dụng (Reset khi hết màn). |
 | **Tiến sĩ giấy**   | Support | **Hack game:** Reset toàn bộ thời gian hồi chiêu của cả đội (Cooldown: 60s).            | **Lý thuyết:** Tăng 20% EXP nhận được cho cả đội.                             |
 
-> **Lưu ý:** Xem chi tiết mô tả hiệu ứng hình ảnh (VFX) và âm thanh (SFX) cho các kỹ năng trên tại tài liệu: [Thiết kế kỹ năng đồng đội](../assets-design-spec/ky-nang-dong-doi.md).
+> **Lưu ý:** Xem chi tiết mô tả hiệu ứng hình ảnh (VFX) và âm thanh (SFX) cho các kỹ năng trên tại tài liệu: [Thiết kế kỹ năng đồng đội](./assets-design-spec/ky-nang-dong-doi.md).
 
 ---
 

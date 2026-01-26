@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[4583],{6866(e,s,d){d.r(s),d.d(s,{default:()=>n});var i=d(6347),a=d(4848);function n(){return(0,a.jsx)(i.rd,{to:"/docs/intro"})}}}]);

@@ -8,18 +8,20 @@ Tài liệu quy định chi tiết về visual art (ngoại hình, animation) v�
 
 ### 1.1. Art style
 
-- **Phong cách:** Cartoon 2D, tỷ lệ cơ thể 1:2.5 (đầu to thân nhỏ, cute nhưng bựa).
-- **Line:** Nét viền đậm, màu nâu đen (#2E2E2E).
-- **Màu sắc:** Tươi sáng (high saturation), đổ bóng cel-shading đơn giản.
-- **Góc nhìn:** 3/4 side-view.
+| Tiêu chí       | Đặc tả phong cách                                                 |
+| :------------- | :---------------------------------------------------------------- |
+| **Phong cách** | Cartoon 2D, tỷ lệ cơ thể 1:2.5 (đầu to thân nhỏ, cute nhưng bựa). |
+| **Line**       | Nét viền đậm, màu nâu đen (#2E2E2E).                              |
+| **Màu sắc**    | Tươi sáng (high saturation), đổ bóng cel-shading đơn giản.        |
+| **Góc nhìn**   | 3/4 side-view.                                                    |
 
 ### 1.2. Kỹ thuật (Technical)
 
-- **Kích thước sprite:**
-  - Ingame: ~150px chiều cao.
-  - Source: 512x512px.
-- **Animation FPS:** 30fps.
-- **Các trạng thái:** Idle, Move, Attack, Skill, Hit, Die, Win.
+| Thông số              | Yêu cầu kỹ thuật                                   |
+| :-------------------- | :------------------------------------------------- |
+| **Kích thước sprite** | Ingame: ~150px chiều cao. <br/> Source: 512x512px. |
+| **Animation FPS**     | 30fps.                                             |
+| **Các trạng thái**    | Idle, Move, Attack, Skill, Hit, Die, Win.          |
 
 ---
 
@@ -92,6 +94,8 @@ Tài liệu quy định chi tiết về visual art (ngoại hình, animation) v�
 
 ## 4. Yêu cầu bàn giao (Deliverables)
 
-- **Định dạng:** Spine 2D (.json, .atlas, .png) hoặc Sprite Sheet (.png).
-- **Cấu trúc thư mục:** `Assets/Characters/[Rarity]/[Name]/`.
-- **Tên file:** Viết liền không dấu, ví dụ `DaiCaKhuPho_Idle.png`.
+| Hạng mục             | Quy định                                                 |
+| :------------------- | :------------------------------------------------------- |
+| **Định dạng**        | Spine 2D (.json, .atlas, .png) hoặc Sprite Sheet (.png). |
+| **Cấu trúc thư mục** | `Assets/Characters/[Rarity]/[Name]/`.                    |
+| **Tên file**         | Viết liền không dấu, ví dụ `DaiCaKhuPho_Idle.png`.       |

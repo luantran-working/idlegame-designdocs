@@ -6,10 +6,12 @@ Tài liệu này đặc tả chi tiết về ngoại hình, animation và phong 
 
 ## 1. Định hướng nghệ thuật (Art Direction)
 
-- **Style:** Cartoon hài hước, châm biếm (Caricature).
-- **Tỷ lệ:** Đầu to, chân tay ngắn (chibi-like) hoặc cường điệu hóa đặc điểm hình thể.
-- **Line art:** Nét viền đậm (Bold Outline).
-- **Màu sắc:** Tông màu trầm hơn nhân vật chính một chút để làm nền, nhưng vẫn giữ nét tươi sáng.
+| Tiêu chí     | Đặc tả nghệ thuật                                                                  |
+| :----------- | :--------------------------------------------------------------------------------- |
+| **Style**    | Cartoon hài hước, châm biếm (Caricature).                                          |
+| **Tỷ lệ**    | Đầu to, chân tay ngắn (chibi-like) hoặc cường điệu hóa đặc điểm hình thể.          |
+| **Line art** | Nét viền đậm (Bold Outline).                                                       |
+| **Màu sắc**  | Tông màu trầm hơn nhân vật chính một chút để làm nền, nhưng vẫn giữ nét tươi sáng. |
 
 ---
 
@@ -36,8 +38,10 @@ _Assets ID: ENM_C1_xx_
 
 **BOSS C1: Tổ trưởng dân phố**
 
-- _Visual:_ Bác già nghiêm nghị, đeo kính lão trễ mũi, băng đỏ "Tổ Trưởng" to trên tay, cầm loa cầm tay.
-- _Anim:_ Hét vào loa (loa rung bần bật), chỉ ngón tay quyền lực.
+| Hạng mục      | Đặc tả Boss C1                                                                               |
+| :------------ | :------------------------------------------------------------------------------------------- |
+| **Visual**    | Bác già nghiêm nghị, đeo kính lão trễ mũi, băng đỏ "Tổ Trưởng" to trên tay, cầm loa cầm tay. |
+| **Animation** | Hét vào loa (loa rung bần bật), chỉ ngón tay quyền lực.                                      |
 
 ---
 
@@ -62,7 +66,9 @@ _Assets ID: ENM_C2_xx_
 
 **BOSS C2: Trùm bảo kê chợ**
 
-- _Visual:_ Khổng lồ (chiếm 1/3 màn hình), đầu trọc lóc, đeo sợi xích vàng to như xích chó, bụng bia, cầm mã tấu rỉ sét.
+| Hạng mục   | Đặc tả Boss C2                                                                                               |
+| :--------- | :----------------------------------------------------------------------------------------------------------- |
+| **Visual** | Khổng lồ (chiếm 1/3 màn hình), đầu trọc lóc, đeo sợi xích vàng to như xích chó, bụng bia, cầm mã tấu rỉ sét. |
 
 ---
 
@@ -87,7 +93,9 @@ _Assets ID: ENM_C3_xx_
 
 **BOSS C3: Idol giới trẻ**
 
-- _Visual:_ Ăn mặc thời trang quái dị (quần ống loe, áo kim sa), cầm micro gắn đá quý, xung quanh có hào quang lấp lánh và tim bay.
+| Hạng mục   | Đặc tả Boss C3                                                                                                          |
+| :--------- | :---------------------------------------------------------------------------------------------------------------------- |
+| **Visual** | Ăn mặc thời trang quái dị (quần ống loe, áo kim sa), cầm micro gắn đá quý, xung quanh có hào quang lấp lánh và tim bay. |
 
 ---
 
@@ -112,4 +120,6 @@ _Assets ID: ENM_C4_xx_
 
 **BOSS C4: Chủ tịch giả danh**
 
-- _Visual:_ Mặc vest Tuxedo cực sang trọng nhưng chân đi dép lào (hoặc tổ ong), tay xách vali tiền (tiền giả thòi ra ngoài). Dáng vẻ đạo mạo nhưng lố bịch.
+| Hạng mục   | Đặc tả Boss C4                                                                                                                                  |
+| :--------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Visual** | Mặc vest Tuxedo cực sang trọng nhưng chân đi dép lào (hoặc tổ ong), tay xách vali tiền (tiền giả thòi ra ngoài). Dáng vẻ đạo mạo nhưng lố bịch. |
