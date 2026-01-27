@@ -55,12 +55,12 @@ Game diễn ra tại một góc phố bình dân điển hình của Việt Nam.
 
 Kẻ thù là các đối tượng gây rối trật tự khu phố, được phân theo từng chương (chapter):
 
-| Loại kẻ thù (Theme)     | Mô tả sơ lược                                 | Xuất hiện tại     |
-| :---------------------- | :-------------------------------------------- | :---------------- |
-| **Thành phần bất hảo**  | Bà hàng xóm, Thanh niên xăm trổ, Bác xe ôm... | Chương 1: Ngõ Nhỏ |
-| **Cư dân chợ búa**      | Móc túi, Phe vé, Bà bán thịt, Cửu vạn...      | Chương 2: Khu Chợ |
-| **Giới trẻ sống ảo**    | Hot girl kem trộn, Streamer, Rich kid rởm...  | Chương 3: Sống Ảo |
-| **Dân văn phòng toxic** | Sếp hách dịch, Kế toán, HR, IT support...     | Chương 4: Công Sở |
+| Loại kẻ thù (Theme)     | Mô tả sơ lược                                 | Xuất hiện tại               |
+| :---------------------- | :-------------------------------------------- | :-------------------------- |
+| **Thành phần bất hảo**  | Bà hàng xóm, Thanh niên xăm trổ, Bác xe ôm... | Chương 1: Ngõ nhỏ & vỉa hè  |
+| **Cư dân chợ búa**      | Móc túi, Phe vé, Bà bán thịt, Cửu vạn...      | Chương 2: Khu chợ & bến xe  |
+| **Giới trẻ sống ảo**    | Hot girl kem trộn, Streamer, Rich kid rởm...  | Chương 3: Khu "sống ảo"     |
+| **Dân văn phòng toxic** | Sếp hách dịch, Kế toán, HR, IT support...     | Chương 4: Văn phòng công sở |
 
 ### 2.4. Hệ thống boss
 

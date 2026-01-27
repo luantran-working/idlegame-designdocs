@@ -129,12 +129,12 @@ sequenceDiagram
 
 ### 3.3. Cấu trúc chapter
 
-| Chapter | Bối cảnh         | Số ải | Boss cuối         |
-| :------ | :--------------- | :---- | :---------------- |
-| 1       | Ngõ phố nhỏ      | 10    | Đại ca khu phố    |
-| 2       | Khu chợ cóc      | 10    | Tổ trưởng dân phố |
-| 3       | Công viên ghế đá | 10    | Chủ nợ hung dữ    |
-| 4       | Bến xe           | 10    | Trùm đa cấp       |
+| Chapter | Bối cảnh          | Số ải | Boss cuối         |
+| :------ | :---------------- | :---- | :---------------- |
+| 1       | Ngõ nhỏ & vỉa hè  | 10    | Tổ trưởng dân phố |
+| 2       | Khu chợ & bến xe  | 10    | Trùm bảo kê chợ   |
+| 3       | Khu "sống ảo"     | 10    | Idol giới trẻ     |
+| 4       | Văn phòng công sở | 10    | Chủ tịch giả danh |
 
 ---
 

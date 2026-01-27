@@ -91,7 +91,7 @@ $$FinalHP = BaseHP_{ch} \times (HPMult)^{Stage-1} \times (1 + Wave \times 0.05) 
 
 ## 3. Bảng chi tiết quái theo chương
 
-### 3.1. Chương 1: Ngõ nhỏ & Vỉa hè (12 quái + 1 Boss)
+### 3.1. Chương 1: Ngõ nhỏ & vỉa hè (12 quái + 1 Boss)
 
 | ID        | Tên quái              | Base HP | Base ATK | ASPD | Kỹ năng đặc biệt           |
 | :-------- | :-------------------- | :------ | :------- | :--- | :------------------------- |
@@ -123,7 +123,7 @@ $$FinalHP = BaseHP_{ch} \times (HPMult)^{Stage-1} \times (1 + Wave \times 0.05) 
 
 ---
 
-### 3.2. Chương 2: Khu Chợ & Bến Xe (12 quái + 1 Boss)
+### 3.2. Chương 2: Khu chợ & bến xe (12 quái + 1 Boss)
 
 | ID        | Tên quái              | Base HP | Base ATK | ASPD | Kỹ năng đặc biệt            |
 | :-------- | :-------------------- | :------ | :------- | :--- | :-------------------------- |
@@ -155,7 +155,7 @@ $$FinalHP = BaseHP_{ch} \times (HPMult)^{Stage-1} \times (1 + Wave \times 0.05) 
 
 ---
 
-### 3.3. Chương 3: Khu Sống Ảo (12 quái + 1 Boss)
+### 3.3. Chương 3: Khu "sống ảo" (12 quái + 1 Boss)
 
 | ID        | Tên quái             | Base HP | Base ATK | ASPD | Kỹ năng đặc biệt           |
 | :-------- | :------------------- | :------ | :------- | :--- | :------------------------- |
@@ -188,7 +188,7 @@ $$FinalHP = BaseHP_{ch} \times (HPMult)^{Stage-1} \times (1 + Wave \times 0.05) 
 
 ---
 
-### 3.4. Chương 4: Văn Phòng Công Sở (12 quái + 1 Boss)
+### 3.4. Chương 4: Văn phòng công sở (12 quái + 1 Boss)
 
 | ID        | Tên quái               | Base HP | Base ATK | ASPD | Kỹ năng đặc biệt             |
 | :-------- | :--------------------- | :------ | :------- | :--- | :--------------------------- |

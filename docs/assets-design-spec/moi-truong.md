@@ -29,16 +29,16 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 
 ### Bảng tóm tắt môi trường
 
-| Chương       | Chủ đề chính     | Đặc điểm nhận dạng                                                   | Animation môi trường                                      | Hình ảnh minh họa                  |
-| :----------- | :--------------- | :------------------------------------------------------------------- | :-------------------------------------------------------- | :--------------------------------- |
-| **Chương 1** | Ngõ nhỏ phố xưa  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh.       | ![Chương 1](./images/chuong_1.png) |
-| **Chương 2** | Chợ cóc dân sinh | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ.       | ![Chương 2](./images/chuong_2.png) |
-| **Chương 3** | Công viên        | Ghế đá "tặng bởi...", hàng rào xanh gỉ, loa phường trên cây.         | Các cụ tập dưỡng sinh, gợn sóng mặt hồ, lá rơi phủ đường. | ![Chương 3](./images/chuong_3.png) |
-| **Chương 4** | Bến xe liên tỉnh | Xe khách 45 chỗ, hành khách chờ, bến bãi nứt vỡ, xe ôm vẫy khách.    | Khói pô xe, hành khách đi lại, ánh đèn pha quét qua.      | ![Chương 4](./images/chuong_4.png) |
+| Chương       | Chủ đề chính      | Đặc điểm nhận dạng                                                   | Animation môi trường                                | Hình ảnh minh họa                  |
+| :----------- | :---------------- | :------------------------------------------------------------------- | :-------------------------------------------------- | :--------------------------------- |
+| **Chương 1** | Ngõ nhỏ & vỉa hè  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh. | ![Chương 1](./images/chuong_1.png) |
+| **Chương 2** | Khu chợ & bến xe  | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ. | ![Chương 2](./images/chuong_2.png) |
+| **Chương 3** | Khu "sống ảo"     | Cafe neon "Good vibes only", cổng checkin trái tim, ring light.      | Đèn neon nhấp nháy, confetti bay, flash chụp ảnh.   | ![Chương 3](./images/chuong_3.png) |
+| **Chương 4** | Văn phòng công sở | Bàn làm việc đầy giấy tờ, máy photocopy, bảng deadline, cây héo rũ.  | Máy photocopy nhả giấy, đèn nhấp nháy, giấy bay.    | ![Chương 4](./images/chuong_4.png) |
 
 ---
 
-### Chương 1: Ngõ Nhỏ Phố Xưa
+### Chương 1: Ngõ nhỏ & vỉa hè
 
 - **Chủ đề:** Sự giao thoa giữa Hà Nội cũ và nhịp sống hiện đại.
 - **Bảng màu:** Vàng thư (tường cũ), Xanh rêu, Đỏ gạch.
@@ -48,7 +48,7 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 | **Chi tiết đặc trưng**   | - Dây điện chằng chịt như mạng nhện.<br/>- Cột điện dán kín quảng cáo "Khoan cắt bê tông", "Hút bể phốt".<br/>- Quán trà đá vỉa hè với ghế nhựa xanh đỏ.<br/>- Cục nóng điều hòa chảy nước. |
 | **Animation môi trường** | - Quạt trần trong quán cũ quay chậm.<br/>- Chim bồ câu bay lên từ nóc nhà.<br/>- Lá cây xà cừ rơi lưa thưa.                                                                                 |
 
-### Chương 2: Chợ Cóc Dân Sinh
+### Chương 2: Khu chợ & bến xe
 
 - **Chủ đề:** Sự xô bồ, náo nhiệt của chợ Việt Nam.
 - **Bảng màu:** Xanh bạt, Đỏ tươi (thịt), Cam/Vàng (trái cây).
@@ -58,15 +58,25 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 | **Chi tiết đặc trưng**   | - Dãy bạt che mưa nhấp nhô đủ màu.<br/>- Xe đẩy tự chế, mẹt hoa quả, thúng xôi.<br/>- Vũng nước đọng loang lổ vết dầu.<br/>- Bảng hiệu vẽ tay: "Tạp hóa Cô Lan", "Bún đậu mắm tôm". |
 | **Animation môi trường** | - Bạt che rung nhẹ theo gió.<br/>- Ruồi bay quanh sạp hàng (nhỏ).<br/>- Khói bốc lên từ nồi nước lèo của hàng bún.                                                                  |
 
-### Chương 3: Công Viên Thống Nhất
+### Chương 3: Khu "sống ảo"
 
-- **Chủ đề:** Không gian xanh, thư giãn và đời sống cộng đồng.
-- **Bảng màu:** Xanh lá đậm, Xanh hồ thủy, Vàng nắng.
+- **Chủ đề:** Không gian sống ảo, checkin, quán cafe aesthetic và studio.
+- **Bảng màu:** Hồng pastel, Xanh mint, Vàng neon, Tím lavender.
 
-| Hạng mục                 | Chi tiết                                                                                                                                                              |
-| :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Chi tiết đặc trưng**   | - Hàng rào sắt màu xanh lá cây mục gỉ.<br/>- Ghế đá phun sơn "tặng bởi...".<br/>- Dụng cụ tập thể dục ngoài trời màu vàng xanh.<br/>- Loa phường gắn trên cây cổ thụ. |
-| **Animation môi trường** | - Mặt hồ có gợn sóng lăn tăn.<br/>- Các cụ tập dưỡng sinh (Lớp Mid).<br/>- Lá rơi phủ kín mặt đường lát gạch.                                                         |
+| Hạng mục                 | Chi tiết                                                                                                                                                                 |
+| :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Chi tiết đặc trưng**   | - Quán cafe với bảng hiệu neon chữ "Good vibes only".<br/>- Cổng checkin hình trái tim khổng lồ.<br/>- Ring light và tripod chụp ảnh dựng sẵn.<br/>- Graffiti chữ trend. |
+| **Animation môi trường** | - Đèn neon nhấp nháy lung linh.<br/>- Confetti bay lả tả.<br/>- Flash chụp ảnh lóe sáng ngẫu nhiên.                                                                      |
+
+### Chương 4: Văn phòng công sở
+
+- **Chủ đề:** Môi trường công sở, tòa nhà văn phòng và áp lực công việc.
+- **Bảng màu:** Xám bê tông, Xanh dương doanh nghiệp, Trắng đèn huỳnh quang.
+
+| Hạng mục                 | Chi tiết                                                                                                                                                         |
+| :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Chi tiết đặc trưng**   | - Bàn làm việc chất đầy giấy tờ.<br/>- Máy photocopy và bình nước nóng lạnh.<br/>- Cây xanh văn phòng héo rũ.<br/>- Bảng thông báo dán đầy giấy họp và deadline. |
+| **Animation môi trường** | - Đèn huỳnh quang nhấp nháy.<br/>- Máy photocopy nhả giấy liên tục.<br/>- Giấy tờ bay từ bàn làm việc.<br/>- Thang máy đóng mở cửa.                              |
 
 ---
 

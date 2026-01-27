@@ -15,7 +15,7 @@ Tài liệu này quy định chi tiết về danh sách kẻ địch trong game.
 
 ## 2. Chi tiết quái vật theo Chương
 
-### Chương 1: Ngõ Nhỏ & Vỉa Hè (Street Life)
+### Chương 1: Ngõ nhỏ & vỉa hè
 
 _Theme: Các thành phần hay gặp ở ngõ phố, quán trà đá._
 
@@ -35,7 +35,7 @@ _Theme: Các thành phần hay gặp ở ngõ phố, quán trà đá._
 | **Bảo vệ ngủ gật**          | Mặc đồng phục xanh, bụng phệ, ngồi gật gù.                  |
 | **BOSS: Tổ trưởng dân phố** | Bác già khó tính, đeo băng đỏ, cầm loa phường to.           |
 
-### Chương 2: Khu Chợ & Bến Xe (Market & Station)
+### Chương 2: Khu chợ & bến xe
 
 _Theme: Sự xô bồ, lừa lọc và hỗn loạn._
 
@@ -55,7 +55,7 @@ _Theme: Sự xô bồ, lừa lọc và hỗn loạn._
 | **Bà bán nước mía**       | Tay quay luân hồi (vô hình), người dính đầy bã mía.          |
 | **BOSS: Trùm bảo kê chợ** | To lớn như hộ pháp, đầu trọc, đeo xích vàng, cầm mã tấu.     |
 
-### Chương 3: Khu "Sống Ảo" & Giải Trí (Virtual Life)
+### Chương 3: Khu "sống ảo"
 
 _Theme: Giới trẻ, mạng xã hội và thói hư tật xấu online._
 
@@ -75,7 +75,7 @@ _Theme: Giới trẻ, mạng xã hội và thói hư tật xấu online._
 | **Hacker mũ đen**        | Mặc áo hoodie trùm đầu che mặt, gõ không khí.             |
 | **BOSS: Idol giới trẻ**  | Ăn mặc sành điệu (dị hợm), mic gắn đá, có hào quang.      |
 
-### Chương 4: Khu Văn Phòng & Công Sở (Office Toxic)
+### Chương 4: Văn phòng công sở
 
 _Theme: Môi trường công sở độc hại và áp lực._
 

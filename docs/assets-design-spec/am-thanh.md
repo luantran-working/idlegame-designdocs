@@ -39,12 +39,12 @@ Tài liệu này quy bản sắc âm thanh của trò chơi, bao gồm Nhạc n�
 
 Mỗi chương có một bộ âm thanh nền đặc trưng (Layered Audio):
 
-| Chương       | Chủ đề    | Âm thanh chi tiết                                                                                    |
-| :----------- | :-------- | :--------------------------------------------------------------------------------------------------- |
-| **Chương 1** | Ngõ nhỏ   | Tiếng quạt trần quay vo vo, tiếng chim bồ câu gù, tiếng rao hàng văng vẳng ("Ai... xôi lạc đi").     |
-| **Chương 2** | Chợ cóc   | Tiếng dao thớt lạch cạch, tiếng nước sôi sùng sục, tiếng mặc cả ồn ào, tiếng bạt che rung trong gió. |
-| **Chương 3** | Công viên | Tiếng nhạc dưỡng sinh từ loa phường, tiếng chổi tre quét lá xao xác, tiếng ve kêu (nếu là mùa hè).   |
-| **Chương 4** | Bến xe    | Tiếng động cơ xe khách nổ máy rầm rì, tiếng còi hơi giật mình, tiếng loa thông báo "Xe về bến...".   |
+| Chương       | Chủ đề            | Âm thanh chi tiết                                                                                    |
+| :----------- | :---------------- | :--------------------------------------------------------------------------------------------------- |
+| **Chương 1** | Ngõ nhỏ & vỉa hè  | Tiếng quạt trần quay vo vo, tiếng chim bồ câu gù, tiếng rao hàng văng vẳng ("Ai... xôi lạc đi").     |
+| **Chương 2** | Khu chợ & bến xe  | Tiếng dao thớt lạch cạch, tiếng nước sôi sùng sục, tiếng mặc cả ồn ào, tiếng bạt che rung trong gió. |
+| **Chương 3** | Khu "sống ảo"     | Tiếng nhạc dưỡng sinh từ loa phường, tiếng chổi tre quét lá xao xác, tiếng ve kêu (nếu là mùa hè).   |
+| **Chương 4** | Văn phòng công sở | Tiếng bàn phím gõ, tiếng máy photocopy, tiếng điện thoại rống, tiếng bước chân hành lang.            |
 
 ---
 

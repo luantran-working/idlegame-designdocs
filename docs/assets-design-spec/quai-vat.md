@@ -17,7 +17,7 @@ Tài liệu này đặc tả chi tiết về ngoại hình, animation và phong 
 
 ## 2. Chi tiết theo Chương (Asset List)
 
-### Chương 1: Ngõ Nhỏ & Vỉa Hè
+### Chương 1: Ngõ nhỏ & vỉa hè
 
 _Assets ID: ENM_C1_xx_
 
@@ -45,7 +45,7 @@ _Assets ID: ENM_C1_xx_
 
 ---
 
-### Chương 2: Khu Chợ & Bến Xe
+### Chương 2: Khu chợ & bến xe
 
 _Assets ID: ENM_C2_xx_
 
@@ -72,7 +72,7 @@ _Assets ID: ENM_C2_xx_
 
 ---
 
-### Chương 3: Khu "Sống Ảo"
+### Chương 3: Khu "sống ảo"
 
 _Assets ID: ENM_C3_xx_
 
@@ -99,7 +99,7 @@ _Assets ID: ENM_C3_xx_
 
 ---
 
-### Chương 4: Văn Phòng Công Sở
+### Chương 4: Văn phòng công sở
 
 _Assets ID: ENM_C4_xx_
 
