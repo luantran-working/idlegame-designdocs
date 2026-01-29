@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[3490],{3490(e,s,a){a.d(s,{createInfoServices:()=>i.v});var i=a(1885);a(7960)}}]);

@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkidlegame_designdocs=globalThis.webpackChunkidlegame_designdocs||[]).push([[9647],{7121(e,s,a){a.r(s),a.d(s,{default:()=>u});a(6540);var d=a(4164),r=a(7559),c=a(5500),i=a(2831),l=a(9139),n=a(4848);function u(e){return(0,n.jsx)(c.e3,{className:(0,d.A)(r.G.wrapper.docsPages),children:(0,n.jsx)(l.A,{children:(0,i.v)(e.route.routes)})})}}}]);
