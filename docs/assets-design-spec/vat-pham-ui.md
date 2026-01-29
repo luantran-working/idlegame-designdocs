@@ -8,19 +8,19 @@ Tài liệu này liệt kê các tài nguyên hình ảnh (sprites/icons) cần 
 
 Icon cần thiết kế đơn giản, dễ đọc ở kích thước nhỏ (trên thanh header).
 
-| Tên                     | Mô tả hình ảnh (Visual)                                                    | Kích thước | Ghi chú                             | Hình ảnh minh họa                   |
-| :---------------------- | :------------------------------------------------------------------------- | :--------- | :---------------------------------- | :---------------------------------- |
-| **Vàng (Gold)**         | Đồng xu hình tròn, màu vàng kim loại, có ký hiệu '$' hoặc chữ 'V' dập nổi. | 64x64      | Cần bản stack: 1 xu, 3 xu, đống xu. | ![Vàng](./images/item_gold.png)     |
-| **Kim Cương (Gem)**     | Viên kim cương cắt giác (cut structure), màu xanh dương sáng hoặc ngũ sắc. | 64x64      | Cần bản stack: 1 viên, đống viên.   | ![Kim Cương](./images/item_gem.png) |
-| **Cờ lê (Scrap)**       | Cờ lê kim loại màu xám, dính chút dầu mỡ.                                  | 64x64      | Dùng nâng cấp trang bị.             |                                     |
-| **Bí kíp (Skill Book)** | Quyển sách bìa xanh dương, có hào quang tri thức.                          | 64x64      | Dùng nâng skill.                    |
-| **Mảnh kỹ năng**        | Một trang giấy rách từ cuốn bí kíp, có ký tự cổ.                           | 64x64      |                                     |
-| **Bánh mì (Bread)**     | Ổ bánh mì kẹp thịt (Bánh mì Việt Nam) ngon lành.                           | 64x64      | Dùng tăng Exp đồng đội.             |
-| **Mảnh nhân vật**       | Mảnh ghép hình jigsaw (puzzle piece) có dấu '?' hoặc hình bóng người.      | 64x64      | Dùng tăng sao đồng đội.             |
-| **Vé Gacha (Ticket)**   | Tấm vé giấy màu vàng/đỏ, phong cách vé số kiến thiết hoặc vé xem phim cũ.  | 64x64      |                                     |
-| **Chìa khóa (Key)**     | Chìa khóa vàng cổ điển.                                                    | 64x64      |                                     |
-| **Rương AFK**           | Rương gỗ bọc sắt, có vẻ nặng trịch.                                        | 128x128    |                                     |
-| **Đá tẩy luyện**        | Viên đá ma thuật hình cầu, xoáy màu tím/hồng bên trong.                    | 64x64      |                                     |
+| Tên                     | Mô tả hình ảnh (Visual)                                                    | Kích thước | Ghi chú                                   | Hình ảnh minh họa                   |
+| :---------------------- | :------------------------------------------------------------------------- | :--------- | :---------------------------------------- | :---------------------------------- |
+| **Vàng (Gold)**         | Đồng xu hình tròn, màu vàng kim loại, có ký hiệu '$' hoặc chữ 'V' dập nổi. | 64x64      | Cần bản stack: 1 xu, 3 xu, đống xu. demo. | ![Vàng](./images/item_gold.png)     |
+| **Kim Cương (Gem)**     | Viên kim cương cắt giác (cut structure), màu xanh dương sáng hoặc ngũ sắc. | 64x64      | Cần bản stack: 1 viên, đống viên. demo.   | ![Kim Cương](./images/item_gem.png) |
+| **Cờ lê (Scrap)**       | Cờ lê kim loại màu xám, dính chút dầu mỡ.                                  | 64x64      | Làm trước bản demo                        |                                     |
+| **Bí kíp (Skill Book)** | Quyển sách bìa xanh dương, có hào quang tri thức.                          | 64x64      | Làm trước bản demo                        |                                     |
+| **Mảnh kỹ năng**        | Một trang giấy rách từ cuốn bí kíp, có ký tự cổ.                           | 64x64      | Làm trước bản demo                        |                                     |
+| **Bánh mì (Bread)**     | Ổ bánh mì kẹp thịt (Bánh mì Việt Nam) ngon lành.                           | 64x64      | Làm trước bản demo                        |                                     |
+| **Mảnh nhân vật**       | Mảnh ghép hình jigsaw (puzzle piece) có dấu '?' hoặc hình bóng người.      | 64x64      | Làm trước bản demo                        |                                     |
+| **Vé Gacha (Ticket)**   | Tấm vé giấy màu vàng/đỏ, phong cách vé số kiến thiết hoặc vé xem phim cũ.  | 64x64      | Làm trước bản demo                        |                                     |
+| **Chìa khóa (Key)**     | Chìa khóa vàng cổ điển.                                                    | 64x64      | Làm trước bản demo                        |                                     |
+| **Rương AFK**           | Rương gỗ bọc sắt, có vẻ nặng trịch.                                        | 128x128    | Làm trước bản demo                        |                                     |
+| **Đá tẩy luyện**        | Viên đá ma thuật hình cầu, xoáy màu tím/hồng bên trong.                    | 64x64      | Làm trước bản demo                        |                                     |
 
 ---
 
@@ -31,27 +31,27 @@ Dùng cho 5 Tab điều hướng và các nút chức năng trên màn hình ch�
 
 ### 2.1. Thanh điều hướng đáy (Bottom Bar)
 
-| Tab       | Tên      | Icon mô tả                                            |
-| :-------- | :------- | :---------------------------------------------------- |
-| **Tab 1** | Chỉ số   | Hình người (body) hoặc cơ bắp tay.                    |
-| **Tab 2** | Trang bị | Hình cái túi (inventory bag) hoặc thanh kiếm + khiên. |
-| **Tab 3** | Kỹ năng  | Hình quyển sách phép hoặc tia sét.                    |
-| **Tab 4** | Đồng đội | Hình 3 đầu người (icon group) hoặc cái bắt tay.       |
-| **Tab 5** | Gacha    | Hình vòng quay may mắn hoặc hộp quà bí ẩn.            |
+| Tab       | Tên      | Icon mô tả                                            | Ghi chú            |
+| :-------- | :------- | :---------------------------------------------------- | :----------------- |
+| **Tab 1** | Chỉ số   | Hình người (body) hoặc cơ bắp tay.                    | Làm trước bản demo |
+| **Tab 2** | Trang bị | Hình cái túi (inventory bag) hoặc thanh kiếm + khiên. | Làm trước bản demo |
+| **Tab 3** | Kỹ năng  | Hình quyển sách phép hoặc tia sét.                    | Làm trước bản demo |
+| **Tab 4** | Đồng đội | Hình 3 đầu người (icon group) hoặc cái bắt tay.       | Làm trước bản demo |
+| **Tab 5** | Gacha    | Hình vòng quay may mắn hoặc hộp quà bí ẩn.            | Làm trước bản demo |
 
 ### 2.2. Nút màn hình chiến đấu (Battle HUD)
 
-| Nút          | Icon mô tả                                          |
-| :----------- | :-------------------------------------------------- |
-| **Avatar**   | Khung tròn bao quanh mặt nhân vật.                  |
-| **Settings** | Bánh răng cưa (Gear).                               |
-| **Tốc độ**   | Nút Play (x1) và Fast Forward (x2).                 |
-| **Auto**     | Vòng tròn tái chế (Recycle symbol) hoặc chữ "AUTO". |
-| **Boss**     | Đầu lâu quỷ hoặc icon Boss cảnh báo nguy hiểm.      |
-| **Nạp đầu**  | Hộp quà có ruy băng đỏ.                             |
-| **Nhiệm vụ** | Cuộn giấy da có dấu tích xanh (Checkmark).          |
-| **Mail**     | Phong bì thư.                                       |
-| **Rank**     | Cái cúp vàng (Trophy).                              |
+| Nút          | Icon mô tả                                          | Ghi chú            |
+| :----------- | :-------------------------------------------------- | :----------------- |
+| **Avatar**   | Khung tròn bao quanh mặt nhân vật.                  | Làm trước bản demo |
+| **Settings** | Bánh răng cưa (Gear).                               | Làm trước bản demo |
+| **Tốc độ**   | Nút Play (x1) và Fast Forward (x2).                 | Làm trước bản demo |
+| **Auto**     | Vòng tròn tái chế (Recycle symbol) hoặc chữ "AUTO". | Làm trước bản demo |
+| **Boss**     | Đầu lâu quỷ hoặc icon Boss cảnh báo nguy hiểm.      | Làm trước bản demo |
+| **Nạp đầu**  | Hộp quà có ruy băng đỏ.                             | Làm trước bản demo |
+| **Nhiệm vụ** | Cuộn giấy da có dấu tích xanh (Checkmark).          | Làm trước bản demo |
+| **Mail**     | Phong bì thư.                                       | Làm trước bản demo |
+| **Rank**     | Cái cúp vàng (Trophy).                              | Làm trước bản demo |
 
 ---
 
@@ -61,29 +61,29 @@ Cần thiết kế theo bộ (Atlas) để tái sử dụng. Style: Cartoon, nú
 
 ### 3.1. Các loại nút bấm (Buttons)
 
-| Loại nút           | Màu sắc/Style | Công dụng                                                   |
-| :----------------- | :------------ | :---------------------------------------------------------- |
-| **Primary**        | Xanh lá       | Hành động xác nhận, nâng cấp, nhận quà (cảm giác tích cực). |
-| **Important**      | Vàng/Cam      | Nút shop, nạp, hoặc hành động tốn tiền (kêu gọi hành động). |
-| **Danger/Close**   | Đỏ            | Nút tắt, xóa, hủy bỏ.                                       |
-| **Info/Secondary** | Xanh dương    | Các nút chức năng phụ.                                      |
-| **Disabled**       | Xám           | Trạng thái không thể bấm.                                   |
+| Loại nút           | Màu sắc/Style | Công dụng                                                   | Ghi chú            |
+| :----------------- | :------------ | :---------------------------------------------------------- | :----------------- |
+| **Primary**        | Xanh lá       | Hành động xác nhận, nâng cấp, nhận quà (cảm giác tích cực). | Làm trước bản demo |
+| **Important**      | Vàng/Cam      | Nút shop, nạp, hoặc hành động tốn tiền (kêu gọi hành động). | Làm trước bản demo |
+| **Danger/Close**   | Đỏ            | Nút tắt, xóa, hủy bỏ.                                       | Làm trước bản demo |
+| **Info/Secondary** | Xanh dương    | Các nút chức năng phụ.                                      | Làm trước bản demo |
+| **Disabled**       | Xám           | Trạng thái không thể bấm.                                   | Làm trước bản demo |
 
 ### 3.2. Khung cửa sổ (Panels/Popups)
 
-| Thành phần               | style                                                                                    |
-| :----------------------- | :--------------------------------------------------------------------------------------- |
-| **Khung nền (Popup BG)** | Hình chữ nhật bo góc, màu giấy cũ (beige) hoặc trắng kem, viền nâu gỗ. Texture giấy nhẹ. |
-| **Header (Tiêu đề)**     | Dải băng (Ribbon) vắt ngang phía trên popup để ghi tên tiêu đề.                          |
-| **Nút tắt (Close btn)**  | Dấu X đỏ nằm góc trên phải popup.                                                        |
+| Thành phần               | style                                                                                    | Ghi chú            |
+| :----------------------- | :--------------------------------------------------------------------------------------- | :----------------- |
+| **Khung nền (Popup BG)** | Hình chữ nhật bo góc, màu giấy cũ (beige) hoặc trắng kem, viền nâu gỗ. Texture giấy nhẹ. | Làm trước bản demo |
+| **Header (Tiêu đề)**     | Dải băng (Ribbon) vắt ngang phía trên popup để ghi tên tiêu đề.                          | Làm trước bản demo |
+| **Nút tắt (Close btn)**  | Dấu X đỏ nằm góc trên phải popup.                                                        | Làm trước bản demo |
 
 ### 3.3. Thanh tiến độ (Progress Bars)
 
-| Loại thanh        | Màu sắc                             |
-| :---------------- | :---------------------------------- |
-| **Thanh HP**      | Màu đỏ (Enemy) và Xanh lá (Player). |
-| **Thanh Exp**     | Màu vàng hoặc xanh lơ.              |
-| **Thanh Loading** | Màu xanh dương.                     |
+| Loại thanh        | Màu sắc                             | Ghi chú            |
+| :---------------- | :---------------------------------- | :----------------- |
+| **Thanh HP**      | Màu đỏ (Enemy) và Xanh lá (Player). | Làm trước bản demo |
+| **Thanh Exp**     | Màu vàng hoặc xanh lơ.              | Làm trước bản demo |
+| **Thanh Loading** | Màu xanh dương.                     | Làm trước bản demo |
 
 ---
 
@@ -91,22 +91,22 @@ Cần thiết kế theo bộ (Atlas) để tái sử dụng. Style: Cartoon, nú
 
 ### 4.1. Gói nạp (IAP Bundles)
 
-| Tên gói            | Mô tả hình ảnh                          |
-| :----------------- | :-------------------------------------- |
-| **Gói tay nải**    | Túi vải nhỏ đựng ít kim cương.          |
-| **Gói rương gỗ**   | Rương gỗ chứa vừa vừa kim cương.        |
-| **Gói rương vàng** | Rương vàng tràn ngập kim cương.         |
-| **Gói xe tải**     | Xe tải chở đầy kim cương (gói to nhất). |
+| Tên gói            | Mô tả hình ảnh                          | Ghi chú            |
+| :----------------- | :-------------------------------------- | :----------------- |
+| **Gói tay nải**    | Túi vải nhỏ đựng ít kim cương.          | Làm trước bản demo |
+| **Gói rương gỗ**   | Rương gỗ chứa vừa vừa kim cương.        | Làm trước bản demo |
+| **Gói rương vàng** | Rương vàng tràn ngập kim cương.         | Làm trước bản demo |
+| **Gói xe tải**     | Xe tải chở đầy kim cương (gói to nhất). | Làm trước bản demo |
 
 ### 4.2. Thùng Gacha (Gacha Box)
 
 - **Style:** Thùng carton dán băng dính (như thùng hàng ship online).
 
-| Trạng thái      | Mô tả animation                                |
-| :-------------- | :--------------------------------------------- |
-| **1. Đóng kín** | Thùng nằm im.                                  |
-| **2. Rung lắc** | Phồng lên, rung mạnh, ánh sáng lọt ra khe nứt. |
-| **3. Bung nắp** | Nắp bật tung, ánh sáng tỏa ra (Vàng/Tím/Xanh). |
+| Trạng thái      | Mô tả animation                                | Ghi chú            |
+| :-------------- | :--------------------------------------------- | :----------------- |
+| **1. Đóng kín** | Thùng nằm im.                                  | Làm trước bản demo |
+| **2. Rung lắc** | Phồng lên, rung mạnh, ánh sáng lọt ra khe nứt. | Làm trước bản demo |
+| **3. Bung nắp** | Nắp bật tung, ánh sáng tỏa ra (Vàng/Tím/Xanh). | Làm trước bản demo |
 
 ---
 

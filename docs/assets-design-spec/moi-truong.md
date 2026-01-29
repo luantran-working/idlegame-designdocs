@@ -29,12 +29,12 @@ Tài liệu này quy định chi tiết về bối cảnh, các lớp nền (Bac
 
 ### Bảng tóm tắt môi trường
 
-| Chương       | Chủ đề chính      | Đặc điểm nhận dạng                                                   | Animation môi trường                                | Hình ảnh minh họa                  |
-| :----------- | :---------------- | :------------------------------------------------------------------- | :-------------------------------------------------- | :--------------------------------- |
-| **Chương 1** | Ngõ nhỏ & vỉa hè  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh. | ![Chương 1](./images/chuong_1.png) |
-| **Chương 2** | Khu chợ & bến xe  | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ. | ![Chương 2](./images/chuong_2.png) |
-| **Chương 3** | Khu "sống ảo"     | Cafe neon "Good vibes only", cổng checkin trái tim, ring light.      | Đèn neon nhấp nháy, confetti bay, flash chụp ảnh.   | ![Chương 3](./images/chuong_3.png) |
-| **Chương 4** | Văn phòng công sở | Bàn làm việc đầy giấy tờ, máy photocopy, bảng deadline, cây héo rũ.  | Máy photocopy nhả giấy, đèn nhấp nháy, giấy bay.    | ![Chương 4](./images/chuong_4.png) |
+| Chương       | Chủ đề chính      | Đặc điểm nhận dạng                                                   | Animation môi trường                                | Hình ảnh minh họa                  | Ghi chú            |
+| :----------- | :---------------- | :------------------------------------------------------------------- | :-------------------------------------------------- | :--------------------------------- | :----------------- |
+| **Chương 1** | Ngõ nhỏ & vỉa hè  | Dây điện chằng chịt, tường vàng rêu, cột điện quảng cáo hút bể phốt. | Lá xà cừ rơi, quạt trần quay chậm, bồ câu cất cánh. | ![Chương 1](./images/chuong_1.png) | Làm trước bản demo |
+| **Chương 2** | Khu chợ & bến xe  | Bạt che xanh đỏ, sạp rau củ, bảng hiệu vẽ tay, vũng nước loang dầu.  | Bạt rung theo gió, khói nồi nước lèo, ruồi bay nhỏ. | ![Chương 2](./images/chuong_2.png) |                    |
+| **Chương 3** | Khu "sống ảo"     | Cafe neon "Good vibes only", cổng checkin trái tim, ring light.      | Đèn neon nhấp nháy, confetti bay, flash chụp ảnh.   | ![Chương 3](./images/chuong_3.png) |                    |
+| **Chương 4** | Văn phòng công sở | Bàn làm việc đầy giấy tờ, máy photocopy, bảng deadline, cây héo rũ.  | Máy photocopy nhả giấy, đèn nhấp nháy, giấy bay.    | ![Chương 4](./images/chuong_4.png) |                    |
 
 ---
 

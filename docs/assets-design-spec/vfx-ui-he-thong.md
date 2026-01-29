@@ -6,14 +6,14 @@ Tài liệu này quy định về các hiệu ứng hình ảnh dành cho giao d
 
 ## 1. Bảng tóm tắt VFX Hệ thống
 
-| Tính năng    | Giai đoạn       | Hiệu ứng hình ảnh                                    | Mục tiêu            |
-| :----------- | :-------------- | :--------------------------------------------------- | :------------------ |
-| **Gacha**    | Rung lắc        | Thùng gỗ rung, ánh sáng God rays lọt qua kẽ.         | Tạo hồi hộp.        |
-|              | Mở nắp          | Nắp văng ra, luồng sáng phẩm chất (Cam/Tím) cột cao. | Gây bất ngờ.        |
-| **Nâng cấp** | Lên cấp (Hero)  | Cột sáng vàng, confetti bắn ra, chữ "Level Up".      | Chúc mừng.          |
-|              | Ghép đồ (Merge) | Hai món hút nhau, nổ sáng tạo ra món mới cấp cao.    | Cảm giác thành quả. |
-| **Tiền tệ**  | Thu hoạch       | Vàng/Kim cương bay parabol từ quái về phía UI.       | Kích thích nhặt đồ. |
-|              | Thanh EXP       | Hạt tím bay vào thanh, thanh rung nhẹ khi tích lũy.  | Thấy sự thăng tiến. |
+| Tính năng    | Giai đoạn       | Hiệu ứng hình ảnh                                    | Mục tiêu            | Ghi chú            |
+| :----------- | :-------------- | :--------------------------------------------------- | :------------------ | :----------------- |
+| **Gacha**    | Rung lắc        | Thùng gỗ rung, ánh sáng God rays lọt qua kẽ.         | Tạo hồi hộp.        | Làm trước bản demo |
+|              | Mở nắp          | Nắp văng ra, luồng sáng phẩm chất (Cam/Tím) cột cao. | Gây bất ngờ.        | Làm trước bản demo |
+| **Nâng cấp** | Lên cấp (Hero)  | Cột sáng vàng, confetti bắn ra, chữ "Level Up".      | Chúc mừng.          | Làm trước bản demo |
+|              | Ghép đồ (Merge) | Hai món hút nhau, nổ sáng tạo ra món mới cấp cao.    | Cảm giác thành quả. | Làm trước bản demo |
+| **Tiền tệ**  | Thu hoạch       | Vàng/Kim cương bay parabol từ quái về phía UI.       | Kích thích nhặt đồ. | Làm trước bản demo |
+|              | Thanh EXP       | Hạt tím bay vào thanh, thanh rung nhẹ khi tích lũy.  | Thấy sự thăng tiến. | Làm trước bản demo |
 
 ---
 
@@ -21,11 +21,11 @@ Tài liệu này quy định về các hiệu ứng hình ảnh dành cho giao d
 
 Quy trình hiển thị niềm vui (Joy) khi người chơi nhận được vật phẩm mới.
 
-| Giai đoạn       | Mô tả hiệu ứng                                                                                                                                                                                       |
-| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Chuẩn bị** | Thùng gỗ/Thùng sắt rung lắc mạnh, có ánh sáng (God rays) phát ra qua các kẽ nứt.                                                                                                                     |
-| **2. Mở**       | Nắp thùng bật tung (văng ra khỏi màn hình).                                                                                                                                                          |
-| **3. Công bố**  | **Đồ thường:** Ánh sáng trắng đơn giản.<br/>**Đồ hiếm:** Cột sáng tím/cam tùy phẩm chất.<br/>**Vật phẩm:** Bay từ trong thùng ra chính giữa màn hình kèm hiệu ứng xoay tròn và lấp lánh (Sparkling). |
+| Giai đoạn       | Mô tả hiệu ứng                                                                                                                                                                                       | Ghi chú            |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| **1. Chuẩn bị** | Thùng gỗ/Thùng sắt rung lắc mạnh, có ánh sáng (God rays) phát ra qua các kẽ nứt.                                                                                                                     | Làm trước bản demo |
+| **2. Mở**       | Nắp thùng bật tung (văng ra khỏi màn hình).                                                                                                                                                          | Làm trước bản demo |
+| **3. Công bố**  | **Đồ thường:** Ánh sáng trắng đơn giản.<br/>**Đồ hiếm:** Cột sáng tím/cam tùy phẩm chất.<br/>**Vật phẩm:** Bay từ trong thùng ra chính giữa màn hình kèm hiệu ứng xoay tròn và lấp lánh (Sparkling). | Làm trước bản demo |
 
 ---
 
@@ -33,18 +33,18 @@ Quy trình hiển thị niềm vui (Joy) khi người chơi nhận được vậ
 
 ### 3.1. Nhân vật lên cấp
 
-| Thành phần    | Mô tả                                                      |
-| :------------ | :--------------------------------------------------------- |
-| **Cột sáng**  | Một cột sáng vàng rộng bao quanh nhân vật.                 |
-| **Text**      | Chữ "LEVEL UP" bay lên với Animation lò xo (Spring).       |
-| **Particles** | Pháo giấy (Confetti) màu sắc bắn ra từ 2 bên mép màn hình. |
+| Thành phần    | Mô tả                                                      | Ghi chú            |
+| :------------ | :--------------------------------------------------------- | :----------------- |
+| **Cột sáng**  | Một cột sáng vàng rộng bao quanh nhân vật.                 | Làm trước bản demo |
+| **Text**      | Chữ "LEVEL UP" bay lên với Animation lò xo (Spring).       | Làm trước bản demo |
+| **Particles** | Pháo giấy (Confetti) màu sắc bắn ra từ 2 bên mép màn hình. | Làm trước bản demo |
 
 ### 3.2. Nâng cấp Trang bị / Đồng đội
 
-| Loại nâng cấp   | Hiệu ứng                                                                                                         |
-| :-------------- | :--------------------------------------------------------------------------------------------------------------- |
-| **Success**     | Hiệu ứng búa đập "Keng" -> Một luồng sáng chạy dọc viền vật phẩm -> Các chỉ số mới bay lên màu xanh lá.          |
-| **Merge (Gộp)** | Hai vật phẩm bay vào nhau, xoay tròn tạo thành một hố đen nhỏ -> Vụ nổ ánh sáng nhẹ -> Vật phẩm cấp cao hiện ra. |
+| Loại nâng cấp   | Hiệu ứng                                                                                                         | Ghi chú            |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------- | :----------------- |
+| **Success**     | Hiệu ứng búa đập "Keng" -> Một luồng sáng chạy dọc viền vật phẩm -> Các chỉ số mới bay lên màu xanh lá.          | Làm trước bản demo |
+| **Merge (Gộp)** | Hai vật phẩm bay vào nhau, xoay tròn tạo thành một hố đen nhỏ -> Vụ nổ ánh sáng nhẹ -> Vật phẩm cấp cao hiện ra. | Làm trước bản demo |
 
 ---
 
@@ -72,11 +72,11 @@ Cực kỳ quan trọng để kích thích người chơi thu thập tài nguyê
 
 ## 6. Hiệu ứng tương tác UI (Interaction VFX)
 
-| Trạng thái              | Hiệu ứng                                                                                  |
-| :---------------------- | :---------------------------------------------------------------------------------------- |
-| **Click/Tap**           | Một vòng tròn sóng nước (Ripple) lan tỏa từ vị trí chạm, màu sắc theo theme của nút.      |
-| **Hover (PC/Emulator)** | Nút bấm hơi phóng to (Scale 1.05) và phát sáng nhẹ ở viền.                                |
-| **Disabled**            | Nút bấm bị xám hóa (Grayscale) và có hiệu ứng rung nhẹ (Shake) nếu người chơi cố bấm vào. |
+| Trạng thái              | Hiệu ứng                                                                                  | Ghi chú            |
+| :---------------------- | :---------------------------------------------------------------------------------------- | :----------------- |
+| **Click/Tap**           | Một vòng tròn sóng nước (Ripple) lan tỏa từ vị trí chạm, màu sắc theo theme của nút.      | Làm trước bản demo |
+| **Hover (PC/Emulator)** | Nút bấm hơi phóng to (Scale 1.05) và phát sáng nhẹ ở viền.                                | Làm trước bản demo |
+| **Disabled**            | Nút bấm bị xám hóa (Grayscale) và có hiệu ứng rung nhẹ (Shake) nếu người chơi cố bấm vào. | Làm trước bản demo |
 
 ## 7. Hiệu ứng thành tựu & nhiệm vụ (Achievement VFX)
 
