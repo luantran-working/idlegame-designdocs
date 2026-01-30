@@ -2,6 +2,8 @@
 
 Tài liệu quy định chi tiết về hiệu ứng hình ảnh (VFX) và âm thanh (SFX) cho hệ thống kỹ năng của nhân vật chính.
 
+> **Tham khảo thêm:** Xem danh sách đầy đủ kỹ năng, cooldown, sát thương, và công thức tính toán tại [Hệ thống kỹ năng](../he-thong-ky-nang.md).
+
 ---
 
 ## 1. Quy chuẩn chung

@@ -2,6 +2,8 @@
 
 Tài liệu này đặc tả chi tiết về ngoại hình, animation và phong cách nghệ thuật cho **48 loại quái thường** và **4 Boss** trong game.
 
+> **Tham khảo thêm:** Xem thông tin về logic gameplay, stats, scaling, và đặc tính chiến đấu của quái vật tại [Hệ thống quái vật](../he-thong-quai-vat.md).
+
 ---
 
 ## 1. Định hướng nghệ thuật (Art Direction)

@@ -29,10 +29,11 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 
 ### Tài liệu tổng quan
 
-| Tài liệu                                    | Nội dung chính                                                |
-| :------------------------------------------ | :------------------------------------------------------------ |
-| [Kế hoạch tổng thể](./ke-hoach-tong-the.md) | Tổng quan dự án, cốt truyện, cơ chế cốt lõi, bố cục tổng quan |
-| [Kế hoạch phát triển](./roadmap.md)         | Lộ trình, phân chia công việc, biểu đồ Gantt, checklist QA    |
+| Tài liệu                                                            | Nội dung chính                                                                   |
+| :------------------------------------------------------------------ | :------------------------------------------------------------------------------- |
+| [Kế hoạch tổng thể](./ke-hoach-tong-the.md)                         | Tổng quan dự án, cốt truyện, cơ chế cốt lõi, bố cục tổng quan, lộ trình thực thi |
+| [Kế hoạch sản xuất chi tiết](./plan-timelines/ke-hoach-san-xuat.md) | Timeline, công việc theo bộ phận (Dev, Artist, VFX, Sound, Game Designer)        |
+| [Quản lý dự án](./plan-timelines/quan-ly-du-an.md)                  | Milestones, QA checklists, rủi ro, quy trình quản lý                             |
 
 ### Tài liệu thiết kế giao diện
 
@@ -86,7 +87,7 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 1. Bắt đầu với **Kế hoạch tổng thể** để hiểu vision
 2. Đọc **Chi tiết cơ chế gameplay** cho core loop
 3. Đọc các **Hệ thống** liên quan đến feature đang làm
-4. Tham khảo **Roadmap** để biết task breakdown
+4. Tham khảo **Kế hoạch sản xuất chi tiết** để biết task breakdown
 
 ### Cho họa sĩ (Artists)
 
