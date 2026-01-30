@@ -142,8 +142,8 @@ $$
 | **Icon**      | Hình khiên                                     |
 | **Màu sắc**   | Xanh dương                                     |
 | **Vai trò**   | Giảm sát thương nhận vào theo %                |
-| **Công thức** | $$DamageReduction = \frac{DEF}{DEF + 500}$$    |
-| **Ví dụ**     | DEF 500 = giảm 50% damage; DEF 1000 = giảm 67% |
+| **Công thức** | $$DamageReduction = \frac{DEF}{DEF + 5000}$$    |
+| **Ví dụ**     | DEF 5000 = giảm 50% damage; DEF 10000 = giảm 67% |
 
 ### 4.5. Biểu đồ giảm thương của DEF
 
@@ -210,4 +210,3 @@ Các chỉ số có thể bị thay đổi tạm thời trong trận đấu.
 | Mid (Lv 51-150)   | 1,000 - 50,000 | 5,000 - 100,000 | Main progression |
 | Late (Lv 151-300) | 50,000 - 1M    | 100,000 - 10M   | Gacha dependent  |
 | Endgame (300+)    | 1M+            | 10M+            | Whale territory  |
-```

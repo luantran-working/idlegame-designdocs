@@ -13,8 +13,8 @@
 | **Nền tảng**           | Mobile (Android, iOS)                                  |
 | **Định dạng**          | Portrait (màn hình dọc), tỉ lệ 9:16                    |
 | **Art style**          | Cartoon 2D, hài hước, bối cảnh Việt Nam                |
-| **Phiên bản tài liệu** | 1.0                                                    |
-| **Cập nhật lần cuối**  | 20/01/2026                                             |
+| **Phiên bản tài liệu** | 2.0                                                    |
+| **Cập nhật lần cuối**  | 30/01/2026                                             |
 | **Bản chơi thử**       | [idle-game.test.iit.vn](https://idle-game.test.iit.vn) |
 
 ---
@@ -62,7 +62,21 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 | [Hệ thống kinh tế và tài nguyên](./he-thong-kinh-te-va-tai-nguyen.md)     | Tiền tệ, dòng chảy kinh tế, chiến lược monetization       |
 | [Hệ thống gacha](./he-thong-gacha.md)                                     | Các loại banner, tỉ lệ rơi, cơ chế bảo hiểm               |
 | [Hệ thống nhiệm vụ và thành tựu](./he-thong-nhiem-vu.md)                  | Nhiệm vụ ngày/tuần, thành tựu, phần thưởng                |
+| [Hệ thống Prestige](./he-thong-prestige.md)                               | Cơ chế tái sinh, cây kỹ năng prestige, bonus vĩnh viễn    |
+| [Hệ thống Event](./he-thong-event.md)                                     | Sự kiện theo mùa, event thường xuyên, currency event      |
+| [Hệ thống PvP/Arena](./he-thong-pvp-arena.md)                             | Đấu trường, xếp hạng, phần thưởng Arena                   |
+| [Hệ thống Guild](./he-thong-guild.md)                                     | Bang hội, Guild Boss, Guild War, Guild perks              |
+| [Hệ thống Battle Pass](./he-thong-battle-pass.md)                         | Thẻ chiến đấu, track miễn phí/premium, phần thưởng mùa    |
+| [Hệ thống VIP](./he-thong-vip.md)                                         | Cấp độ VIP, đặc quyền, quà VIP hàng ngày                  |
 | [Hệ thống công thức toán học](./he-thong-cong-thuc-toan-hoc/tong-quan.md) | Tổng hợp các công thức damage, scaling, gacha (chi tiết)  |
+
+### Tài liệu kỹ thuật và cân bằng
+
+| Tài liệu                                           | Nội dung chính                                    |
+| :------------------------------------------------- | :------------------------------------------------ |
+| [Bảng cân bằng kinh tế](./bang-can-bang-kinh-te.md) | Data tables, scaling formulas, economy simulation |
+| [Kiến trúc kỹ thuật](./kien-truc-ky-thuat.md)       | Client/Server architecture, Save/Load, Anti-cheat |
+| [Nội dung mở rộng](./noi-dung-mo-rong.md)           | Content roadmap, chương mới, tính năng tương lai  |
 
 ### Tài liệu thiết kế assets
 
@@ -86,8 +100,9 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 
 1. Bắt đầu với **Kế hoạch tổng thể** để hiểu vision
 2. Đọc **Chi tiết cơ chế gameplay** cho core loop
-3. Đọc các **Hệ thống** liên quan đến feature đang làm
-4. Tham khảo **Kế hoạch sản xuất chi tiết** để biết task breakdown
+3. Đọc **Kiến trúc kỹ thuật** cho architecture và save/load
+4. Đọc các **Hệ thống** liên quan đến feature đang làm
+5. Tham khảo **Bảng cân bằng kinh tế** cho data tables
 
 ### Cho họa sĩ (Artists)
 
@@ -104,8 +119,17 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 ### Cho game designer (Balancing)
 
 1. Đọc **Hệ thống chỉ số và tăng trưởng** cho formulas
-2. Đọc **Hệ thống kinh tế** cho economy balancing
-3. Đọc **Hệ thống gacha** cho drop rates
+2. Đọc **Bảng cân bằng kinh tế** cho economy data tables
+3. Đọc **Hệ thống kinh tế** cho economy flow
+4. Đọc **Hệ thống gacha** cho drop rates
+5. Đọc **Nội dung mở rộng** cho content roadmap
+
+### Cho product manager
+
+1. Đọc **Kế hoạch tổng thể** cho vision và target audience
+2. Đọc **Hệ thống VIP** và **Battle Pass** cho monetization
+3. Đọc **Bảng cân bằng kinh tế** cho revenue targets
+4. Đọc **Nội dung mở rộng** cho feature roadmap
 
 ---
 

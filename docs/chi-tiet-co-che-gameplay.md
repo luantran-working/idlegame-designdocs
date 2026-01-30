@@ -79,7 +79,7 @@ $$FinalDamage = BaseDamage \times (1 - DamageReduction) \times CritMultiplier$$
 
 Trong đó:
 - $BaseDamage = ATK \times SkillMultiplier$
-- $DamageReduction = \frac{DEF}{DEF + 500}$
+- $DamageReduction = \frac{DEF}{DEF + 5000}$
 - $CritMultiplier = 1$ (thường) hoặc $CDMG$ (chí mạng)
 ```
 

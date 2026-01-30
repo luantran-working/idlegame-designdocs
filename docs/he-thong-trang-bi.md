@@ -239,13 +239,13 @@ flowchart LR
     style Output fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
 ```
 
-| Ghép từ                    | Thành                      | Ghi chú                    |
-| :------------------------- | :------------------------- | :------------------------- |
-| 3 mon Trang cung loai      | 1 mon Xanh la cung loai    | -                          |
-| 3 mon Xanh la cung loai    | 1 mon Xanh duong cung loai | -                          |
-| 3 mon Xanh duong cung loai | 1 mon Tim cung loai        | -                          |
-| 3 mon Tim cung loai        | 1 mon Cam cung loai        | Yeu cau them Vang          |
-| 3 mon Cam cung loai        | 1 mon Do cung loai         | Yeu cau them Vang + Da quy |
+| Ghép từ                      | Thành                        | Ghi chú                      |
+| :--------------------------- | :--------------------------- | :--------------------------- |
+| 3 món Trắng cùng loại        | 1 món Xanh lá cùng loại      | -                            |
+| 3 món Xanh lá cùng loại      | 1 món Xanh dương cùng loại   | -                            |
+| 3 món Xanh dương cùng loại   | 1 món Tím cùng loại          | -                            |
+| 3 món Tím cùng loại          | 1 món Cam cùng loại          | Yêu cầu thêm Vàng            |
+| 3 món Cam cùng loại          | 1 món Đỏ cùng loại           | Yêu cầu thêm Vàng + Đá quý   |
 
 **Quy tắc kế thừa:**
 

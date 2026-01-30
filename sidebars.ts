@@ -22,10 +22,12 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Kế hoạch và timeline",
+      label: "Kế hoạch và lộ trình",
       items: [
         "plan-timelines/ke-hoach-san-xuat",
         "plan-timelines/quan-ly-du-an",
+        "noi-dung-mo-rong",
+        "kien-truc-ky-thuat",
       ],
     },
     {
@@ -51,12 +53,19 @@ const sidebars: SidebarsConfig = {
         "he-thong-quai-vat",
         "he-thong-gacha",
         "he-thong-nhiem-vu",
+        "he-thong-prestige",
+        "he-thong-event",
+        "he-thong-pvp-arena",
+        "he-thong-guild",
+        "he-thong-battle-pass",
+        "he-thong-vip",
       ],
     },
     {
       type: "category",
-      label: "Công thức toán học",
+      label: "Cân bằng và Công thức",
       items: [
+        "bang-can-bang-kinh-te",
         "he-thong-cong-thuc-toan-hoc/tong-quan",
         "he-thong-cong-thuc-toan-hoc/chien-dau",
         "he-thong-cong-thuc-toan-hoc/tang-truong",

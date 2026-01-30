@@ -81,17 +81,15 @@ Mỗi đồng đội trong 30 nhân vật sở hữu bộ kỹ năng cố địn
 
 Mọi đồng đội đều có 1 Active Skill (dùng Energy) và 1 Passive Skill (nội tại).
 
-| Vai trò | Đặc trưng Active Skill | Đặc trưng Passive Skill |
-| :------ | :--------------------- | :---------------------- |
+| Vai trò     | Đặc trưng Active Skill                         | Đặc trưng Passive Skill                    |
+| :---------- | :--------------------------------------------- | :----------------------------------------- |
+| **Tanker**  | Taunt, Shield, Damage Reduction                | Tăng HP/DEF cho team, giảm damage nhận vào |
+| **Warrior** | Burst damage, Bleed, Stun đơn mục tiêu         | Tự buff ATK, Lifesteal                     |
+| **Ranger**  | Damage liên tục, Multi-target, Kéo/Đẩy địch    | Tăng ASPD, Crit Rate cho bản thân          |
+| **Mage**    | AOE damage lớn, CC diện rộng (Freeze, Silence) | Tăng Skill Damage, Cooldown Reduction      |
+| **Support** | Heal, Buff team, Cleanse debuff                | Aura tăng chỉ số cho đồng đội gần          |
 
-- **Kỹ năng Chủ động (Active):**
-  - Tự động kích hoạt khi thanh năng lượng (Energy) của đồng đội đầy.
-  - Có hiệu ứng mạnh (Sát thương lớn, hồi máu team, hoặc CC diện rộng).
-- **Kỹ năng Bị động (Passive):**
-  - Luôn kích hoạt hoặc kích hoạt theo điều kiện.
-  - Thường là hào quang (Aura) tăng stat cho team hoặc nội tại bản thân.
-
-### 3.2. Danh sách & Scaling kỹ năng chi tiết
+### 3.3. Danh sách & Scaling kỹ năng chi tiết
 
 Dưới đây là thông số kỹ thuật của 60 kỹ năng đồng đội.
 
