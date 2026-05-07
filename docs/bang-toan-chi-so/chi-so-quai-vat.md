@@ -96,15 +96,15 @@ $$FinalHP = BaseHP_{ch} \times (HPMult)^{Stage-1} \times (1 + Wave \times 0.05) 
 | ID        | Tên quái              | Base HP | Base ATK | ASPD | Kỹ năng đặc biệt           |
 | :-------- | :-------------------- | :------ | :------- | :--- | :------------------------- |
 | ENM_C1_01 | Bà hàng xóm đa chuyện | 80      | 8        | 0.8  | Gossip: -10% ATK player 3s |
-| ENM_C1_02 | Thanh niên xăm trổ    | 120     | 15       | 1.2  | Intimidate: Fear 1s        |
+| ENM_C1_02 | Thanh niên xăm trổ    | 120     | 15       | 1.2  | Đe dọa: Giảm tốc tấn công kẻ địch ở gần 10%|
 | ENM_C1_03 | Bác xe ôm ngủ gật     | 100     | 10       | 0.6  | Ngủ gật: 30% miss attack   |
 | ENM_C1_04 | Chị bán rau chặt chém | 90      | 12       | 1.0  | Throw Vegetable: Ranged    |
 | ENM_C1_05 | Anh thợ điện          | 110     | 18       | 0.9  | Electric Shock: Stun 0.5s  |
-| ENM_C1_06 | Cô gái bán hoa rong   | 70      | 6        | 0.7  | Slow (bicycle blocking)    |
+| ENM_C1_06 | Cô gái bán hoa rong   | 70      | 6        | 0.7  | Hương hoa: Tăng tấn công đồng minh đứng gần|
 | ENM_C1_07 | Thằng bé bán vé số    | 50      | 5        | 1.5  | Dodge +20%                 |
 | ENM_C1_08 | Ông chú say rượu      | 130     | 20       | 0.5  | 30% x2 DMG khi hit         |
-| ENM_C1_09 | Bà ghi lô đề          | 85      | 9        | 0.8  | +15% Gold drop             |
-| ENM_C1_10 | Thanh niên đa cấp     | 95      | 11       | 1.1  | Recruit: +1 ally quái      |
+| ENM_C1_09 | Bà ghi lô đề          | 85      | 9        | 0.8  | Tẩu thoát: tăng 20% tốc độ di chuyển trong 3s|
+| ENM_C1_10 | Thanh niên đa cấp     | 95      | 11       | 1.1  | Hút máu: 20% hút máu|
 | ENM_C1_11 | Shipper vội vã        | 75      | 8        | 1.8  | High speed, low HP         |
 | ENM_C1_12 | Bảo vệ ngủ gật        | 140     | 12       | 0.4  | High HP, slow attack       |
 
