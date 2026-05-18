@@ -200,7 +200,84 @@ Mỗi lần quay (dù ra đồ rác) đều tặng điểm tích lũy.
 
 ---
 
-## 7. Hướng dẫn cho đội phát triển
+## 7. Level Gacha (Cấp độ gacha)
+
+Hệ thống tích lũy kinh nghiệm khi quay gacha, tăng level gacha để cải thiện tỉ lệ ra vật phẩm hiếm.
+
+### 7.1. Cơ chế
+
+| Thuộc tính | Mô tả |
+| :--------- | :---- |
+| **Phạm vi** | Áp dụng cho tất cả banner gacha (trang bị, kỹ năng, đồng đội) |
+| **Kinh nghiệm (EXP)** | Mỗi lần quay nhận EXP gacha: x1 = 10 EXP, x10 = 100 EXP |
+| **Level tối đa** | 100 |
+| **Hiệu ứng** | Mỗi cấp tăng tỉ lệ ra Rare+ thêm 0.5% |
+
+### 7.2. Bảng level và hiệu quả
+
+| Gacha Level | EXP yêu cầu | Tổng EXP | Bonus tỉ lệ Rare+ | Mốc quan trọng |
+| :---------- | :---------- | :------- | :---------------- | :------------- |
+| 1 | 0 | 0 | +0% | Bắt đầu |
+| 5 | 400 | 1,000 | +2% | - |
+| 10 | 600 | 3,000 | +5% | Mở khóa tỉ lệ Epic tăng |
+| 20 | 1,200 | 9,000 | +10% | - |
+| 30 | 2,000 | 20,000 | +15% | - |
+| 50 | 4,000 | 60,000 | +25% | Đảm bảo Rare+ mỗi x10 |
+| 75 | 8,000 | 140,000 | +37.5% | - |
+| 100 | 12,000 | 250,000 | +50% | Tỉ lệ Legendary x2 |
+
+### 7.3. Công thức tính EXP
+
+```
+EXP để lên cấp = BaseEXP * (1 + Level * 0.1)
+BaseEXP = 100
+Ví dụ: Level 1→2 cần 100 EXP, Level 10→11 cần 200 EXP
+```
+
+### 7.4. Hiển thị
+
+| Thành phần | Mô tả |
+| :--------- | :---- |
+| **Thanh EXP gacha** | Hiển thị ở tab gacha, phía trên các banner |
+| **Level badge** | "Gacha Lv.5" — bên cạnh thanh EXP |
+| **Bonus indicator** | "+12% Rare+" — hiển thị tỉ lệ bonus hiện tại |
+| **Tooltip** | Tap vào để xem bảng chi tiết level và tỉ lệ |
+
+---
+
+## 8. Tính năng tiếp tục gacha
+
+Cho phép người chơi tiếp tục quay gacha ngay sau khi nhận kết quả lượt quay trước, không cần đóng popup và thao tác lại từ đầu.
+
+### 8.1. Luồng tương tác
+
+```mermaid
+flowchart TD
+    Roll["Bấm Quay x1 / x10"] --> Anim["Animation quay"]
+    Anim --> Result["Popup kết quả + danh sách item"]
+    Result --> Choice{"Tiếp tục?"}
+    Choice -->|"Quay tiếp"| CheckResource{"Còn đủ<br/>tài nguyên?"}
+    Choice -->|"Đóng"| Close["Đóng popup, về tab gacha"]
+    Choice -->|"Xem chi tiết"| Detail["Popup chi tiết item"]
+    Detail --> Result
+    CheckResource -->|Đủ| Roll
+    CheckResource -->|Không đủ| Shop["Gợi ý nạp thêm / shop"]
+    Shop --> Close
+```
+
+### 8.2. Logic UX
+
+| Hành động | Kết quả |
+| :-------- | :------ |
+| **Quay x1 → có item** | Popup item + nút "Quay tiếp x1" + nút "Quay x10" + nút "Đóng" |
+| **Quay x10 → danh sách** | Show tất cả 10 item + nút "Quay tiếp" + nút "Đóng" |
+| **Hết tài nguyên** | Nút "Quay tiếp" chuyển thành "Nạp thêm" (mở shop) |
+| **Giữ nguyên banner** | Quay tiếp giữ nguyên banner đang chọn |
+| **Auto-quay (tự động)** | Tính năng VIP: quay liên tục cho đến khi hết tài nguyên hoặc đạt item mục tiêu |
+
+---
+
+## 9. Hướng dẫn cho đội phát triển
 
 ### 7.1. Cho lập trình viên
 

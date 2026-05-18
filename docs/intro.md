@@ -76,6 +76,8 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 | :------------------------------------------------- | :------------------------------------------------ |
 | [Bảng cân bằng kinh tế](./bang-can-bang-kinh-te.md) | Data tables, scaling formulas, economy simulation |
 | [Kiến trúc kỹ thuật](./kien-truc-ky-thuat.md)       | Client/Server architecture, Save/Load, Anti-cheat |
+| [Hệ thống hầm ngục](./he-thong-ham-nguc.md)         | Daily dungeon, Endless abyss, nguyên liệu thánh vật |
+| [Hệ thống thánh vật và tàn tích](./he-thong-thanh-vat.md) | 7 thánh vật, mini-game đập bình, cơ chế mở khóa |
 | [Nội dung mở rộng](./noi-dung-mo-rong.md)           | Content roadmap, chương mới, tính năng tương lai  |
 
 ### Tài liệu thiết kế assets
