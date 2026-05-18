@@ -76,7 +76,22 @@ Bạn có thể trải nghiệm trực tiếp bản game mẫu để hiểu rõ 
 | :------------------------------------------------- | :------------------------------------------------ |
 | [Bảng cân bằng kinh tế](./bang-can-bang-kinh-te.md) | Data tables, scaling formulas, economy simulation |
 | [Kiến trúc kỹ thuật](./kien-truc-ky-thuat.md)       | Client/Server architecture, Save/Load, Anti-cheat |
+| [Hệ thống hầm ngục](./he-thong-ham-nguc.md)         | Daily dungeon, Endless abyss, nguyên liệu thánh vật |
+| [Hệ thống thánh vật và tàn tích](./he-thong-thanh-vat.md) | 7 thánh vật, mini-game đập bình, cơ chế mở khóa |
 | [Nội dung mở rộng](./noi-dung-mo-rong.md)           | Content roadmap, chương mới, tính năng tương lai  |
+
+### Tài liệu tính năng bổ sung (v2.1)
+
+| Tài liệu | Nội dung chính |
+| :------- | :------------- |
+| [Bộ sưu tập](./systems/collection-system.md) | Hệ thống sưu tầm item nhận chỉ số vĩnh viễn |
+| [Hub Tab](./systems/hub-tab.md) | Tab trung tâm cho Skill Tree và Tàn tích |
+| [Skill Tree độc lập](./systems/skill-tree-standalone.md) | Cây kỹ năng tách từ Prestige |
+| [Mobile UI Redesign](./ui-boosters/mobile-ui-redesign.md) | Tối ưu giao diện cho thiết bị di động |
+| [AFK Lock Screen](./ui-boosters/afk-lock-screen.md) | Khóa màn hình khi AFK lâu |
+| [Continue Gacha](./ui-boosters/continue-gacha.md) | Gacha liên tiếp sau khi nhận item |
+| [Upgradable Point](./ui-boosters/upgradable-point.md) | Indicator hiển thị nâng cấp khả dụng |
+| [Các hiệu ứng mới](./effects/stage-clear-effect.md) | Stage Clear, Boss Entrance, Point Click VFX |
 
 ### Tài liệu thiết kế assets
 

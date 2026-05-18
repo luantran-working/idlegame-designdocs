@@ -63,6 +63,22 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Tính năng bổ sung",
+      items: [
+        "systems/collection-system",
+        "systems/hub-tab",
+        "systems/skill-tree-standalone",
+        "ui-boosters/mobile-ui-redesign",
+        "ui-boosters/afk-lock-screen",
+        "ui-boosters/continue-gacha",
+        "ui-boosters/upgradable-point",
+        "effects/stage-clear-effect",
+        "effects/boss-entrance-effect",
+        "effects/point-click-effect",
+      ],
+    },
+    {
+      type: "category",
       label: "Cân bằng và Công thức",
       items: [
         "bang-can-bang-kinh-te",
