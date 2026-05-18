@@ -148,3 +148,6 @@ Kích hoạt chỉ số ẩn khi sở hữu các nhân vật cùng bộ.
 - **Warrior:** Đứng hàng đầu/giữa, tấn công kẻ địch gần nhất.
 - **Ranger/Mage:** Đứng hàng sau cùng, giữ khoảng cách tối đa, ưu tiên đánh Boss hoặc kẻ địch ít máu nhất.
 - **Support:** Đứng cạnh ranger/mage. Khi dùng skill hồi máu, tự động tìm đồng minh thấp máu nhất.
+
+---
+> **Xem thêm:** [Hệ thống Bộ sưu tập](./systems/collection-system.md) — Thu thập toàn bộ nhân vật để nhận chỉ số vĩnh viễn.

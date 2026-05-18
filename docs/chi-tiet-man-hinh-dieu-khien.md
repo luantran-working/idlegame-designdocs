@@ -12,7 +12,7 @@ Tài liệu này mô tả chi tiết 5 tab chức năng nằm ở nửa dưới 
 | :--------------- | :--------------------------------------- |
 | **Vị trí**       | Cố định ở đáy màn hình, z-index cao nhất |
 | **Chiều cao**    | 60-80 px tùy độ phân giải                |
-| **Số lượng tab** | 5                                        |
+| **Số lượng tab** | 6                                        |
 | **Safe area**    | Cần tránh home bar trên các thiết bị mới |
 
 ### 1.2. Trạng thái nút tab
@@ -264,9 +264,19 @@ Nơi thử vận may.
 | **Phân biệt phẩm chất** | Màu sắc ánh sáng khác nhau (vàng cho legend, tím cho epic) |
 | **Nút Skip**            | Cho phép bỏ qua animation sau 0.5s                         |
 
+## 7. Tab 6: Hub - "Trung tâm"
+
+Tab thứ 6 mới, nơi tập trung Skill Tree và Tàn tích. Xem chi tiết tại [Hub Tab](./systems/hub-tab.md).
+
+| Thành phần | Mô tả |
+|-----------|-------|
+| **Vị trí** | Tab cuối trong bottom nav |
+| **Icon** | Hình ngôi sao/ngôi nhà |
+| **Nội dung** | 2 card: Skill Tree và Tàn tích |
+
 ---
 
-## 7. Các popup chức năng phụ
+## 8. Các popup chức năng phụ
 
 Một số tính năng không nằm trong tab chính mà là nút trôi nổi hoặc trong menu.
 
@@ -280,25 +290,25 @@ Một số tính năng không nằm trong tab chính mà là nút trôi nổi ho
 
 ---
 
-## 8. Hướng dẫn cho đội phát triển
+## 9. Hướng dẫn cho đội phát triển
 
-### 8.1. Cho lập trình viên
+### 9.1. Cho lập trình viên
 
 - Tất cả tab dùng chung popup system
 - Implement tab switching không reload data (cache)
 - Long press handler cần debounce để tránh spam server
 - Notification badge update real-time khi có thay đổi
 
-### 8.2. Cho UI designer
+### 9.2. Cho UI designer
 
 - Mỗi tab giữ consistent layout: header + content + footer
 - Button states: normal, pressed, disabled phải rõ ràng
 - Scroll indicator cho list dài
 - Animation tab switch: fade hoặc slide nhẹ (200-300ms)
 
-### 8.3. Cho họa sĩ
+### 9.3. Cho họa sĩ
 
-- Icon set cho 5 tab: outline style, 2 states (active/inactive)
+- Icon set cho 6 tab: outline style, 2 states (active/inactive)
 - Notification badge: chấm đỏ 12x12 px với số trắng
 - Background cho mỗi tab có thể khác nhau (màu accent)
 - Asset character silhouette cho tab trang bị
